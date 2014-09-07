@@ -1,0 +1,26 @@
+# Configuration file
+
+####################
+# block
+####################
+
+block {
+    I:DeathlyTNT=972
+    I:DustBlock=900
+    I:Fermentator=672
+    I:FermentedLog=800
+    I:FermentedWood=801
+    I:InfectedQuartz=898
+}
+
+
+####################
+# item
+####################
+
+item {
+    I:DirtyWater=31689
+    I:RustedIron=31743
+}
+
+

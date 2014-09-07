@@ -1,0 +1,98 @@
+package me.fil.hcexpansion;
+
+import me.fil.hcexpansion.block.FermentedLog;
+import me.fil.hcexpansion.block.FermentedWood;
+import me.fil.hcexpansion.block.InfectedQuartz;
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.ItemStack;
+import net.minecraftforge.common.Configuration;
+import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.Mod.EventHandler;
+import cpw.mods.fml.common.Mod.Instance;
+import cpw.mods.fml.common.SidedProxy;
+import cpw.mods.fml.common.event.FMLInitializationEvent;
+import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.registry.GameRegistry;
+import cpw.mods.fml.common.registry.LanguageRegistry;
+
+@Mod(modid = HardcoreExpansion.MODID, version = HardcoreExpansion.VERSION)
+public class HardcoreExpansion
+{
+    public static final String MODID = "hcexpansion";
+    public static final String VERSION = "1.037";
+    
+    @Instance(value = HardcoreExpansion.MODID)
+    public static HardcoreExpansion instance;
+    
+    @SidedProxy(clientSide = "me.fil.hcexpansion.client.ClientProxy", serverSide = "me.fil.hcexpansion.CommonProxy")
+    public static CommonProxy proxy;
+    
+    //Creative Tab
+    public static final CreativeTabs tab = new CreativeTabs("hcExpansionTab")
+    {
+    	public int getTabIconItemIndex()
+        {
+            return HardcoreExpansion.woodFermented.blockID;
+        }
+    	
+    	public String getTranslatedTabLabel()
+    	{
+    		return "Hardcore Expansion";
+    	}
+    };
+    
+    //Blocks
+    public static Block logFermented;
+    public static Block woodFermented;
+    public static Block quartzInfected;
+    
+    //IDS (Block)
+    public static int fermentatorId;
+    public static int logFermentedId;
+    public static int woodFermentedId;
+    public static int quartzInfectedId;
+    
+    //IDS (Item)
+    public static int ironRustedId;
+    
+    @EventHandler
+    public void preInit(FMLPreInitializationEvent event)
+    {
+    	proxy = new CommonProxy();
+    	
+    	Configuration config = new Configuration(event.getSuggestedConfigurationFile());
+    	
+    	config.load();
+    	
+    	fermentatorId = config.getBlock("Fermentator", 672).getInt();
+    	logFermentedId = config.getBlock("FermentedLog", 800).getInt();
+    	woodFermentedId = config.getBlock("FermentedWood", 801).getInt();
+    	quartzInfectedId = config.getBlock("InfectedQuartz", 898).getInt();
+    	
+    	ironRustedId = config.getItem("RustedIron", 31743).getInt();
+    	
+    	config.save();
+    }
+    
+    @EventHandler
+    public void init(FMLInitializationEvent event)
+    {
+    	proxy.removeRecipe(new ItemStack(Block.torchWood, 0));
+    	
+    	proxy.registerRenderers();
+    	
+    	logFermented = new FermentedLog(logFermentedId, Material.wood).setStepSound(Block.soundWoodFootstep).setUnlocalizedName("logFermented").setTextureName("hcexpansion:log_fermented").setCreativeTab(tab);
+    	woodFermented = new FermentedWood(woodFermentedId, Material.wood).setStepSound(Block.soundWoodFootstep).setUnlocalizedName("woodFermented").setTextureName("hcexpansion:woodFermented").setCreativeTab(tab);
+    	quartzInfected = new InfectedQuartz(quartzInfectedId, Material.iron).setStepSound(Block.soundMetalFootstep).setUnlocalizedName("quartzInfected").setTextureName("hcexpansion:quartzInfected").setCreativeTab(tab);
+    	
+    	GameRegistry.registerBlock(logFermented, logFermented.getUnlocalizedName());
+    	GameRegistry.registerBlock(woodFermented, woodFermented.getUnlocalizedName());
+    	
+    	LanguageRegistry.addName(logFermented, "Fermented Log");
+    	LanguageRegistry.addName(woodFermented, "Fermented Wood Planks");
+    	
+    	GameRegistry.addShapelessRecipe(new ItemStack(woodFermented, 3), new ItemStack(logFermented));
+    }
+}

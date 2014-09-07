@@ -1,0 +1,32 @@
+package me.fil.craftedmc;
+
+import java.io.File;
+
+import me.fil.craftedmc.info.Version;
+import me.fil.craftedmc.modpack.ModPack;
+import me.fil.craftedmc.modpack.ModPackRegistry;
+import me.fil.craftedmc.modpacks.Magicalistic;
+import me.fil.craftedmc.utils.OSUtils;
+
+public class CraftedMC 
+{
+	private static Console console;
+	
+	public final ModPack packMagicalistic = new Magicalistic("", Version.MC162, new String[]{}, new String[]{}, false, new File(OSUtils.getHomeDirectory() + "/modpacks/magicalistic/"), new File(OSUtils.getHomeDirectory() + "/modpacks/magicalistic/minecraft/"));
+	
+	public CraftedMC()
+	{
+		console = new Console();
+		ModPackRegistry.registerModPack(packMagicalistic);
+	}
+	
+	public static void openConsole()
+	{
+		console = new Console();
+	}
+	
+	protected void refreshConsole()
+	{
+		
+	}
+}

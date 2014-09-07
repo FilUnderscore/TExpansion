@@ -1,0 +1,25 @@
+package com.apocolypse.game;
+
+import java.awt.Dimension;
+import java.awt.Toolkit;
+import java.io.File;
+import java.io.IOException;
+
+import javax.imageio.ImageIO;
+import javax.swing.ImageIcon;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+
+public class Main {
+	public static void main(String[] args) throws IOException
+	{
+		JFrame frame = new MainFrame();
+		Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
+		frame.setSize(screenSize);
+		frame.setLayout(null);
+		if(args[0] != null && args[1] != null && args[2] != null)
+		{
+			System.out.println("Error! While executing! Shutting Down....");
+		}
+	}
+}

@@ -1,0 +1,94 @@
+package me.fil.craftedmc.util;
+
+import java.io.File;
+import java.net.URISyntaxException;
+import java.security.CodeSource;
+
+import me.fil.craftedmc.Main;
+import me.fil.craftedmc.log.Logger;
+
+public class OSUtils 
+{
+	private static byte[] cachedMacAddress;
+	
+	public static int getNumCores()
+	{
+		return numCores;
+	}
+	
+	public static enum OS
+	{
+		WINDOWS, UNIX, MACOSX, OTHER;
+		
+		private OS()
+		{
+		}
+	}
+	
+	private static String cachedUserHome = System.getProperty("user.home");
+	private static int numCores = Runtime.getRuntime().availableProcessors();
+	
+	public static String getDefInstallPath()
+	{
+		try
+		{
+			CodeSource code = Main.class.getProtectionDomain().getCodeSource();
+			
+			File jarFile = new File(code.getLocation().toURI().getPath());
+			return jarFile.getParentFile().getPath();
+		}
+		catch (URISyntaxException e)
+		{
+			Logger.logError("Unexpected error", e);
+			
+			Logger.logWarn("Failed to get path for current directory - falling back to user's home directory.");
+		}
+		return System.getProperty("user.dir") + "//CraftedMC Pack Install";
+	}
+	
+	public static String getDynamicStorageLocation()
+	{
+		switch(getCurrentOS().ordinal())
+		{
+		case 1:
+			return System.getenv("APPDATA") + "/craftedmc/";
+		case 2:
+			return cachedUserHome + "/Library/Application Support/craftedmc/";
+		case 3:
+			return cachedUserHome + "/.craftedmc/";
+		}
+		return getDefInstallPath() + "/temp/";
+	}
+	
+	public static String getCacheStorageLocation()
+	{
+		switch(getCurrentOS().ordinal())
+		{
+		case 1:
+			if((System.getenv("LOCALAPPDATA") != null) && (System.getenv("LOCALAPPDATA").length() > 5))
+			{
+				return System.getenv("LOCALAPPDATA") + "/craftedmc/";
+			}
+			return System.getenv("APPDATA") + "/craftedmc/";
+		case 2:
+			return cachedUserHome + "/Library/Application Support/craftedmc/";
+		case 3:
+			return cachedUserHome + "/.craftedmc/";
+		}
+		return getDefInstallPath() + "/temp/";
+	}
+	
+	public static void createStorageLocations()
+	{
+		File cacheDir = new File(getCacheStorageLocation());
+		File dynamicDir = new File(getDynamicStorageLocation());
+		if(!cacheDir.exists())
+		{
+			cacheDir.mkdirs();
+			if((dynamicDir.exists()) && (!cacheDir.equals(dynamicDir)))
+			{
+				Logger.logInfo("Migrating cached Maps from Roaming to Local storage");
+			}
+		}
+	}
+}

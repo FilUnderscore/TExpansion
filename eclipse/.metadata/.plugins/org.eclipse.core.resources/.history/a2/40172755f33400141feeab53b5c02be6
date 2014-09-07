@@ -1,0 +1,18 @@
+package me.fil.craftedmc;
+
+import javax.swing.text.html.HTMLEditorKit;
+
+public class CraftedMC 
+{
+	private static HTMLEditorKit kit;
+	
+	public static void openConsole()
+	{
+		
+	}
+	
+	protected void refreshConsole()
+	{
+		
+	}
+}

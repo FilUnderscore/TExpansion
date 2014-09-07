@@ -1,0 +1,6 @@
+package me.fil.craftedmc.log;
+
+public abstract interface ILogListener 
+{
+	public abstract void onLogEvent(LogEntry entry);
+}

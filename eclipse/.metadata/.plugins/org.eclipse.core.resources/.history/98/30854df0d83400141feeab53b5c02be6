@@ -1,0 +1,5 @@
+package me.fil.craftedmc.log;
+
+public enum LogType {
+
+}

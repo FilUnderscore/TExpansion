@@ -1,0 +1,5 @@
+package me.fil.hcexpansion.client;
+
+public class ClientProxy {
+
+}

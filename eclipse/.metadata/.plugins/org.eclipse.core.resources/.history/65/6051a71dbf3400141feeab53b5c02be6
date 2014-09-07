@@ -1,0 +1,24 @@
+package me.fil.craftedmc;
+
+import java.util.logging.Logger;
+
+public class ConsoleLogger 
+{
+	private Logger logger = Logger.getLogger("CraftedMC");
+	private static ConsoleLogger instance;
+	
+	public void log(String info)
+	{
+		logger.info(info);
+	}
+	
+	public static ConsoleLogger getNewConsoleLogger()
+	{
+		return INSTANCE();
+	}
+	
+	public static ConsoleLogger INSTANCE()
+	{
+		return instance;
+	}
+}

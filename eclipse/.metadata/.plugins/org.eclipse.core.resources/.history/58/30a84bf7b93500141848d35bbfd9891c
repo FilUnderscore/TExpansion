@@ -1,0 +1,11 @@
+package me.fil.hcexpansion.block;
+
+import net.minecraft.block.Block;
+
+public class Dust extends Block
+{
+	public Dust(int id, Material mat)
+	{
+		super(id, mat);
+	}
+}

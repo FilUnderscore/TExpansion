@@ -1,0 +1,10 @@
+package me.fil.craftedmc;
+
+public class Main 
+{
+	public static void main(String[] args)
+	{
+		CraftedMC cmc = new CraftedMC();
+		cmc.load();
+	}
+}

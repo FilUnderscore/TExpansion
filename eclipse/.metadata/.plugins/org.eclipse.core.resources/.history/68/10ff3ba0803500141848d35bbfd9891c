@@ -1,0 +1,41 @@
+package me.fil.craftedmc.modpack;
+
+import java.io.File;
+
+import me.fil.craftedmc.Console;
+
+import com.sun.istack.internal.logging.Logger;
+
+public abstract class ModPack implements IModPack
+{
+	String name;
+	Version version;
+	String[] mods;
+	String[] authors;
+	boolean isThirdParty;
+	File jarFile;
+	File directory;
+	
+	protected ModPack(String name, Version version, String[] mods, String[] authors, boolean isThirdParty, File jarFile, File directory)
+	{
+		this.name = name;
+		this.version = version;
+		this.mods = mods;
+		this.authors = authors;
+		this.isThirdParty = isThirdParty;
+		this.jarFile = jarFile;
+		this.directory = directory;
+	}
+	
+	protected void func_388212_a(int p_128271_a)
+	{
+		if(p_128271_a == 0x1)
+		{
+			Console.logger.info("The " + getName() + " modpack has loaded! Booting into it...");
+		}
+		else if(p_128271_a == 0x1100ff)
+		{
+			Console.logger.severe("The " + getName() + " modpack could not be loaded! Canceling boot...");
+		}
+	}
+}

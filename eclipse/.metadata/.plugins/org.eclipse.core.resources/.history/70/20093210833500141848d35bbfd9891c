@@ -1,0 +1,15 @@
+package me.fil.craftedmc.utils;
+
+import java.lang.reflect.Method;
+
+public class Reflection 
+{
+	private Class c;
+	private Method[] methods;
+	
+	public Reflection(Class c)
+	{
+		this.c = c;
+		this.methods = c.getDeclaredMethods();
+	}
+}

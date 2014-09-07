@@ -1,0 +1,580 @@
+2014-09-04 21:37:54 [SERVER] [INFO] Starting integrated minecraft server version 1.6.4
+2014-09-04 21:37:54 [SERVER] [INFO] Generating keypair
+2014-09-04 21:37:54 [SERVER] [INFO] Converting map!
+2014-09-04 21:37:54 [SERVER] [INFO] Scanning folders...
+2014-09-04 21:37:54 [SERVER] [INFO] Total conversion count is 0
+2014-09-04 21:37:54 [SERVER] [INFO] Preparing start region for level 0
+2014-09-04 21:37:55 [SERVER] [INFO] Preparing spawn area: 10%
+2014-09-04 21:37:56 [SERVER] [INFO] Preparing spawn area: 25%
+2014-09-04 21:37:57 [SERVER] [INFO] Preparing spawn area: 43%
+2014-09-04 21:37:58 [SERVER] [INFO] Preparing spawn area: 64%
+2014-09-04 21:37:59 [SERVER] [INFO] Preparing spawn area: 84%
+2014-09-04 21:38:00 [SERVER] [INFO] Player408[/127.0.0.1:0] logged in with entity id 201 at (-238.5, 82.0, 248.5)
+2014-09-04 21:38:00 [SERVER] [INFO] Player408 joined the game
+2014-09-04 21:38:10 [SERVER] [INFO] Saving and pausing game...
+2014-09-04 21:38:10 [SERVER] [INFO] Saving chunks for level 'New World'/Overworld
+2014-09-04 21:38:12 [SERVER] [INFO] Saving chunks for level 'New World'/Nether
+2014-09-04 21:38:12 [SERVER] [INFO] Saving chunks for level 'New World'/The End
+2014-09-04 21:38:12 [SERVER] [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2014-09-04 21:38:49 [SERVER] [INFO] Saving and pausing game...
+2014-09-04 21:38:49 [SERVER] [INFO] Saving chunks for level 'New World'/Overworld
+2014-09-04 21:38:49 [SERVER] [INFO] Saving chunks for level 'New World'/Nether
+2014-09-04 21:38:49 [SERVER] [INFO] Saving chunks for level 'New World'/The End
+2014-09-04 21:38:50 [SERVER] [INFO] Stopping server
+2014-09-04 21:38:50 [SERVER] [INFO] Saving players
+2014-09-04 21:38:50 [SERVER] [INFO] Player408 left the game
+2014-09-04 21:38:50 [SERVER] [INFO] Saving worlds
+2014-09-04 21:38:50 [SERVER] [INFO] Saving chunks for level 'New World'/Overworld
+2014-09-04 21:38:50 [SERVER] [INFO] Saving chunks for level 'New World'/Nether
+2014-09-04 21:38:50 [SERVER] [INFO] Saving chunks for level 'New World'/The End
+2014-09-04 21:47:52 [SERVER] [INFO] Starting integrated minecraft server version 1.6.4
+2014-09-04 21:47:52 [SERVER] [INFO] Generating keypair
+2014-09-04 21:47:52 [SERVER] [INFO] Preparing start region for level 0
+2014-09-04 21:47:53 [SERVER] [INFO] Player463[/127.0.0.1:0] logged in with entity id 393 at (-177.0286186367464, 83.0, 254.82036211089937)
+2014-09-04 21:47:53 [SERVER] [INFO] Player463 joined the game
+2014-09-04 21:47:54 [SERVER] [INFO] Saving and pausing game...
+2014-09-04 21:47:54 [SERVER] [INFO] Saving chunks for level 'New World'/Overworld
+2014-09-04 21:47:54 [SERVER] [INFO] Saving chunks for level 'New World'/Nether
+2014-09-04 21:47:54 [SERVER] [INFO] Saving chunks for level 'New World'/The End
+2014-09-04 21:48:15 [SERVER] [INFO] Saving and pausing game...
+2014-09-04 21:48:15 [SERVER] [INFO] Saving chunks for level 'New World'/Overworld
+2014-09-04 21:48:15 [SERVER] [INFO] Saving chunks for level 'New World'/Nether
+2014-09-04 21:48:15 [SERVER] [INFO] Saving chunks for level 'New World'/The End
+2014-09-04 21:48:15 [SERVER] [INFO] Stopping server
+2014-09-04 21:48:15 [SERVER] [INFO] Saving players
+2014-09-04 21:48:15 [SERVER] [INFO] Player463 left the game
+2014-09-04 21:48:15 [SERVER] [INFO] Saving worlds
+2014-09-04 21:48:15 [SERVER] [INFO] Saving chunks for level 'New World'/Overworld
+2014-09-04 21:48:15 [SERVER] [INFO] Saving chunks for level 'New World'/Nether
+2014-09-04 21:48:15 [SERVER] [INFO] Saving chunks for level 'New World'/The End
+2014-09-04 21:48:45 [SERVER] [INFO] Starting integrated minecraft server version 1.6.4
+2014-09-04 21:48:45 [SERVER] [INFO] Generating keypair
+2014-09-04 21:48:45 [SERVER] [INFO] Preparing start region for level 0
+2014-09-04 21:48:46 [SERVER] [INFO] Player695[/127.0.0.1:0] logged in with entity id 372 at (-177.0286186367464, 83.0, 254.82036211089937)
+2014-09-04 21:48:46 [SERVER] [INFO] Player695 joined the game
+2014-09-04 21:48:53 [SERVER] [INFO] Stopping server
+2014-09-04 21:48:53 [SERVER] [INFO] Saving players
+2014-09-04 21:48:53 [SERVER] [INFO] Player695 left the game
+2014-09-04 21:48:53 [SERVER] [INFO] Saving worlds
+2014-09-04 21:48:53 [SERVER] [INFO] Saving chunks for level 'New World'/Overworld
+2014-09-04 21:48:53 [SERVER] [INFO] Saving chunks for level 'New World'/Nether
+2014-09-04 21:48:53 [SERVER] [INFO] Saving chunks for level 'New World'/The End
+2014-09-04 21:48:53 [SERVER] [INFO] Stopping server
+2014-09-04 21:49:40 [SERVER] [INFO] Starting integrated minecraft server version 1.6.4
+2014-09-04 21:49:40 [SERVER] [INFO] Generating keypair
+2014-09-04 21:49:40 [SERVER] [INFO] Preparing start region for level 0
+2014-09-04 21:49:41 [SERVER] [INFO] Player974[/127.0.0.1:0] logged in with entity id 374 at (-177.0286186367464, 83.0, 254.82036211089937)
+2014-09-04 21:49:41 [SERVER] [INFO] Player974 joined the game
+2014-09-04 21:49:42 [SERVER] [INFO] Saving and pausing game...
+2014-09-04 21:49:42 [SERVER] [INFO] Saving chunks for level 'New World'/Overworld
+2014-09-04 21:49:42 [SERVER] [INFO] Saving chunks for level 'New World'/Nether
+2014-09-04 21:49:42 [SERVER] [INFO] Saving chunks for level 'New World'/The End
+2014-09-04 21:50:43 [SERVER] [INFO] Stopping server
+2014-09-04 21:50:43 [SERVER] [INFO] Saving players
+2014-09-04 21:50:43 [SERVER] [INFO] Player974 left the game
+2014-09-04 21:50:43 [SERVER] [INFO] Saving worlds
+2014-09-04 21:50:43 [SERVER] [INFO] Saving chunks for level 'New World'/Overworld
+2014-09-04 21:50:43 [SERVER] [INFO] Saving chunks for level 'New World'/Nether
+2014-09-04 21:50:43 [SERVER] [INFO] Saving chunks for level 'New World'/The End
+2014-09-04 21:50:43 [SERVER] [INFO] Stopping server
+2014-09-04 21:59:06 [SERVER] [INFO] Starting integrated minecraft server version 1.6.4
+2014-09-04 21:59:06 [SERVER] [INFO] Generating keypair
+2014-09-04 21:59:06 [SERVER] [INFO] Preparing start region for level 0
+2014-09-04 21:59:07 [SERVER] [INFO] Player97[/127.0.0.1:0] logged in with entity id 387 at (-177.0286186367464, 83.0, 254.82036211089937)
+2014-09-04 21:59:07 [SERVER] [INFO] Player97 joined the game
+2014-09-04 21:59:17 [SERVER] [INFO] Saving and pausing game...
+2014-09-04 21:59:17 [SERVER] [INFO] Saving chunks for level 'New World'/Overworld
+2014-09-04 21:59:17 [SERVER] [INFO] Saving chunks for level 'New World'/Nether
+2014-09-04 21:59:17 [SERVER] [INFO] Saving chunks for level 'New World'/The End
+2014-09-04 21:59:21 [SERVER] [INFO] Saving and pausing game...
+2014-09-04 21:59:21 [SERVER] [INFO] Saving chunks for level 'New World'/Overworld
+2014-09-04 21:59:21 [SERVER] [INFO] Saving chunks for level 'New World'/Nether
+2014-09-04 21:59:21 [SERVER] [INFO] Saving chunks for level 'New World'/The End
+2014-09-04 21:59:21 [SERVER] [INFO] Player97 lost connection: disconnect.quitting
+2014-09-04 21:59:21 [SERVER] [INFO] Player97 left the game
+2014-09-04 21:59:21 [SERVER] [INFO] Stopping singleplayer server as player logged out
+2014-09-04 21:59:21 [SERVER] [INFO] Stopping server
+2014-09-04 21:59:21 [SERVER] [INFO] Saving players
+2014-09-04 21:59:21 [SERVER] [INFO] Saving worlds
+2014-09-04 21:59:21 [SERVER] [INFO] Saving chunks for level 'New World'/Overworld
+2014-09-04 21:59:21 [SERVER] [INFO] Saving chunks for level 'New World'/Nether
+2014-09-04 21:59:21 [SERVER] [INFO] Saving chunks for level 'New World'/The End
+2014-09-04 22:00:15 [SERVER] [INFO] Starting integrated minecraft server version 1.6.4
+2014-09-04 22:00:15 [SERVER] [INFO] Generating keypair
+2014-09-04 22:00:15 [SERVER] [INFO] Preparing start region for level 0
+2014-09-04 22:00:16 [SERVER] [INFO] Player798[/127.0.0.1:0] logged in with entity id 392 at (-177.303645565732, 82.0, 254.08368532338915)
+2014-09-04 22:00:16 [SERVER] [INFO] Player798 joined the game
+2014-09-04 22:00:21 [SERVER] [INFO] Saving and pausing game...
+2014-09-04 22:00:21 [SERVER] [INFO] Saving chunks for level 'New World'/Overworld
+2014-09-04 22:00:21 [SERVER] [INFO] Saving chunks for level 'New World'/Nether
+2014-09-04 22:00:21 [SERVER] [INFO] Saving chunks for level 'New World'/The End
+2014-09-04 22:00:58 [SERVER] [INFO] Saving and pausing game...
+2014-09-04 22:00:58 [SERVER] [INFO] Saving chunks for level 'New World'/Overworld
+2014-09-04 22:00:58 [SERVER] [INFO] Saving chunks for level 'New World'/Nether
+2014-09-04 22:00:58 [SERVER] [INFO] Saving chunks for level 'New World'/The End
+2014-09-04 22:00:59 [SERVER] [INFO] Stopping server
+2014-09-04 22:00:59 [SERVER] [INFO] Saving players
+2014-09-04 22:00:59 [SERVER] [INFO] Player798 left the game
+2014-09-04 22:00:59 [SERVER] [INFO] Saving worlds
+2014-09-04 22:00:59 [SERVER] [INFO] Saving chunks for level 'New World'/Overworld
+2014-09-04 22:00:59 [SERVER] [INFO] Saving chunks for level 'New World'/Nether
+2014-09-04 22:00:59 [SERVER] [INFO] Saving chunks for level 'New World'/The End
+2014-09-04 22:13:51 [SERVER] [INFO] Starting integrated minecraft server version 1.6.4
+2014-09-04 22:13:51 [SERVER] [INFO] Generating keypair
+2014-09-04 22:13:53 [SERVER] [INFO] Preparing start region for level 0
+2014-09-04 22:13:54 [SERVER] [INFO] Player670[/127.0.0.1:0] logged in with entity id 405 at (-177.53683779139135, 83.0, 253.09107513853027)
+2014-09-04 22:13:54 [SERVER] [INFO] Player670 joined the game
+2014-09-04 22:14:11 [SERVER] [INFO] Saving and pausing game...
+2014-09-04 22:14:11 [SERVER] [INFO] Saving chunks for level 'New World'/Overworld
+2014-09-04 22:14:11 [SERVER] [INFO] Saving chunks for level 'New World'/Nether
+2014-09-04 22:14:11 [SERVER] [INFO] Saving chunks for level 'New World'/The End
+2014-09-04 22:14:12 [SERVER] [INFO] Stopping server
+2014-09-04 22:14:12 [SERVER] [INFO] Saving players
+2014-09-04 22:14:12 [SERVER] [INFO] Player670 left the game
+2014-09-04 22:14:12 [SERVER] [INFO] Saving worlds
+2014-09-04 22:14:12 [SERVER] [INFO] Saving chunks for level 'New World'/Overworld
+2014-09-04 22:14:12 [SERVER] [INFO] Saving chunks for level 'New World'/Nether
+2014-09-04 22:14:12 [SERVER] [INFO] Saving chunks for level 'New World'/The End
+2014-09-04 22:14:46 [SERVER] [INFO] Starting integrated minecraft server version 1.6.4
+2014-09-04 22:14:46 [SERVER] [INFO] Generating keypair
+2014-09-04 22:14:47 [SERVER] [INFO] Preparing start region for level 0
+2014-09-04 22:14:48 [SERVER] [INFO] Player565[/127.0.0.1:0] logged in with entity id 403 at (-178.69999998807907, 83.0, 253.77520813132296)
+2014-09-04 22:14:48 [SERVER] [INFO] Player565 joined the game
+2014-09-04 22:15:00 [SERVER] [INFO] <Player565> .
+2014-09-04 22:15:38 [SERVER] [INFO] <Player565> .
+2014-09-04 22:15:40 [SERVER] [INFO] Saving and pausing game...
+2014-09-04 22:15:40 [SERVER] [INFO] Saving chunks for level 'New World'/Overworld
+2014-09-04 22:15:40 [SERVER] [INFO] Saving chunks for level 'New World'/Nether
+2014-09-04 22:15:40 [SERVER] [INFO] Saving chunks for level 'New World'/The End
+2014-09-04 22:15:40 [SERVER] [INFO] Stopping server
+2014-09-04 22:15:40 [SERVER] [INFO] Saving players
+2014-09-04 22:15:40 [SERVER] [INFO] Player565 left the game
+2014-09-04 22:15:40 [SERVER] [INFO] Saving worlds
+2014-09-04 22:15:40 [SERVER] [INFO] Saving chunks for level 'New World'/Overworld
+2014-09-04 22:15:40 [SERVER] [INFO] Saving chunks for level 'New World'/Nether
+2014-09-04 22:15:40 [SERVER] [INFO] Saving chunks for level 'New World'/The End
+2014-09-04 22:16:08 [SERVER] [INFO] Starting integrated minecraft server version 1.6.4
+2014-09-04 22:16:08 [SERVER] [INFO] Generating keypair
+2014-09-04 22:16:08 [SERVER] [INFO] Preparing start region for level 0
+2014-09-04 22:16:09 [SERVER] [INFO] Miner_Fil[/127.0.0.1:0] logged in with entity id 403 at (-190.1243067866675, 79.39049767320623, 247.4075404009831)
+2014-09-04 22:16:09 [SERVER] [INFO] Miner_Fil joined the game
+2014-09-04 22:16:32 [SERVER] [INFO] [Miner_Fil: Set own game mode to Survival Mode]
+2014-09-04 22:17:49 [SERVER] [INFO] Saving and pausing game...
+2014-09-04 22:17:49 [SERVER] [INFO] Saving chunks for level 'New World'/Overworld
+2014-09-04 22:17:49 [SERVER] [INFO] Saving chunks for level 'New World'/Nether
+2014-09-04 22:17:49 [SERVER] [INFO] Saving chunks for level 'New World'/The End
+2014-09-04 22:17:50 [SERVER] [INFO] Stopping server
+2014-09-04 22:17:50 [SERVER] [INFO] Saving players
+2014-09-04 22:17:50 [SERVER] [INFO] Miner_Fil left the game
+2014-09-04 22:17:50 [SERVER] [INFO] Saving worlds
+2014-09-04 22:17:50 [SERVER] [INFO] Saving chunks for level 'New World'/Overworld
+2014-09-04 22:17:50 [SERVER] [INFO] Saving chunks for level 'New World'/Nether
+2014-09-04 22:17:50 [SERVER] [INFO] Saving chunks for level 'New World'/The End
+2014-09-04 22:24:25 [SERVER] [INFO] Starting integrated minecraft server version 1.6.4
+2014-09-04 22:24:25 [SERVER] [INFO] Generating keypair
+2014-09-04 22:24:25 [SERVER] [INFO] Preparing start region for level 0
+2014-09-04 22:24:26 [SERVER] [INFO] Miner_Fil[/127.0.0.1:0] logged in with entity id 368 at (-187.515935209046, 69.0, 254.15743611563116)
+2014-09-04 22:24:26 [SERVER] [INFO] Miner_Fil joined the game
+2014-09-04 22:24:30 [SERVER] [INFO] [Miner_Fil: Set own game mode to Creative Mode]
+2014-09-04 22:24:36 [SERVER] [INFO] [Miner_Fil: Set own game mode to Survival Mode]
+2014-09-04 22:24:49 [SERVER] [INFO] Saving and pausing game...
+2014-09-04 22:24:49 [SERVER] [INFO] Saving chunks for level 'New World'/Overworld
+2014-09-04 22:24:49 [SERVER] [INFO] Saving chunks for level 'New World'/Nether
+2014-09-04 22:24:49 [SERVER] [INFO] Saving chunks for level 'New World'/The End
+2014-09-04 22:24:49 [SERVER] [INFO] Stopping server
+2014-09-04 22:24:49 [SERVER] [INFO] Saving players
+2014-09-04 22:24:49 [SERVER] [INFO] Miner_Fil left the game
+2014-09-04 22:24:49 [SERVER] [INFO] Saving worlds
+2014-09-04 22:24:49 [SERVER] [INFO] Saving chunks for level 'New World'/Overworld
+2014-09-04 22:24:49 [SERVER] [INFO] Saving chunks for level 'New World'/Nether
+2014-09-04 22:24:49 [SERVER] [INFO] Saving chunks for level 'New World'/The End
+2014-09-04 22:25:43 [SERVER] [INFO] Starting integrated minecraft server version 1.6.4
+2014-09-04 22:25:43 [SERVER] [INFO] Generating keypair
+2014-09-04 22:25:44 [SERVER] [INFO] Preparing start region for level 0
+2014-09-04 22:25:45 [SERVER] [INFO] Miner_Fil[/127.0.0.1:0] logged in with entity id 335 at (-187.69999998807907, 69.0, 257.27649180288506)
+2014-09-04 22:25:45 [SERVER] [INFO] Miner_Fil joined the game
+2014-09-04 22:26:00 [SERVER] [INFO] [Miner_Fil: Given TNT (ID 46) * 64 to Miner_Fil]
+2014-09-04 22:26:01 [SERVER] [INFO] [Miner_Fil: Set own game mode to Creative Mode]
+2014-09-04 22:26:08 [SERVER] [INFO] [Miner_Fil: Set own game mode to Survival Mode]
+2014-09-04 22:26:46 [SERVER] [INFO] Saving and pausing game...
+2014-09-04 22:26:46 [SERVER] [INFO] Saving chunks for level 'New World'/Overworld
+2014-09-04 22:26:46 [SERVER] [INFO] Saving chunks for level 'New World'/Nether
+2014-09-04 22:26:46 [SERVER] [INFO] Saving chunks for level 'New World'/The End
+2014-09-04 22:26:47 [SERVER] [INFO] Stopping server
+2014-09-04 22:26:47 [SERVER] [INFO] Saving players
+2014-09-04 22:26:47 [SERVER] [INFO] Miner_Fil left the game
+2014-09-04 22:26:47 [SERVER] [INFO] Saving worlds
+2014-09-04 22:26:47 [SERVER] [INFO] Saving chunks for level 'New World'/Overworld
+2014-09-04 22:26:47 [SERVER] [INFO] Saving chunks for level 'New World'/Nether
+2014-09-04 22:26:47 [SERVER] [INFO] Saving chunks for level 'New World'/The End
+2014-09-05 16:07:16 [SERVER] [INFO] Starting integrated minecraft server version 1.6.4
+2014-09-05 16:07:16 [SERVER] [INFO] Generating keypair
+2014-09-05 16:07:16 [SERVER] [INFO] Preparing start region for level 0
+2014-09-05 16:07:17 [SERVER] [INFO] Miner_Fil[/127.0.0.1:0] logged in with entity id 308 at (-176.3445067842611, 63.0, 256.1147023270779)
+2014-09-05 16:07:17 [SERVER] [INFO] Miner_Fil joined the game
+2014-09-05 16:07:18 [SERVER] [INFO] Saving and pausing game...
+2014-09-05 16:07:18 [SERVER] [INFO] Saving chunks for level 'New World'/Overworld
+2014-09-05 16:07:18 [SERVER] [INFO] Saving chunks for level 'New World'/Nether
+2014-09-05 16:07:18 [SERVER] [INFO] Saving chunks for level 'New World'/The End
+2014-09-05 16:07:23 [SERVER] [INFO] [Miner_Fil: Set own game mode to Creative Mode]
+2014-09-05 16:07:58 [SERVER] [INFO] Saving and pausing game...
+2014-09-05 16:07:58 [SERVER] [INFO] Saving chunks for level 'New World'/Overworld
+2014-09-05 16:07:58 [SERVER] [INFO] Saving chunks for level 'New World'/Nether
+2014-09-05 16:07:58 [SERVER] [INFO] Saving chunks for level 'New World'/The End
+2014-09-05 16:07:59 [SERVER] [INFO] Stopping server
+2014-09-05 16:07:59 [SERVER] [INFO] Saving players
+2014-09-05 16:07:59 [SERVER] [INFO] Miner_Fil left the game
+2014-09-05 16:07:59 [SERVER] [INFO] Saving worlds
+2014-09-05 16:07:59 [SERVER] [INFO] Saving chunks for level 'New World'/Overworld
+2014-09-05 16:07:59 [SERVER] [INFO] Saving chunks for level 'New World'/Nether
+2014-09-05 16:07:59 [SERVER] [INFO] Saving chunks for level 'New World'/The End
+2014-09-05 16:09:22 [SERVER] [INFO] Starting integrated minecraft server version 1.6.4
+2014-09-05 16:09:22 [SERVER] [INFO] Generating keypair
+2014-09-05 16:09:22 [SERVER] [INFO] Preparing start region for level 0
+2014-09-05 16:09:23 [SERVER] [INFO] Miner_Fil[/127.0.0.1:0] logged in with entity id 358 at (-163.33695797312697, 69.37080043399753, 249.6191475113603)
+2014-09-05 16:09:23 [SERVER] [INFO] Miner_Fil joined the game
+2014-09-05 16:09:45 [SERVER] [INFO] Saving and pausing game...
+2014-09-05 16:09:45 [SERVER] [INFO] Saving chunks for level 'New World'/Overworld
+2014-09-05 16:09:45 [SERVER] [INFO] Saving chunks for level 'New World'/Nether
+2014-09-05 16:09:45 [SERVER] [INFO] Saving chunks for level 'New World'/The End
+2014-09-05 16:09:46 [SERVER] [INFO] Stopping server
+2014-09-05 16:09:46 [SERVER] [INFO] Saving players
+2014-09-05 16:09:46 [SERVER] [INFO] Miner_Fil left the game
+2014-09-05 16:09:46 [SERVER] [INFO] Saving worlds
+2014-09-05 16:09:46 [SERVER] [INFO] Saving chunks for level 'New World'/Overworld
+2014-09-05 16:09:46 [SERVER] [INFO] Saving chunks for level 'New World'/Nether
+2014-09-05 16:09:46 [SERVER] [INFO] Saving chunks for level 'New World'/The End
+2014-09-05 16:22:42 [SERVER] [INFO] Starting integrated minecraft server version 1.6.4
+2014-09-05 16:22:42 [SERVER] [INFO] Generating keypair
+2014-09-05 16:22:43 [SERVER] [INFO] Preparing start region for level 0
+2014-09-05 16:22:43 [SERVER] [INFO] Miner_Fil[/127.0.0.1:0] logged in with entity id 381 at (-161.59967157539856, 83.36726283470506, 254.43759802478735)
+2014-09-05 16:22:43 [SERVER] [INFO] Miner_Fil joined the game
+2014-09-05 16:23:11 [SERVER] [INFO] Saving and pausing game...
+2014-09-05 16:23:11 [SERVER] [INFO] Saving chunks for level 'New World'/Overworld
+2014-09-05 16:23:11 [SERVER] [INFO] Saving chunks for level 'New World'/Nether
+2014-09-05 16:23:11 [SERVER] [INFO] Saving chunks for level 'New World'/The End
+2014-09-05 16:23:11 [SERVER] [INFO] Stopping server
+2014-09-05 16:23:11 [SERVER] [INFO] Saving players
+2014-09-05 16:23:11 [SERVER] [INFO] Miner_Fil left the game
+2014-09-05 16:23:11 [SERVER] [INFO] Saving worlds
+2014-09-05 16:23:11 [SERVER] [INFO] Saving chunks for level 'New World'/Overworld
+2014-09-05 16:23:11 [SERVER] [INFO] Saving chunks for level 'New World'/Nether
+2014-09-05 16:23:11 [SERVER] [INFO] Saving chunks for level 'New World'/The End
+2014-09-05 16:24:14 [SERVER] [INFO] Starting integrated minecraft server version 1.6.4
+2014-09-05 16:24:14 [SERVER] [INFO] Generating keypair
+2014-09-05 16:24:14 [SERVER] [INFO] Preparing start region for level 0
+2014-09-05 16:24:15 [SERVER] [INFO] Miner_Fil[/127.0.0.1:0] logged in with entity id 536 at (-162.84706336510797, 77.04058200162515, 259.4165641000019)
+2014-09-05 16:24:15 [SERVER] [INFO] Miner_Fil joined the game
+2014-09-05 16:27:05 [SERVER] [INFO] Stopping server
+2014-09-05 16:27:05 [SERVER] [INFO] Saving players
+2014-09-05 16:27:05 [SERVER] [INFO] Miner_Fil left the game
+2014-09-05 16:27:05 [SERVER] [INFO] Saving worlds
+2014-09-05 16:27:05 [SERVER] [INFO] Saving chunks for level 'New World'/Overworld
+2014-09-05 16:27:05 [SERVER] [INFO] Saving chunks for level 'New World'/Nether
+2014-09-05 16:27:05 [SERVER] [INFO] Saving chunks for level 'New World'/The End
+2014-09-05 16:27:19 [SERVER] [INFO] Starting integrated minecraft server version 1.6.4
+2014-09-05 16:27:19 [SERVER] [INFO] Generating keypair
+2014-09-05 16:27:20 [SERVER] [INFO] Preparing start region for level 0
+2014-09-05 16:27:20 [SERVER] [INFO] Miner_Fil[/127.0.0.1:0] logged in with entity id 627 at (-168.72389755607088, 63.0, 276.78765263260357)
+2014-09-05 16:27:20 [SERVER] [INFO] Miner_Fil joined the game
+2014-09-05 16:27:26 [SERVER] [INFO] [Miner_Fil: Set the time to 0]
+2014-09-05 16:27:56 [SERVER] [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2014-09-05 16:28:03 [SERVER] [INFO] Saving and pausing game...
+2014-09-05 16:28:03 [SERVER] [INFO] Saving chunks for level 'New World'/Overworld
+2014-09-05 16:28:03 [SERVER] [INFO] Saving chunks for level 'New World'/Nether
+2014-09-05 16:28:03 [SERVER] [INFO] Saving chunks for level 'New World'/The End
+2014-09-05 16:29:38 [SERVER] [INFO] Starting integrated minecraft server version 1.6.4
+2014-09-05 16:29:38 [SERVER] [INFO] Generating keypair
+2014-09-05 16:29:39 [SERVER] [INFO] Preparing start region for level 0
+2014-09-05 16:29:40 [SERVER] [INFO] Miner_Fil[/127.0.0.1:0] logged in with entity id 911 at (-176.9180419528655, 82.40505755732244, 275.9794491699939)
+2014-09-05 16:29:40 [SERVER] [INFO] Miner_Fil joined the game
+2014-09-05 16:30:41 [SERVER] [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2014-09-05 16:30:47 [SERVER] [INFO] Saving and pausing game...
+2014-09-05 16:30:47 [SERVER] [INFO] Saving chunks for level 'New World'/Overworld
+2014-09-05 16:30:47 [SERVER] [INFO] Saving chunks for level 'New World'/Nether
+2014-09-05 16:30:47 [SERVER] [INFO] Saving chunks for level 'New World'/The End
+2014-09-05 16:31:12 [SERVER] [INFO] Starting integrated minecraft server version 1.6.4
+2014-09-05 16:31:12 [SERVER] [INFO] Generating keypair
+2014-09-05 16:31:12 [SERVER] [INFO] Preparing start region for level 0
+2014-09-05 16:31:13 [SERVER] [INFO] Miner_Fil[/127.0.0.1:0] logged in with entity id 1093 at (-177.3002373071686, 65.50936958245539, 275.4206597250969)
+2014-09-05 16:31:13 [SERVER] [INFO] Miner_Fil joined the game
+2014-09-05 16:33:28 [SERVER] [SEVERE] Encountered an unexpected exception ReportedException
+net.minecraft.util.ReportedException: Exception generating new chunk
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:674)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:587)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:129)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:484)
+	at net.minecraft.server.ThreadMinecraftServer.run(ThreadMinecraftServer.java:583)
+Caused by: java.lang.OutOfMemoryError: Java heap space
+	at net.minecraft.world.chunk.storage.ExtendedBlockStorage.<init>(ExtendedBlockStorage.java:22)
+	at net.minecraft.world.chunk.Chunk.<init>(Chunk.java:157)
+	at net.minecraft.world.gen.ChunkProviderGenerate.provideChunk(ChunkProviderGenerate.java:338)
+	at net.minecraft.world.gen.ChunkProviderServer.loadChunk(ChunkProviderServer.java:131)
+	at net.minecraft.world.gen.ChunkProviderServer.provideChunk(ChunkProviderServer.java:166)
+	at net.minecraft.world.World.getChunkFromChunkCoords(World.java:529)
+	at net.minecraft.world.World.getBlockId(World.java:414)
+	at net.minecraft.world.Explosion.doExplosionA(Explosion.java:90)
+	at net.minecraft.world.WorldServer.newExplosion(WorldServer.java:997)
+	at net.minecraft.world.World.createExplosion(World.java:2716)
+	at me.fil.hcexpansion.entity.EntityTNT.explode(EntityTNT.java:66)
+	at me.fil.hcexpansion.entity.EntityTNT.onUpdate(EntityTNT.java:54)
+	at net.minecraft.world.World.updateEntityWithOptionalForce(World.java:2350)
+	at net.minecraft.world.WorldServer.updateEntityWithOptionalForce(WorldServer.java:719)
+	at net.minecraft.world.World.updateEntity(World.java:2311)
+	at net.minecraft.world.World.updateEntities(World.java:2157)
+	at net.minecraft.world.WorldServer.updateEntities(WorldServer.java:550)
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:668)
+	... 4 more
+2014-09-05 16:33:28 [SERVER] [SEVERE] This crash report has been saved to: C:\Users\Filip\Desktop\forge\eclipse\.\crash-reports\crash-2014-09-05_16.33.28-server.txt
+2014-09-05 16:33:28 [SERVER] [INFO] Stopping server
+2014-09-05 16:33:28 [SERVER] [INFO] Saving players
+2014-09-05 16:33:28 [SERVER] [INFO] Miner_Fil left the game
+2014-09-05 16:33:28 [SERVER] [INFO] Saving worlds
+2014-09-05 16:33:28 [SERVER] [INFO] Saving chunks for level 'New World'/Overworld
+2014-09-05 16:33:28 [SERVER] [INFO] Stopping server
+2014-09-05 16:34:14 [SERVER] [INFO] Starting integrated minecraft server version 1.6.4
+2014-09-05 16:34:14 [SERVER] [INFO] Generating keypair
+2014-09-05 16:34:14 [SERVER] [INFO] Preparing start region for level 0
+2014-09-05 16:34:15 [SERVER] [INFO] Preparing spawn area: 65%
+2014-09-05 16:34:16 [SERVER] [INFO] Miner_Fil[/127.0.0.1:0] logged in with entity id 1151 at (-167.7294827658741, 65.62134449806679, 273.2529158850507)
+2014-09-05 16:34:16 [SERVER] [INFO] Miner_Fil joined the game
+2014-09-05 16:34:39 [SERVER] [INFO] <Miner_Fil> .
+2014-09-05 16:34:39 [SERVER] [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2014-09-05 16:34:47 [SERVER] [INFO] Saving and pausing game...
+2014-09-05 16:34:47 [SERVER] [INFO] Saving chunks for level 'New World'/Overworld
+2014-09-05 16:34:51 [SERVER] [INFO] Saving chunks for level 'New World'/Nether
+2014-09-05 16:34:51 [SERVER] [INFO] Saving chunks for level 'New World'/The End
+2014-09-05 16:34:51 [SERVER] [INFO] Stopping server
+2014-09-05 16:34:51 [SERVER] [INFO] Saving players
+2014-09-05 16:34:51 [SERVER] [INFO] Miner_Fil left the game
+2014-09-05 16:34:51 [SERVER] [INFO] Saving worlds
+2014-09-05 16:34:51 [SERVER] [INFO] Saving chunks for level 'New World'/Overworld
+2014-09-05 16:34:51 [SERVER] [INFO] Saving chunks for level 'New World'/Nether
+2014-09-05 16:34:51 [SERVER] [INFO] Saving chunks for level 'New World'/The End
+2014-09-06 21:29:32 [SERVER] [INFO] Starting integrated minecraft server version 1.6.4
+2014-09-06 21:29:32 [SERVER] [INFO] Generating keypair
+2014-09-06 21:29:32 [SERVER] [INFO] Preparing start region for level 0
+2014-09-06 21:29:33 [SERVER] [INFO] Preparing spawn area: 54%
+2014-09-06 21:29:34 [SERVER] [INFO] Miner_Fil[/127.0.0.1:0] logged in with entity id 1415 at (-229.1926393167446, 66.79014398064838, 220.0497634629009)
+2014-09-06 21:29:34 [SERVER] [INFO] Miner_Fil joined the game
+2014-09-06 21:30:42 [SERVER] [INFO] <Miner_Fil> t.
+2014-09-06 21:30:42 [SERVER] [INFO] <Miner_Fil> .
+2014-09-06 21:30:42 [SERVER] [INFO] <Miner_Fil> ....
+2014-09-06 21:30:42 [SERVER] [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2014-09-06 21:30:45 [SERVER] [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2014-09-06 21:32:21 [SERVER] [SEVERE] Encountered an unexpected exception ReportedException
+net.minecraft.util.ReportedException: Ticking entity
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:674)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:587)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:129)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:484)
+	at net.minecraft.server.ThreadMinecraftServer.run(ThreadMinecraftServer.java:583)
+Caused by: java.lang.OutOfMemoryError: Java heap space
+	at java.util.HashMap.resize(Unknown Source)
+	at java.util.HashMap.addEntry(Unknown Source)
+	at java.util.HashMap.put(Unknown Source)
+	at java.util.HashSet.add(Unknown Source)
+	at net.minecraft.world.Explosion.doExplosionA(Explosion.java:101)
+	at net.minecraft.world.WorldServer.newExplosion(WorldServer.java:997)
+	at net.minecraft.world.World.createExplosion(World.java:2716)
+	at me.fil.hcexpansion.entity.EntityTNT.explode(EntityTNT.java:66)
+	at me.fil.hcexpansion.entity.EntityTNT.onUpdate(EntityTNT.java:54)
+	at net.minecraft.world.World.updateEntityWithOptionalForce(World.java:2350)
+	at net.minecraft.world.WorldServer.updateEntityWithOptionalForce(WorldServer.java:719)
+	at net.minecraft.world.World.updateEntity(World.java:2311)
+	at net.minecraft.world.World.updateEntities(World.java:2157)
+	at net.minecraft.world.WorldServer.updateEntities(WorldServer.java:550)
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:668)
+	... 4 more
+2014-09-06 21:32:21 [SERVER] [SEVERE] This crash report has been saved to: C:\Users\Filip\Desktop\forge\eclipse\.\crash-reports\crash-2014-09-06_21.32.21-server.txt
+2014-09-06 21:32:21 [SERVER] [INFO] Stopping server
+2014-09-06 21:32:21 [SERVER] [INFO] Saving players
+2014-09-06 21:32:21 [SERVER] [INFO] Miner_Fil left the game
+2014-09-06 21:32:21 [SERVER] [INFO] Saving worlds
+2014-09-06 21:32:21 [SERVER] [INFO] Saving chunks for level 'New World'/Overworld
+2014-09-07 15:58:44 [SERVER] [INFO] Starting integrated minecraft server version 1.6.4
+2014-09-07 15:58:44 [SERVER] [INFO] Generating keypair
+2014-09-07 15:58:44 [SERVER] [INFO] Converting map!
+2014-09-07 15:58:44 [SERVER] [INFO] Scanning folders...
+2014-09-07 15:58:44 [SERVER] [INFO] Total conversion count is 0
+2014-09-07 15:58:45 [SERVER] [INFO] Preparing start region for level 0
+2014-09-07 15:58:46 [SERVER] [INFO] Preparing spawn area: 11%
+2014-09-07 15:58:47 [SERVER] [INFO] Preparing spawn area: 26%
+2014-09-07 15:58:48 [SERVER] [INFO] Preparing spawn area: 40%
+2014-09-07 15:58:49 [SERVER] [INFO] Preparing spawn area: 57%
+2014-09-07 15:58:50 [SERVER] [INFO] Preparing spawn area: 77%
+2014-09-07 15:58:51 [SERVER] [INFO] Preparing spawn area: 99%
+2014-09-07 15:58:51 [SERVER] [INFO] Miner_Fil[/127.0.0.1:0] logged in with entity id 227 at (277.5, 71.0, 279.5)
+2014-09-07 15:58:51 [SERVER] [INFO] Miner_Fil joined the game
+2014-09-07 15:59:04 [SERVER] [INFO] Saving and pausing game...
+2014-09-07 15:59:04 [SERVER] [INFO] Saving chunks for level 'Test World'/Overworld
+2014-09-07 15:59:05 [SERVER] [INFO] Saving chunks for level 'Test World'/Nether
+2014-09-07 15:59:05 [SERVER] [INFO] Saving chunks for level 'Test World'/The End
+2014-09-07 15:59:09 [SERVER] [INFO] Saving and pausing game...
+2014-09-07 15:59:09 [SERVER] [INFO] Saving chunks for level 'Test World'/Overworld
+2014-09-07 15:59:09 [SERVER] [INFO] Saving chunks for level 'Test World'/Nether
+2014-09-07 15:59:09 [SERVER] [INFO] Saving chunks for level 'Test World'/The End
+2014-09-07 15:59:54 [SERVER] [INFO] Saving and pausing game...
+2014-09-07 15:59:54 [SERVER] [INFO] Saving chunks for level 'Test World'/Overworld
+2014-09-07 15:59:54 [SERVER] [INFO] Saving chunks for level 'Test World'/Nether
+2014-09-07 15:59:54 [SERVER] [INFO] Saving chunks for level 'Test World'/The End
+2014-09-07 15:59:55 [SERVER] [INFO] Stopping server
+2014-09-07 15:59:55 [SERVER] [INFO] Saving players
+2014-09-07 15:59:55 [SERVER] [INFO] Miner_Fil left the game
+2014-09-07 15:59:55 [SERVER] [INFO] Saving worlds
+2014-09-07 15:59:55 [SERVER] [INFO] Saving chunks for level 'Test World'/Overworld
+2014-09-07 15:59:55 [SERVER] [INFO] Saving chunks for level 'Test World'/Nether
+2014-09-07 15:59:55 [SERVER] [INFO] Saving chunks for level 'Test World'/The End
+2014-09-07 16:01:27 [SERVER] [INFO] Starting integrated minecraft server version 1.6.4
+2014-09-07 16:01:27 [SERVER] [INFO] Generating keypair
+2014-09-07 16:01:27 [SERVER] [INFO] Preparing start region for level 0
+2014-09-07 16:01:28 [SERVER] [INFO] Miner_Fil[/127.0.0.1:0] logged in with entity id 375 at (288.5855944569372, 69.73649634810093, 305.36255836297863)
+2014-09-07 16:01:28 [SERVER] [INFO] Miner_Fil joined the game
+2014-09-07 16:02:08 [SERVER] [INFO] Saving and pausing game...
+2014-09-07 16:02:08 [SERVER] [INFO] Saving chunks for level 'Test World'/Overworld
+2014-09-07 16:02:08 [SERVER] [INFO] Saving chunks for level 'Test World'/Nether
+2014-09-07 16:02:08 [SERVER] [INFO] Saving chunks for level 'Test World'/The End
+2014-09-07 16:02:09 [SERVER] [INFO] Stopping server
+2014-09-07 16:02:09 [SERVER] [INFO] Saving players
+2014-09-07 16:02:09 [SERVER] [INFO] Miner_Fil left the game
+2014-09-07 16:02:09 [SERVER] [INFO] Saving worlds
+2014-09-07 16:02:09 [SERVER] [INFO] Saving chunks for level 'Test World'/Overworld
+2014-09-07 16:02:09 [SERVER] [INFO] Saving chunks for level 'Test World'/Nether
+2014-09-07 16:02:09 [SERVER] [INFO] Saving chunks for level 'Test World'/The End
+2014-09-07 16:03:12 [SERVER] [INFO] Starting integrated minecraft server version 1.6.4
+2014-09-07 16:03:12 [SERVER] [INFO] Generating keypair
+2014-09-07 16:03:13 [SERVER] [INFO] Preparing start region for level 0
+2014-09-07 16:03:14 [SERVER] [INFO] Miner_Fil[/127.0.0.1:0] logged in with entity id 367 at (287.8237575322408, 68.0, 307.88925330958983)
+2014-09-07 16:03:14 [SERVER] [INFO] Miner_Fil joined the game
+2014-09-07 16:03:27 [SERVER] [INFO] Saving and pausing game...
+2014-09-07 16:03:27 [SERVER] [INFO] Saving chunks for level 'Test World'/Overworld
+2014-09-07 16:03:27 [SERVER] [INFO] Saving chunks for level 'Test World'/Nether
+2014-09-07 16:03:27 [SERVER] [INFO] Saving chunks for level 'Test World'/The End
+2014-09-07 16:03:27 [SERVER] [INFO] Stopping server
+2014-09-07 16:03:27 [SERVER] [INFO] Saving players
+2014-09-07 16:03:27 [SERVER] [INFO] Miner_Fil left the game
+2014-09-07 16:03:27 [SERVER] [INFO] Saving worlds
+2014-09-07 16:03:27 [SERVER] [INFO] Saving chunks for level 'Test World'/Overworld
+2014-09-07 16:03:27 [SERVER] [INFO] Saving chunks for level 'Test World'/Nether
+2014-09-07 16:03:27 [SERVER] [INFO] Saving chunks for level 'Test World'/The End
+2014-09-07 16:20:01 [SERVER] [INFO] Starting integrated minecraft server version 1.6.4
+2014-09-07 16:20:01 [SERVER] [INFO] Generating keypair
+2014-09-07 16:20:01 [SERVER] [INFO] Preparing start region for level 0
+2014-09-07 16:20:02 [SERVER] [INFO] Miner_Fil[/127.0.0.1:0] logged in with entity id 368 at (287.08412940436926, 68.0, 309.8427926506605)
+2014-09-07 16:20:02 [SERVER] [INFO] Miner_Fil joined the game
+2014-09-07 16:26:49 [SERVER] [INFO] Stopping server
+2014-09-07 16:26:49 [SERVER] [INFO] Saving players
+2014-09-07 16:26:49 [SERVER] [INFO] Miner_Fil left the game
+2014-09-07 16:26:49 [SERVER] [INFO] Saving worlds
+2014-09-07 16:26:49 [SERVER] [INFO] Saving chunks for level 'Test World'/Overworld
+2014-09-07 16:26:49 [SERVER] [INFO] Saving chunks for level 'Test World'/Nether
+2014-09-07 16:26:49 [SERVER] [INFO] Saving chunks for level 'Test World'/The End
+2014-09-07 16:26:49 [SERVER] [INFO] Stopping server
+2014-09-07 16:28:15 [SERVER] [INFO] Starting integrated minecraft server version 1.6.4
+2014-09-07 16:28:15 [SERVER] [INFO] Generating keypair
+2014-09-07 16:28:16 [SERVER] [INFO] Preparing start region for level 0
+2014-09-07 16:28:17 [SERVER] [INFO] Miner_Fil[/127.0.0.1:0] logged in with entity id 351 at (287.08412940436926, 68.0, 309.8427926506605)
+2014-09-07 16:28:17 [SERVER] [INFO] Miner_Fil joined the game
+2014-09-07 16:29:04 [SERVER] [INFO] Saving and pausing game...
+2014-09-07 16:29:04 [SERVER] [INFO] Saving chunks for level 'Test World'/Overworld
+2014-09-07 16:29:04 [SERVER] [INFO] Saving chunks for level 'Test World'/Nether
+2014-09-07 16:29:04 [SERVER] [INFO] Saving chunks for level 'Test World'/The End
+2014-09-07 16:30:10 [SERVER] [INFO] Stopping server
+2014-09-07 16:30:10 [SERVER] [INFO] Saving players
+2014-09-07 16:30:10 [SERVER] [INFO] Miner_Fil left the game
+2014-09-07 16:30:10 [SERVER] [INFO] Saving worlds
+2014-09-07 16:30:10 [SERVER] [INFO] Saving chunks for level 'Test World'/Overworld
+2014-09-07 16:30:10 [SERVER] [INFO] Saving chunks for level 'Test World'/Nether
+2014-09-07 16:30:10 [SERVER] [INFO] Saving chunks for level 'Test World'/The End
+2014-09-07 16:30:11 [SERVER] [INFO] Stopping server
+2014-09-07 16:30:13 [SERVER] [INFO] Starting integrated minecraft server version 1.6.4
+2014-09-07 16:30:13 [SERVER] [INFO] Generating keypair
+2014-09-07 16:30:13 [SERVER] [INFO] Preparing start region for level 0
+2014-09-07 16:30:14 [SERVER] [INFO] Miner_Fil[/127.0.0.1:0] logged in with entity id 355 at (287.08412940436926, 68.0, 309.8427926506605)
+2014-09-07 16:30:14 [SERVER] [INFO] Miner_Fil joined the game
+2014-09-07 16:30:22 [SERVER] [INFO] Saving and pausing game...
+2014-09-07 16:30:22 [SERVER] [INFO] Saving chunks for level 'Test World'/Overworld
+2014-09-07 16:30:22 [SERVER] [INFO] Saving chunks for level 'Test World'/Nether
+2014-09-07 16:30:22 [SERVER] [INFO] Saving chunks for level 'Test World'/The End
+2014-09-07 16:30:22 [SERVER] [INFO] Stopping server
+2014-09-07 16:30:22 [SERVER] [INFO] Saving players
+2014-09-07 16:30:22 [SERVER] [INFO] Miner_Fil left the game
+2014-09-07 16:30:22 [SERVER] [INFO] Saving worlds
+2014-09-07 16:30:22 [SERVER] [INFO] Saving chunks for level 'Test World'/Overworld
+2014-09-07 16:30:22 [SERVER] [INFO] Saving chunks for level 'Test World'/Nether
+2014-09-07 16:30:22 [SERVER] [INFO] Saving chunks for level 'Test World'/The End
+2014-09-07 16:30:53 [SERVER] [INFO] Starting integrated minecraft server version 1.6.4
+2014-09-07 16:30:53 [SERVER] [INFO] Generating keypair
+2014-09-07 16:30:53 [SERVER] [INFO] Preparing start region for level 0
+2014-09-07 16:30:54 [SERVER] [INFO] Miner_Fil[/127.0.0.1:0] logged in with entity id 354 at (287.08412940436926, 68.0, 309.8427926506605)
+2014-09-07 16:30:54 [SERVER] [INFO] Miner_Fil joined the game
+2014-09-07 16:31:13 [SERVER] [INFO] [Miner_Fil: Set own game mode to Survival Mode]
+2014-09-07 16:32:10 [SERVER] [INFO] Saving and pausing game...
+2014-09-07 16:32:10 [SERVER] [INFO] Saving chunks for level 'Test World'/Overworld
+2014-09-07 16:32:10 [SERVER] [INFO] Saving chunks for level 'Test World'/Nether
+2014-09-07 16:32:10 [SERVER] [INFO] Saving chunks for level 'Test World'/The End
+2014-09-07 16:33:21 [SERVER] [INFO] Saving and pausing game...
+2014-09-07 16:33:21 [SERVER] [INFO] Saving chunks for level 'Test World'/Overworld
+2014-09-07 16:33:21 [SERVER] [INFO] Saving chunks for level 'Test World'/Nether
+2014-09-07 16:33:21 [SERVER] [INFO] Saving chunks for level 'Test World'/The End
+2014-09-07 16:33:22 [SERVER] [INFO] Stopping server
+2014-09-07 16:33:22 [SERVER] [INFO] Saving players
+2014-09-07 16:33:22 [SERVER] [INFO] Miner_Fil left the game
+2014-09-07 16:33:22 [SERVER] [INFO] Saving worlds
+2014-09-07 16:33:22 [SERVER] [INFO] Saving chunks for level 'Test World'/Overworld
+2014-09-07 16:33:22 [SERVER] [INFO] Saving chunks for level 'Test World'/Nether
+2014-09-07 16:33:22 [SERVER] [INFO] Saving chunks for level 'Test World'/The End
+2014-09-07 16:45:56 [SERVER] [INFO] Starting integrated minecraft server version 1.6.4
+2014-09-07 16:45:56 [SERVER] [INFO] Generating keypair
+2014-09-07 16:50:49 [SERVER] [INFO] Starting integrated minecraft server version 1.6.4
+2014-09-07 16:50:49 [SERVER] [INFO] Generating keypair
+2014-09-07 16:50:50 [SERVER] [INFO] Preparing start region for level 0
+2014-09-07 16:50:51 [SERVER] [INFO] Miner_Fil[/127.0.0.1:0] logged in with entity id 371 at (232.69999998807916, 72.0, 87.26284211355282)
+2014-09-07 16:50:51 [SERVER] [INFO] Miner_Fil joined the game
+2014-09-07 16:52:17 [SERVER] [INFO] Saving and pausing game...
+2014-09-07 16:52:17 [SERVER] [INFO] Saving chunks for level 'HC MODE'/Overworld
+2014-09-07 16:52:17 [SERVER] [INFO] Saving chunks for level 'HC MODE'/Nether
+2014-09-07 16:52:17 [SERVER] [INFO] Saving chunks for level 'HC MODE'/The End
+2014-09-07 16:52:17 [SERVER] [INFO] Stopping server
+2014-09-07 16:52:17 [SERVER] [INFO] Saving players
+2014-09-07 16:52:17 [SERVER] [INFO] Miner_Fil left the game
+2014-09-07 16:52:17 [SERVER] [INFO] Saving worlds
+2014-09-07 16:52:17 [SERVER] [INFO] Saving chunks for level 'HC MODE'/Overworld
+2014-09-07 16:52:17 [SERVER] [INFO] Saving chunks for level 'HC MODE'/Nether
+2014-09-07 16:52:17 [SERVER] [INFO] Saving chunks for level 'HC MODE'/The End
+2014-09-07 16:53:25 [SERVER] [INFO] Starting integrated minecraft server version 1.6.4
+2014-09-07 16:53:25 [SERVER] [INFO] Generating keypair
+2014-09-07 16:53:25 [SERVER] [INFO] Preparing start region for level 0
+2014-09-07 16:53:26 [SERVER] [INFO] Miner_Fil[/127.0.0.1:0] logged in with entity id 363 at (231.92958988381423, 72.0, 87.69360982517304)
+2014-09-07 16:53:26 [SERVER] [INFO] Miner_Fil joined the game
+2014-09-07 16:53:38 [SERVER] [INFO] Saving and pausing game...
+2014-09-07 16:53:38 [SERVER] [INFO] Saving chunks for level 'HC MODE'/Overworld
+2014-09-07 16:53:38 [SERVER] [INFO] Saving chunks for level 'HC MODE'/Nether
+2014-09-07 16:53:38 [SERVER] [INFO] Saving chunks for level 'HC MODE'/The End
+2014-09-07 16:54:19 [SERVER] [INFO] Stopping server
+2014-09-07 16:54:19 [SERVER] [INFO] Saving players
+2014-09-07 16:54:19 [SERVER] [INFO] Miner_Fil left the game
+2014-09-07 16:54:19 [SERVER] [INFO] Saving worlds
+2014-09-07 16:54:19 [SERVER] [INFO] Saving chunks for level 'HC MODE'/Overworld
+2014-09-07 16:54:19 [SERVER] [INFO] Saving chunks for level 'HC MODE'/Nether
+2014-09-07 16:54:19 [SERVER] [INFO] Saving chunks for level 'HC MODE'/The End
+2014-09-07 16:57:39 [SERVER] [INFO] Starting integrated minecraft server version 1.6.4
+2014-09-07 16:57:39 [SERVER] [INFO] Generating keypair
+2014-09-07 16:57:40 [SERVER] [INFO] Preparing start region for level 0
+2014-09-07 16:57:40 [SERVER] [INFO] Miner_Fil[/127.0.0.1:0] logged in with entity id 361 at (231.92958988381423, 72.0, 87.69360982517304)
+2014-09-07 16:57:40 [SERVER] [INFO] Miner_Fil joined the game
+2014-09-07 16:57:45 [SERVER] [INFO] Saving and pausing game...
+2014-09-07 16:57:45 [SERVER] [INFO] Saving chunks for level 'HC MODE'/Overworld
+2014-09-07 16:57:45 [SERVER] [INFO] Saving chunks for level 'HC MODE'/Nether
+2014-09-07 16:57:45 [SERVER] [INFO] Saving chunks for level 'HC MODE'/The End
+2014-09-07 16:59:43 [SERVER] [INFO] Saving and pausing game...
+2014-09-07 16:59:43 [SERVER] [INFO] Saving chunks for level 'HC MODE'/Overworld
+2014-09-07 16:59:43 [SERVER] [INFO] Saving chunks for level 'HC MODE'/Nether
+2014-09-07 16:59:43 [SERVER] [INFO] Saving chunks for level 'HC MODE'/The End
+2014-09-07 17:00:34 [SERVER] [INFO] Stopping server
+2014-09-07 17:00:34 [SERVER] [INFO] Saving players
+2014-09-07 17:00:34 [SERVER] [INFO] Miner_Fil left the game
+2014-09-07 17:00:34 [SERVER] [INFO] Saving worlds
+2014-09-07 17:00:34 [SERVER] [INFO] Saving chunks for level 'HC MODE'/Overworld
+2014-09-07 17:00:34 [SERVER] [INFO] Saving chunks for level 'HC MODE'/Nether
+2014-09-07 17:00:34 [SERVER] [INFO] Saving chunks for level 'HC MODE'/The End

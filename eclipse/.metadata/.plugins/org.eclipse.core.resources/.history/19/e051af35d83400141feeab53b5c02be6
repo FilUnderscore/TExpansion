@@ -1,0 +1,6 @@
+package me.fil.craftedmc.log;
+
+public interface ILogListener 
+{
+
+}

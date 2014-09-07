@@ -1,0 +1,6 @@
+package me.fil.craftedmc;
+
+public abstract interface IConsole 
+{
+
+}

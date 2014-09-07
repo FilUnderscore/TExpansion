@@ -1,0 +1,26 @@
+package me.fil.craftedmc.modpack;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ModPackRegistry 
+{
+	private static ModPackRegistry registry;
+	
+	private static final List<ModPack> packs = new ArrayList<ModPack>();
+	
+	public ModPackRegistry()
+	{
+		registry = this;
+	}
+	
+	public static ModPackRegistry INSTANCE()
+	{
+		return registry;
+	}
+	
+	public static boolean registerModPack(ModPack pack)
+	{
+		return packs.add(pack);
+	}
+}

@@ -1,0 +1,10 @@
+package me.fil.craftedmc.modpack;
+
+public abstract interface IModPack 
+{
+	public abstract boolean isThirdParty();
+	
+	public abstract String[] getMods();
+	
+	public abstract String[] getAuthors();
+}

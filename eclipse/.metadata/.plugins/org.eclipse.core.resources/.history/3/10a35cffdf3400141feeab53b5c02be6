@@ -1,0 +1,36 @@
+package me.fil.craftedmc.util;
+
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.net.HttpURLConnection;
+import java.net.URL;
+import java.net.URLEncoder;
+
+import me.fil.craftedmc.log.Logger;
+
+public class PastebinPoster extends Thread 
+{
+	protected final String apiKey = "0c08e930cdf0ddc3c7be34a32dc3d272";
+	public void run()
+	{
+		HttpURLConnection conn;
+		OutputStream out;
+		InputStream in;
+		
+		try
+		{
+			URL url = new URL("http://pastebin.com/api/api_post.php");
+			conn = (HttpURLConnection) url.openConnection();
+			conn.setRequestProperty("Cache-Control", "no-transform");
+			conn.setConnectTimeout(5000);
+			conn.setReadTimeout(5000);
+			conn.setRequestMethod("POST");
+			conn.addRequestProperty("Content-type", "application/x-www-form-urlencoded");
+			conn.setInstanceFollowRedirects(false);
+			conn.setDoOutput(true);
+			out = conn.getOutputStream();
+			
+			out.write(("api_option=paste&api_dev_key=" + URLEncoder.encode(apiKey, "utf-8") + "&api_paste_code=" + URLEncoder.encode("Posted from CraftedMC Launcher", "utf-8") + URLEncoder.encode(Logger.getLogs(), "utf-8") + "&api_paste_private=" + URLEncoder.encode("0", "utf-8") + "&api_paste_name=" + URLEncoder.encode("", "utf-8") + "&api_paste_expire_date=" + URLEncoder.encode("1D", "utf-8") + "&api_paste_format=" + URLEncoder.encode("text", "utf-8") + "&api_user_key=" + URLEncoder.encode("", "utf-8")).getBytes());
+		}
+	}
+}

@@ -1,0 +1,13 @@
+package me.fil.hcexpansion.entity;
+
+import net.minecraft.entity.item.EntityTNTPrimed;
+import net.minecraft.world.World;
+
+public class EntityTNT extends EntityTNTPrimed
+{
+
+	public EntityTNT(World par1World) {
+		super(par1World);
+	}
+
+}

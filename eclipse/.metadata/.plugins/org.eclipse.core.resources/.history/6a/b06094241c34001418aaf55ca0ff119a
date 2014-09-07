@@ -1,0 +1,22 @@
+# Configuration file
+
+####################
+# block
+####################
+
+block {
+    I:Fermentator=672
+    I:FermentedLog=800
+    I:FermentedWood=800
+}
+
+
+####################
+# item
+####################
+
+item {
+    I:RustedIron=31743
+}
+
+

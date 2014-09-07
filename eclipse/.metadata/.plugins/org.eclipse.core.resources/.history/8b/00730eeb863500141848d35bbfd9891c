@@ -1,0 +1,49 @@
+package me.fil.craftedmc.modpacks;
+
+import java.io.File;
+
+import me.fil.craftedmc.info.Version;
+import me.fil.craftedmc.modpack.IModPack;
+import me.fil.craftedmc.modpack.ModPack;
+import me.fil.craftedmc.utils.OSUtils;
+
+public class Magicalistic extends ModPack
+{
+
+	protected Magicalistic(String name, Version version, String[] mods, String[] authors, boolean isThirdParty, File jarFile, File directory) {
+		super(name, version, mods, authors, isThirdParty, jarFile, directory);
+	}
+
+	public boolean isThirdParty() {
+		return false;
+	}
+
+	public Version getVersion() {
+		return Version.MC164;
+	}
+
+	public String[] getMods() {
+		return new String[]{"Ars Magica 2", "Morph", "Natura", "Tinkers Construct"};
+	}
+
+	public String[] getAuthors() {
+		return new String[]{"Mithion", "iChun", "Slimeknights", "mDiyo"};
+	}
+
+	public File getJarFile() {
+		return new File("modpack.jar");
+	}
+
+	public String getName() {
+		return "Magicalistic";
+	}
+
+	public File getModpackDirectory() {
+		return new File(OSUtils.getHomeDirectory() + "/modpacks/magicalistic/");
+	}
+
+	public File getMinecraftDirectory() {
+		return new File(OSUtils.getHomeDirectory() + "/modpacks/magicalistic/minecraft");
+	}
+	
+}

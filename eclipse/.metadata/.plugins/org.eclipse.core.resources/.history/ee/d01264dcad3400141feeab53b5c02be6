@@ -1,0 +1,36 @@
+package me.fil.hcexpansion.block;
+
+import net.minecraft.block.BlockTNT;
+import net.minecraft.entity.item.EntityTNTPrimed;
+import net.minecraft.world.Explosion;
+import net.minecraft.world.World;
+
+public class DeathlyTNT extends BlockTNT
+{
+
+	public DeathlyTNT(int par1) 
+	{
+		super(par1);
+	}
+
+	public void onBlockAdded(World par1World, int par2, int par3, int par4)
+    {
+        super.onBlockAdded(par1World, par2, par3, par4);
+
+        if (par1World.isBlockIndirectlyGettingPowered(par2, par3, par4))
+        {
+            this.onBlockDestroyedByPlayer(par1World, par2, par3, par4, 1);
+            par1World.setBlockToAir(par2, par3, par4);
+        }
+    }
+	
+	public void onBlockDestroyedByExplosion(World par1World, int par2, int par3, int par4, Explosion par5Explosion)
+    {
+        if (!par1World.isRemote)
+        {
+            EntityTNTPrimed entitytntprimed = new EntityTNTPrimed(par1World, (double)((float)par2 + 1.5F), (double)((float)par3 + 1.5F), (double)((float)par4 + 1.5F), par5Explosion.getExplosivePlacedBy());
+            entitytntprimed.fuse = par1World.rand.nextInt(entitytntprimed.fuse / 12) + entitytntprimed.fuse / 16;
+            par1World.spawnEntityInWorld(entitytntprimed);
+        }
+    }
+}

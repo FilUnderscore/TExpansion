@@ -1,0 +1,13 @@
+package me.fil.craftedmc;
+
+import javax.swing.JFrame;
+
+import me.fil.craftedmc.log.ILogListener;
+
+public class Console extends JFrame
+{
+	public Console()
+	{
+		
+	}
+}

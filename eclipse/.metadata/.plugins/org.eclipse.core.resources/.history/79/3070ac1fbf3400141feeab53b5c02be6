@@ -1,0 +1,8 @@
+package me.fil.craftedmc;
+
+public abstract interface IConsole 
+{
+	public abstract String getConsoleName();
+	
+	public abstract ConsoleLogger getConsoleLogger();
+}

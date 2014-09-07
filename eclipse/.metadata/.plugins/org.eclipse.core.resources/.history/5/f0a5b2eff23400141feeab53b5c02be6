@@ -1,0 +1,23 @@
+package me.fil.craftedmc.log;
+
+public enum LogSource 
+{
+	ALL, LAUNCHER, EXTERNAL("Minecraft");
+	
+	private String name;
+	
+	private LogSource()
+	{
+		
+	}
+	
+	private LogSource(String name)
+	{
+		this.name = name;
+	}
+	
+	public String toString()
+	{
+		return this.name == null ? name().substring(0, 1) + name().substring(1).toLowerCase() : this.name();
+	}
+}

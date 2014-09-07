@@ -1,0 +1,15 @@
+package me.fil.craftedmc;
+
+import java.awt.Dimension;
+
+import javax.swing.JFrame;
+
+public class Main 
+{
+	public static final Dimension dim = new Dimension(1024, 768);
+	public static void main(String[] args)
+	{
+		JFrame frame = new JFrame("CraftedMC Launcher");
+		frame.setSize(d)
+	}
+}

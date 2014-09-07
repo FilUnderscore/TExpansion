@@ -1,0 +1,8 @@
+package me.fil.craftedmc.modpacks;
+
+import me.fil.craftedmc.modpack.IModPack;
+
+public class Magicalistic implements IModPack
+{
+
+}

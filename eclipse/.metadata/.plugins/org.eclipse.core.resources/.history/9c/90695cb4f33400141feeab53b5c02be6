@@ -1,0 +1,21 @@
+package me.fil.craftedmc;
+
+import java.awt.Dimension;
+
+import javax.swing.JFrame;
+
+public class Console extends JFrame
+{
+	public static final Dimension dim = new Dimension(620, 320);
+	
+	public Console()
+	{
+		setName("Console");
+		setSize(dim);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setVisible(true);
+		setResizable(false);
+		setPreferredSize(dim);
+		pack();
+	}
+}

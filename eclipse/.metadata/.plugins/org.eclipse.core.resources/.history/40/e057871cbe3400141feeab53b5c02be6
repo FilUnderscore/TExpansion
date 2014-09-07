@@ -1,0 +1,16 @@
+package me.fil.craftedmc;
+
+public class Console implements IConsole
+{
+
+	@Override
+	public String getConsoleName() {
+		return null;
+	}
+
+	@Override
+	public ConsoleLogger getConsoleLogger() {
+		return ConsoleLogger.getNewConsoleLogger();
+	}
+
+}

@@ -1,0 +1,22 @@
+package me.fil.craftedmc.utils;
+
+public class OSUtils 
+{
+	public static enum OS
+	{
+		WINDOWS, MACOSX, UNIX, OTHER;
+	}
+	
+	public String getHomeDirectory()
+	{
+		switch(getCurrentOS())
+		{
+		
+		}
+	}
+	
+	public OS getCurrentOS()
+	{
+		return OS.WINDOWS;
+	}
+}

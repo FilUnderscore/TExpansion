@@ -1,0 +1,44 @@
+package me.fil.craftedmc.modpacks;
+
+import java.io.File;
+
+import me.fil.craftedmc.modpack.IModPack;
+import me.fil.craftedmc.modpack.ModPack;
+import me.fil.craftedmc.modpack.Version;
+
+public class Magicalistic extends ModPack
+{
+
+	protected Magicalistic(Version version, String[] mods, String[] authors, boolean isThirdParty, File jarFile, File directory) {
+		super(version, mods, authors, isThirdParty, jarFile, directory);
+	}
+
+	public boolean isThirdParty() {
+		return false;
+	}
+
+	public Version getVersion() {
+		return Version.MC164;
+	}
+
+	public String[] getMods() {
+		return new String[]{};
+	}
+
+	public String[] getAuthors() {
+		return new String[]{};
+	}
+
+	public File getJarFile() {
+		return new File("");
+	}
+
+	public File getDirectory() {
+		return new File("");
+	}
+
+	public String getName() {
+		return "Magicalistic";
+	}
+	
+}

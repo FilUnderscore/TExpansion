@@ -1,0 +1,14 @@
+package me.fil.craftedmc;
+
+public class Console implements IConsole
+{
+
+	public String getConsoleName() {
+		return "CraftedMC Launcher [Console]";
+	}
+
+	public ConsoleLogger getConsoleLogger() {
+		return ConsoleLogger.getNewConsoleLogger();
+	}
+
+}

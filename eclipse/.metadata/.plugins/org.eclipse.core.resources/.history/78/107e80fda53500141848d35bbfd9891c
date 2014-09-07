@@ -1,0 +1,10 @@
+package me.fil.core;
+
+import cpw.mods.fml.common.Mod;
+
+@Mod(name = Core.MODID, version = Core.VERSION)
+public class Core 
+{
+	public static final String MODID = "FilsCore";
+	public static final String VERSION = "1.017";
+}

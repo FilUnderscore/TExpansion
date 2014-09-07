@@ -1,0 +1,8 @@
+package me.fil.hcexpansion.block;
+
+import net.minecraft.block.BlockTNT;
+
+public class DeathlyTNT extends BlockTNT
+{
+
+}

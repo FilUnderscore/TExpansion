@@ -1,0 +1,18 @@
+package me.fil.craftedmc.modpack;
+
+import java.io.File;
+
+public abstract class ModPack implements IModPack
+{
+	public abstract boolean isThirdParty();
+	
+	public abstract Version getVersion();
+	
+	public abstract String[] getMods();
+	
+	public abstract String[] getAuthors();
+	
+	public abstract File getJarFile();
+	
+	public abstract File getDirectory();
+}

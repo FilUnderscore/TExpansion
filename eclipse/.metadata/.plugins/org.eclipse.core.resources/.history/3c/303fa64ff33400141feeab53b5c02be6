@@ -1,0 +1,11 @@
+package me.fil.craftedmc;
+
+import javax.swing.JFrame;
+
+public class Console
+{
+	public Console()
+	{
+		JFrame frame = new JFrame("Console");
+	}
+}

@@ -1,0 +1,11 @@
+package me.fil.craftedmc.modpack;
+
+import java.io.File;
+
+public abstract class ModPack implements IModPack
+{
+	protected ModPack()
+	{
+		
+	}
+}

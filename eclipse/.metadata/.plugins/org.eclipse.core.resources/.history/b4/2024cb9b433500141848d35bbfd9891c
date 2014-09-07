@@ -1,0 +1,44 @@
+package me.fil.craftedmc;
+
+import java.awt.Color;
+import java.awt.Dimension;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+public class Main implements ActionListener
+{
+	public static final Dimension dim = new Dimension(1024, 768);
+	public static final long serialVersionUID = 0L;
+	
+	static JButton b0;
+	static JFrame frame;
+	
+	public static void main(String[] args)
+	{
+		CraftedMC.openConsole();
+		frame = new JFrame("CraftedMC Launcher");
+		frame.setSize(dim);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.setVisible(true);
+		frame.setResizable(true);
+		frame.setPreferredSize(dim);
+		frame.setLocation(100, 200);
+		frame.getContentPane().setBackground(Color.decode("#35E9FC"));
+		frame.pack();
+		b0 = new JButton();
+		b0.setText("Log In");
+		b0.setVisible(true);
+		
+	}
+
+	public void actionPerformed(ActionEvent arg0) 
+	{
+		if(arg0.getSource() == b0)
+		{
+			frame.setTitle("OOo");
+		}
+	}
+}

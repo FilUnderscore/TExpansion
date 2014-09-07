@@ -1,0 +1,65 @@
+package me.fil.craftedmc.downloads;
+
+import java.io.BufferedInputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.FileOutputStream;
+import java.io.InputStream;
+import java.net.URL;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+
+public class DownloadManager 
+{
+	private URL url;
+	private String saved;
+	private byte[] bytes;
+	private boolean download;
+	
+	protected static List<DownloadManager> queue = new ArrayList<DownloadManager>();
+	
+	public DownloadManager(URL url, String saved, byte[] bytes, boolean download)
+	{
+		this.url = url;
+		this.saved = saved;
+		this.bytes = bytes;
+		this.download = download;
+		
+		if(download)
+		{
+			download();
+		}
+	}
+	
+	public void download()
+	{
+		try
+		{
+			InputStream in = new BufferedInputStream(url.openStream());
+			ByteArrayOutputStream out = new ByteArrayOutputStream();
+			
+			int n = 0;
+			
+			while(-1!=(n=in.read(bytes)))
+			{
+				out.write(bytes, 0, n);
+			}
+			
+			out.close();
+			in.close();
+			
+			byte[] response = out.toByteArray();
+			
+			FileOutputStream fos = new FileOutputStream(saved);
+			
+			fos.write(response);
+			fos.close();
+		}
+		catch(Exception e)
+		{
+			
+		}
+	}
+}
+ 

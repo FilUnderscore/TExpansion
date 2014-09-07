@@ -1,0 +1,11 @@
+package me.fil.hcexpansion.client;
+
+import me.fil.hcexpansion.CommonProxy;
+
+public class ClientProxy extends CommonProxy
+{
+	public void registerRenderers()
+	{
+		
+	}
+}

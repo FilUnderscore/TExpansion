@@ -1,0 +1,6 @@
+package me.fil.craftedmc.modpack;
+
+public enum Version 
+{
+	MC18, MC181, MC10, MC11, MC125, MC130, MC131, MC132, MC142, MC144, MC145, MC146, MC147, MC150, MC151, MC161, MC162, MC164, MC172, MC174, MC175, MC179, MC1710, MC180;
+}

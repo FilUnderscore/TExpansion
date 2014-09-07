@@ -1,0 +1,15 @@
+package me.fil.craftedmc.log;
+
+public enum LogLevel 
+{
+	DEBUG, INFO, WARN, ERROR, UNKNOWN;
+	
+	private LogLevel()
+	{
+	}
+	
+	public boolean includes(LogLevel other)
+	{
+		return other.compareTo(this) >= 0;
+	}
+}

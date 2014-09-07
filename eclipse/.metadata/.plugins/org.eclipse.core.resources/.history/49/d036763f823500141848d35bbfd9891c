@@ -1,0 +1,53 @@
+package me.fil.craftedmc.modpack;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import me.fil.craftedmc.Console;
+
+public class ModPackRegistry 
+{
+	private static ModPackRegistry registry;
+	
+	private static final List<ModPack> packs = new ArrayList<ModPack>();
+	
+	public ModPackRegistry()
+	{
+		registry = this;
+	}
+	
+	public static ModPackRegistry INSTANCE()
+	{
+		return registry;
+	}
+	
+	public static boolean registerModPack(ModPack pack)
+	{
+		try
+		{
+			Console.logger.info("[ModPack Registry] Successfully registered/added modpack - " + pack.getName());
+			packs.add(pack);
+			return true;
+		}
+		catch(Exception e)
+		{
+			Console.logger.severe("[ModPack Registry] Failed to register/add modpack - " + pack.getName());
+			return false;
+		}
+	}
+	
+	public static boolean unregisterModPack(int i)
+	{
+		try
+		{
+			Console.logger.info("[ModPack Registry] Successfully unregistered/removed modpack - " + packs.get(i).getName());
+			packs.remove(i);
+			return true;
+		}
+		catch(Exception e)
+		{
+			Console.logger.severe("[ModPack Registry] Failed to unregister/remove modpack - " + packs.get(i).getName());
+			return false;
+		}
+	}
+}

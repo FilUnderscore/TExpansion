@@ -1,0 +1,41 @@
+package me.fil.craftedmc.modpacks;
+
+import java.io.File;
+
+import me.fil.craftedmc.modpack.IModPack;
+import me.fil.craftedmc.modpack.Version;
+
+public class Magicalistic implements IModPack
+{
+
+	@Override
+	public boolean isThirdParty() {
+		return false;
+	}
+
+	@Override
+	public Version getVersion() {
+		return null;
+	}
+
+	@Override
+	public String[] getMods() {
+		return null;
+	}
+
+	@Override
+	public String[] getAuthors() {
+		return null;
+	}
+
+	@Override
+	public File getJarFile() {
+		return null;
+	}
+
+	@Override
+	public File getDirectory() {
+		return null;
+	}
+	
+}

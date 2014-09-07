@@ -1,0 +1,802 @@
+2014-09-07 16:50:37 [INFO] [ForgeModLoader] Forge Mod Loader version 6.99.19.964 for Minecraft 1.6.4 loading
+2014-09-07 16:50:37 [INFO] [ForgeModLoader] Java is Java HotSpot(TM) 64-Bit Server VM, version 1.7.0_67, running on Windows 7:amd64:6.1, installed at C:\Program Files\Java\jre7
+2014-09-07 16:50:37 [FINE] [ForgeModLoader] Java classpath at launch is C:\Users\Filip\Desktop\forge\bin;C:\Users\Filip\.gradle\caches\artifacts-26\filestore\net.minecraft\launchwrapper\1.8\jar\d4c0895977dd7f0b3f56281cee53a64d4c0c0322\launchwrapper-1.8.jar;C:\Users\Filip\.gradle\caches\artifacts-26\filestore\org.ow2.asm\asm-debug-all\4.1\jar\dd6ba5c392d4102458494e29f54f70ac534ec2a2\asm-debug-all-4.1.jar;C:\Users\Filip\.gradle\caches\artifacts-26\filestore\org.scala-lang\scala-library\2.10.2\jar\6ba65d12cd09d441083262d6f73d2257fec7c663\scala-library-2.10.2.jar;C:\Users\Filip\.gradle\caches\artifacts-26\filestore\org.scala-lang\scala-compiler\2.10.2\jar\64c8b1380cc53d6850823d6e4e7ae984aa44ef9c\scala-compiler-2.10.2.jar;C:\Users\Filip\.gradle\caches\artifacts-26\filestore\net.sf.jopt-simple\jopt-simple\4.5\jar\6065cc95c661255349c1d0756657be17c29a4fd3\jopt-simple-4.5.jar;C:\Users\Filip\.gradle\caches\artifacts-26\filestore\lzma\lzma\0.0.1\jar\521616dc7487b42bef0e803bd2fa3faf668101d7\lzma-0.0.1.jar;C:\Users\Filip\.gradle\caches\artifacts-26\filestore\com.paulscode\codecjorbis\20101023\jar\c73b5636faf089d9f00e8732a829577de25237ee\codecjorbis-20101023.jar;C:\Users\Filip\.gradle\caches\artifacts-26\filestore\com.paulscode\codecwav\20101023\jar\12f031cfe88fef5c1dd36c563c0a3a69bd7261da\codecwav-20101023.jar;C:\Users\Filip\.gradle\caches\artifacts-26\filestore\com.paulscode\libraryjavasound\20101123\jar\5c5e304366f75f9eaa2e8cca546a1fb6109348b3\libraryjavasound-20101123.jar;C:\Users\Filip\.gradle\caches\artifacts-26\filestore\com.paulscode\librarylwjglopenal\20100824\jar\73e80d0794c39665aec3f62eee88ca91676674ef\librarylwjglopenal-20100824.jar;C:\Users\Filip\.gradle\caches\artifacts-26\filestore\com.paulscode\soundsystem\20120107\jar\419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6\soundsystem-20120107.jar;C:\Users\Filip\.gradle\caches\artifacts-26\filestore\org.lwjgl.lwjgl\lwjgl\2.9.0\jar\5654d06e61a1bba7ae1e7f5233e1106be64c91cd\lwjgl-2.9.0.jar;C:\Users\Filip\.gradle\caches\artifacts-26\filestore\org.lwjgl.lwjgl\lwjgl_util\2.9.0\jar\a778846b64008fc7f48ead2377f034e547991699\lwjgl_util-2.9.0.jar;C:\Users\Filip\.gradle\caches\artifacts-26\filestore\argo\argo\2.25_fixed\jar\751761ce15a3e3aaf3fc75b9f013ff8f7b88a585\argo-2.25_fixed.jar;C:\Users\Filip\.gradle\caches\artifacts-26\filestore\net.sourceforge.argo\argo\2.25\jar\751761ce15a3e3aaf3fc75b9f013ff8f7b88a585\argo-2.25.jar;C:\Users\Filip\.gradle\caches\artifacts-26\filestore\org.bouncycastle\bcprov-jdk15on\1.47\jar\b6f5d9926b0afbde9f4dbe3db88c5247be7794bb\bcprov-jdk15on-1.47.jar;C:\Users\Filip\.gradle\caches\artifacts-26\filestore\com.google.guava\guava\14.0\bundle\67b7be4ee7ba48e4828a42d6d5069761186d4a53\guava-14.0.jar;C:\Users\Filip\.gradle\caches\artifacts-26\filestore\org.apache.commons\commons-lang3\3.1\jar\905075e6c80f206bbe6cf1e809d2caa69f420c76\commons-lang3-3.1.jar;C:\Users\Filip\.gradle\caches\artifacts-26\filestore\commons-io\commons-io\2.4\jar\b1b6ea3b7e4aa4f492509a4952029cd8e48019ad\commons-io-2.4.jar;C:\Users\Filip\.gradle\caches\artifacts-26\filestore\net.java.jinput\jinput\2.0.5\jar\39c7796b469a600f72380316f6b1f11db6c2c7c4\jinput-2.0.5.jar;C:\Users\Filip\.gradle\caches\artifacts-26\filestore\net.java.jutils\jutils\1.0.0\jar\e12fe1fda814bd348c1579329c86943d2cd3c6a6\jutils-1.0.0.jar;C:\Users\Filip\.gradle\caches\artifacts-26\filestore\com.google.code.gson\gson\2.2.2\jar\1f96456ca233dec780aa224bff076d8e8bca3908\gson-2.2.2.jar;C:\Users\Filip\.gradle\caches\artifacts-26\filestore\org.lwjgl.lwjgl\lwjgl-platform\2.9.0\jar\2ba5dcb11048147f1a74eff2deb192c001321f77\lwjgl-platform-2.9.0-natives-linux.jar;C:\Users\Filip\.gradle\caches\artifacts-26\filestore\org.lwjgl.lwjgl\lwjgl-platform\2.9.0\jar\6621b382cb14cc409b041d8d72829156a87c31aa\lwjgl-platform-2.9.0-natives-osx.jar;C:\Users\Filip\.gradle\caches\artifacts-26\filestore\org.lwjgl.lwjgl\lwjgl-platform\2.9.0\jar\3f11873dc8e84c854ec7c5a8fd2e869f8aaef764\lwjgl-platform-2.9.0-natives-windows.jar;C:\Users\Filip\.gradle\caches\artifacts-26\filestore\net.java.jinput\jinput-platform\2.0.5\jar\7ff832a6eb9ab6a767f1ade2b548092d0fa64795\jinput-platform-2.0.5-natives-linux.jar;C:\Users\Filip\.gradle\caches\artifacts-26\filestore\net.java.jinput\jinput-platform\2.0.5\jar\53f9c919f34d2ca9de8c51fc4e1e8282029a9232\jinput-platform-2.0.5-natives-osx.jar;C:\Users\Filip\.gradle\caches\artifacts-26\filestore\net.java.jinput\jinput-platform\2.0.5\jar\385ee093e01f587f30ee1c8a2ee7d408fd732e16\jinput-platform-2.0.5-natives-windows.jar;C:\Users\Filip\.gradle\caches\artifacts-26\filestore\org.scala-lang\scala-reflect\2.10.2\jar\444ff8e89a81697997ed8a98a4642ba283130249\scala-reflect-2.10.2.jar;C:\Users\Filip\.gradle\caches\minecraft\net\minecraftforge\forge\1.6.4-9.11.1.964\forge-1.6.4-9.11.1.964-mcp.jar
+2014-09-07 16:50:37 [FINE] [ForgeModLoader] Java library path at launch is C:\Users\Filip\Desktop\forge\build\natives;C:\Users\Filip\Desktop\forge\build\natives;C:\Users\Filip\Desktop\forge\build\natives;C:\Users\Filip\Desktop\forge\build\natives;C:\Users\Filip\Desktop\forge\build\natives;C:\Users\Filip\Desktop\forge\build\natives;C:\Users\Filip\Desktop\forge\build\natives;C:\Users\Filip\Desktop\forge\build\natives;C:\Users\Filip\Desktop\forge\build\natives;C:\Users\Filip\Desktop\forge\build\natives
+2014-09-07 16:50:37 [INFO] [ForgeModLoader] Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+2014-09-07 16:50:37 [FINE] [ForgeModLoader] Instantiating coremod class FMLCorePlugin
+2014-09-07 16:50:37 [FINE] [ForgeModLoader] Enqueued coremod FMLCorePlugin
+2014-09-07 16:50:37 [FINE] [ForgeModLoader] Instantiating coremod class FMLForgePlugin
+2014-09-07 16:50:37 [FINE] [ForgeModLoader] Enqueued coremod FMLForgePlugin
+2014-09-07 16:50:37 [FINE] [ForgeModLoader] All fundamental core mods are successfully located
+2014-09-07 16:50:37 [FINE] [ForgeModLoader] Discovering coremods
+2014-09-07 16:50:37 [FINE] [ForgeModLoader] Examining for coremod candidacy CodeChickenLib-dev-1.6.4-1.0.0.62.jar
+2014-09-07 16:50:37 [FINE] [ForgeModLoader] Not found coremod data in CodeChickenLib-dev-1.6.4-1.0.0.62.jar
+2014-09-07 16:50:37 [FINE] [ForgeModLoader] Examining for coremod candidacy CodeChickenCore-1.6.4-0.9.0.9-dev.jar
+2014-09-07 16:50:37 [FINEST] [ForgeModLoader] Adding CodeChickenCore-1.6.4-0.9.0.9-dev.jar to the list of known coremods, it will not be examined again
+2014-09-07 16:50:37 [FINE] [ForgeModLoader] Instantiating coremod class CodeChickenCorePlugin
+2014-09-07 16:50:37 [WARNING] [ForgeModLoader] The coremod codechicken.core.launch.CodeChickenCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+2014-09-07 16:50:37 [FINE] [ForgeModLoader] Enqueued coremod CodeChickenCorePlugin
+2014-09-07 16:50:37 [FINE] [ForgeModLoader] Examining for coremod candidacy neiaddons-mc164-1.10.4.64.jar
+2014-09-07 16:50:37 [FINE] [ForgeModLoader] Not found coremod data in neiaddons-mc164-1.10.4.64.jar
+2014-09-07 16:50:37 [FINE] [ForgeModLoader] Examining for coremod candidacy neiplugins-1.1.0.6.jar
+2014-09-07 16:50:37 [FINE] [ForgeModLoader] Not found coremod data in neiplugins-1.1.0.6.jar
+2014-09-07 16:50:37 [FINE] [ForgeModLoader] Examining for coremod candidacy NotEnoughItems-1.6.4-1.6.1.9-universal.jar
+2014-09-07 16:50:37 [FINEST] [ForgeModLoader] Adding NotEnoughItems-1.6.4-1.6.1.9-universal.jar to the list of known coremods, it will not be examined again
+2014-09-07 16:50:37 [FINE] [ForgeModLoader] Instantiating coremod class NEICorePlugin
+2014-09-07 16:50:37 [WARNING] [ForgeModLoader] The coremod codechicken.nei.asm.NEICorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+2014-09-07 16:50:37 [FINE] [ForgeModLoader] Enqueued coremod NEICorePlugin
+2014-09-07 16:50:37 [INFO] [ForgeModLoader] Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+2014-09-07 16:50:37 [INFO] [ForgeModLoader] Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+2014-09-07 16:50:37 [INFO] [ForgeModLoader] Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+2014-09-07 16:50:37 [INFO] [ForgeModLoader] Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+2014-09-07 16:50:37 [INFO] [ForgeModLoader] Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+2014-09-07 16:50:37 [FINE] [ForgeModLoader] Injecting coremod FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin} class transformers
+2014-09-07 16:50:37 [FINEST] [ForgeModLoader] Registering transformer cpw.mods.fml.common.asm.transformers.AccessTransformer
+2014-09-07 16:50:37 [INFO] [STDOUT] Loaded 40 rules from AccessTransformer config file fml_at.cfg
+2014-09-07 16:50:37 [FINEST] [ForgeModLoader] Registering transformer cpw.mods.fml.common.asm.transformers.MarkerTransformer
+2014-09-07 16:50:37 [FINEST] [ForgeModLoader] Registering transformer cpw.mods.fml.common.asm.transformers.SideTransformer
+2014-09-07 16:50:37 [FINE] [ForgeModLoader] Injection complete
+2014-09-07 16:50:37 [FINE] [ForgeModLoader] Running coremod plugin for FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin}
+2014-09-07 16:50:37 [FINE] [ForgeModLoader] Running coremod plugin FMLCorePlugin
+2014-09-07 16:50:37 [SEVERE] [ForgeModLoader] The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+2014-09-07 16:50:38 [SEVERE] [ForgeModLoader] The minecraft jar file:/C:/Users/Filip/.gradle/caches/minecraft/net/minecraftforge/forge/1.6.4-9.11.1.964/forge-1.6.4-9.11.1.964-mcp.jar!/net/minecraft/client/ClientBrandRetriever.class appears to be corrupt! There has been CRITICAL TAMPERING WITH MINECRAFT, it is highly unlikely minecraft will work! STOP NOW, get a clean copy and try again!
+2014-09-07 16:50:38 [SEVERE] [ForgeModLoader] FML has been ordered to ignore the invalid or missing minecraft certificate. This is very likely to cause a problem!
+2014-09-07 16:50:38 [SEVERE] [ForgeModLoader] Technical information: ClientBrandRetriever was at jar:file:/C:/Users/Filip/.gradle/caches/minecraft/net/minecraftforge/forge/1.6.4-9.11.1.964/forge-1.6.4-9.11.1.964-mcp.jar!/net/minecraft/client/ClientBrandRetriever.class, there were 0 certificates for it
+2014-09-07 16:50:38 [SEVERE] [ForgeModLoader] FML appears to be missing any signature data. This is not a good thing
+2014-09-07 16:50:38 [FINE] [ForgeModLoader] Coremod plugin class FMLCorePlugin run successfully
+2014-09-07 16:50:38 [INFO] [ForgeModLoader] Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+2014-09-07 16:50:38 [FINE] [ForgeModLoader] Injecting coremod FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin} class transformers
+2014-09-07 16:50:38 [FINEST] [ForgeModLoader] Registering transformer net.minecraftforge.transformers.ForgeAccessTransformer
+2014-09-07 16:50:38 [INFO] [STDOUT] Loaded 110 rules from AccessTransformer config file forge_at.cfg
+2014-09-07 16:50:38 [FINEST] [ForgeModLoader] Registering transformer net.minecraftforge.transformers.EventTransformer
+2014-09-07 16:50:38 [FINE] [ForgeModLoader] Injection complete
+2014-09-07 16:50:38 [FINE] [ForgeModLoader] Running coremod plugin for FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin}
+2014-09-07 16:50:38 [FINE] [ForgeModLoader] Running coremod plugin FMLForgePlugin
+2014-09-07 16:50:38 [FINE] [ForgeModLoader] Coremod plugin class FMLForgePlugin run successfully
+2014-09-07 16:50:38 [INFO] [ForgeModLoader] Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+2014-09-07 16:50:38 [FINE] [ForgeModLoader] Injecting coremod CodeChickenCorePlugin {codechicken.core.launch.CodeChickenCorePlugin} class transformers
+2014-09-07 16:50:38 [FINEST] [ForgeModLoader] Registering transformer codechicken.lib.asm.ClassHeirachyManager
+2014-09-07 16:50:38 [FINEST] [ForgeModLoader] Registering transformer codechicken.core.asm.CodeChickenAccessTransformer
+2014-09-07 16:50:38 [INFO] [STDOUT] Loaded 40 rules from AccessTransformer config file fml_at.cfg
+2014-09-07 16:50:38 [FINEST] [ForgeModLoader] Registering transformer codechicken.core.asm.InterfaceDependancyTransformer
+2014-09-07 16:50:38 [FINEST] [ForgeModLoader] Registering transformer codechicken.core.asm.TweakTransformer
+2014-09-07 16:50:38 [FINEST] [ForgeModLoader] Registering transformer codechicken.core.asm.FeatureHackTransformer
+2014-09-07 16:50:38 [FINEST] [ForgeModLoader] Registering transformer codechicken.core.asm.DelegatedTransformer
+2014-09-07 16:50:38 [FINEST] [ForgeModLoader] Registering transformer codechicken.core.asm.DefaultImplementationTransformer
+2014-09-07 16:50:38 [FINE] [ForgeModLoader] Injection complete
+2014-09-07 16:50:38 [FINE] [ForgeModLoader] Running coremod plugin for CodeChickenCorePlugin {codechicken.core.launch.CodeChickenCorePlugin}
+2014-09-07 16:50:38 [FINE] [ForgeModLoader] Running coremod plugin CodeChickenCorePlugin
+2014-09-07 16:50:38 [INFO] [STDOUT] Adding AccessTransformer: nei_at.cfg
+2014-09-07 16:50:38 [INFO] [STDOUT] Adding Accesstransformer map: temp.dat
+2014-09-07 16:50:38 [INFO] [STDOUT] Loaded 51 rules from AccessTransformer config file temp.dat
+2014-09-07 16:50:38 [FINE] [ForgeModLoader] Coremod plugin class CodeChickenCorePlugin run successfully
+2014-09-07 16:50:38 [INFO] [ForgeModLoader] Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+2014-09-07 16:50:38 [FINE] [ForgeModLoader] Injecting coremod NEICorePlugin {codechicken.nei.asm.NEICorePlugin} class transformers
+2014-09-07 16:50:38 [FINEST] [ForgeModLoader] Registering transformer codechicken.nei.asm.NEITransformer
+2014-09-07 16:50:38 [FINE] [ForgeModLoader] Injection complete
+2014-09-07 16:50:38 [FINE] [ForgeModLoader] Running coremod plugin for NEICorePlugin {codechicken.nei.asm.NEICorePlugin}
+2014-09-07 16:50:38 [FINE] [ForgeModLoader] Running coremod plugin NEICorePlugin
+2014-09-07 16:50:38 [FINE] [ForgeModLoader] Coremod plugin class NEICorePlugin run successfully
+2014-09-07 16:50:38 [INFO] [ForgeModLoader] Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+2014-09-07 16:50:38 [FINE] [ForgeModLoader] Validating minecraft
+2014-09-07 16:50:38 [FINE] [ForgeModLoader] Minecraft validated, launching...
+2014-09-07 16:50:38 [INFO] [ForgeModLoader] Launching wrapped minecraft {net.minecraft.client.main.Main}
+2014-09-07 16:50:39 [INFO] [STDOUT] Inserted super call into net.minecraft.client.gui.inventory.GuiInventory.updateScreen
+2014-09-07 16:50:39 [INFO] [STDOUT] awy was overriden from NotEnoughItems-1.6.4-1.6.1.9-universal.jar
+2014-09-07 16:50:40 [INFO] [Minecraft-Client] Setting user: Miner_Fil
+2014-09-07 16:50:40 [INFO] [STDOUT] Generated BlockMobSpawner helper method.
+2014-09-07 16:50:41 [INFO] [STDOUT] Completely ignored arguments: [--accessToken, FML]
+2014-09-07 16:50:41 [INFO] [Minecraft-Client] LWJGL Version: 2.9.0
+2014-09-07 16:50:41 [INFO] [Minecraft-Client] Reloading ResourceManager: Default
+2014-09-07 16:50:42 [INFO] [MinecraftForge] Attempting early MinecraftForge initialization
+2014-09-07 16:50:42 [INFO] [STDOUT] MinecraftForge v9.11.1.964 Initialized
+2014-09-07 16:50:42 [INFO] [ForgeModLoader] MinecraftForge v9.11.1.964 Initialized
+2014-09-07 16:50:42 [INFO] [STDOUT] Replaced 112 ore recipies
+2014-09-07 16:50:42 [INFO] [MinecraftForge] Completed early MinecraftForge initialization
+2014-09-07 16:50:42 [INFO] [ForgeModLoader] Reading custom logging properties from C:\Users\Filip\Desktop\forge\eclipse\config\logging.properties
+2014-09-07 16:50:42 [OFF] [ForgeModLoader] Logging level for ForgeModLoader logging is set to ALL
+2014-09-07 16:50:42 [FINE] [ForgeModLoader] Building injected Mod Containers [cpw.mods.fml.common.FMLDummyContainer, net.minecraftforge.common.ForgeDummyContainer, codechicken.core.asm.CodeChickenCoreModContainer, codechicken.nei.asm.NEIModContainer]
+2014-09-07 16:50:42 [FINE] [ForgeModLoader] Attempting to load mods contained in the minecraft jar file and associated classes
+2014-09-07 16:50:42 [FINE] [ForgeModLoader] Found a minecraft related directory at C:\Users\Filip\Desktop\forge\bin, examining for mod candidates
+2014-09-07 16:50:42 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Filip\.gradle\caches\artifacts-26\filestore\net.minecraft\launchwrapper\1.8\jar\d4c0895977dd7f0b3f56281cee53a64d4c0c0322\launchwrapper-1.8.jar, examining for mod candidates
+2014-09-07 16:50:42 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Filip\.gradle\caches\artifacts-26\filestore\org.ow2.asm\asm-debug-all\4.1\jar\dd6ba5c392d4102458494e29f54f70ac534ec2a2\asm-debug-all-4.1.jar, examining for mod candidates
+2014-09-07 16:50:42 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Filip\.gradle\caches\artifacts-26\filestore\org.scala-lang\scala-library\2.10.2\jar\6ba65d12cd09d441083262d6f73d2257fec7c663\scala-library-2.10.2.jar, examining for mod candidates
+2014-09-07 16:50:42 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Filip\.gradle\caches\artifacts-26\filestore\org.scala-lang\scala-compiler\2.10.2\jar\64c8b1380cc53d6850823d6e4e7ae984aa44ef9c\scala-compiler-2.10.2.jar, examining for mod candidates
+2014-09-07 16:50:42 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Filip\.gradle\caches\artifacts-26\filestore\net.sf.jopt-simple\jopt-simple\4.5\jar\6065cc95c661255349c1d0756657be17c29a4fd3\jopt-simple-4.5.jar, examining for mod candidates
+2014-09-07 16:50:42 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Filip\.gradle\caches\artifacts-26\filestore\lzma\lzma\0.0.1\jar\521616dc7487b42bef0e803bd2fa3faf668101d7\lzma-0.0.1.jar, examining for mod candidates
+2014-09-07 16:50:42 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Filip\.gradle\caches\artifacts-26\filestore\com.paulscode\codecjorbis\20101023\jar\c73b5636faf089d9f00e8732a829577de25237ee\codecjorbis-20101023.jar, examining for mod candidates
+2014-09-07 16:50:42 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Filip\.gradle\caches\artifacts-26\filestore\com.paulscode\codecwav\20101023\jar\12f031cfe88fef5c1dd36c563c0a3a69bd7261da\codecwav-20101023.jar, examining for mod candidates
+2014-09-07 16:50:42 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Filip\.gradle\caches\artifacts-26\filestore\com.paulscode\libraryjavasound\20101123\jar\5c5e304366f75f9eaa2e8cca546a1fb6109348b3\libraryjavasound-20101123.jar, examining for mod candidates
+2014-09-07 16:50:42 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Filip\.gradle\caches\artifacts-26\filestore\com.paulscode\librarylwjglopenal\20100824\jar\73e80d0794c39665aec3f62eee88ca91676674ef\librarylwjglopenal-20100824.jar, examining for mod candidates
+2014-09-07 16:50:42 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Filip\.gradle\caches\artifacts-26\filestore\com.paulscode\soundsystem\20120107\jar\419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6\soundsystem-20120107.jar, examining for mod candidates
+2014-09-07 16:50:42 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Filip\.gradle\caches\artifacts-26\filestore\org.lwjgl.lwjgl\lwjgl\2.9.0\jar\5654d06e61a1bba7ae1e7f5233e1106be64c91cd\lwjgl-2.9.0.jar, examining for mod candidates
+2014-09-07 16:50:42 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Filip\.gradle\caches\artifacts-26\filestore\org.lwjgl.lwjgl\lwjgl_util\2.9.0\jar\a778846b64008fc7f48ead2377f034e547991699\lwjgl_util-2.9.0.jar, examining for mod candidates
+2014-09-07 16:50:42 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Filip\.gradle\caches\artifacts-26\filestore\argo\argo\2.25_fixed\jar\751761ce15a3e3aaf3fc75b9f013ff8f7b88a585\argo-2.25_fixed.jar, examining for mod candidates
+2014-09-07 16:50:42 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Filip\.gradle\caches\artifacts-26\filestore\net.sourceforge.argo\argo\2.25\jar\751761ce15a3e3aaf3fc75b9f013ff8f7b88a585\argo-2.25.jar, examining for mod candidates
+2014-09-07 16:50:42 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Filip\.gradle\caches\artifacts-26\filestore\org.bouncycastle\bcprov-jdk15on\1.47\jar\b6f5d9926b0afbde9f4dbe3db88c5247be7794bb\bcprov-jdk15on-1.47.jar, examining for mod candidates
+2014-09-07 16:50:42 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Filip\.gradle\caches\artifacts-26\filestore\com.google.guava\guava\14.0\bundle\67b7be4ee7ba48e4828a42d6d5069761186d4a53\guava-14.0.jar, examining for mod candidates
+2014-09-07 16:50:42 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Filip\.gradle\caches\artifacts-26\filestore\org.apache.commons\commons-lang3\3.1\jar\905075e6c80f206bbe6cf1e809d2caa69f420c76\commons-lang3-3.1.jar, examining for mod candidates
+2014-09-07 16:50:42 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Filip\.gradle\caches\artifacts-26\filestore\commons-io\commons-io\2.4\jar\b1b6ea3b7e4aa4f492509a4952029cd8e48019ad\commons-io-2.4.jar, examining for mod candidates
+2014-09-07 16:50:42 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Filip\.gradle\caches\artifacts-26\filestore\net.java.jinput\jinput\2.0.5\jar\39c7796b469a600f72380316f6b1f11db6c2c7c4\jinput-2.0.5.jar, examining for mod candidates
+2014-09-07 16:50:42 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Filip\.gradle\caches\artifacts-26\filestore\net.java.jutils\jutils\1.0.0\jar\e12fe1fda814bd348c1579329c86943d2cd3c6a6\jutils-1.0.0.jar, examining for mod candidates
+2014-09-07 16:50:42 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Filip\.gradle\caches\artifacts-26\filestore\com.google.code.gson\gson\2.2.2\jar\1f96456ca233dec780aa224bff076d8e8bca3908\gson-2.2.2.jar, examining for mod candidates
+2014-09-07 16:50:42 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Filip\.gradle\caches\artifacts-26\filestore\org.lwjgl.lwjgl\lwjgl-platform\2.9.0\jar\2ba5dcb11048147f1a74eff2deb192c001321f77\lwjgl-platform-2.9.0-natives-linux.jar, examining for mod candidates
+2014-09-07 16:50:42 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Filip\.gradle\caches\artifacts-26\filestore\org.lwjgl.lwjgl\lwjgl-platform\2.9.0\jar\6621b382cb14cc409b041d8d72829156a87c31aa\lwjgl-platform-2.9.0-natives-osx.jar, examining for mod candidates
+2014-09-07 16:50:42 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Filip\.gradle\caches\artifacts-26\filestore\org.lwjgl.lwjgl\lwjgl-platform\2.9.0\jar\3f11873dc8e84c854ec7c5a8fd2e869f8aaef764\lwjgl-platform-2.9.0-natives-windows.jar, examining for mod candidates
+2014-09-07 16:50:42 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Filip\.gradle\caches\artifacts-26\filestore\net.java.jinput\jinput-platform\2.0.5\jar\7ff832a6eb9ab6a767f1ade2b548092d0fa64795\jinput-platform-2.0.5-natives-linux.jar, examining for mod candidates
+2014-09-07 16:50:42 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Filip\.gradle\caches\artifacts-26\filestore\net.java.jinput\jinput-platform\2.0.5\jar\53f9c919f34d2ca9de8c51fc4e1e8282029a9232\jinput-platform-2.0.5-natives-osx.jar, examining for mod candidates
+2014-09-07 16:50:42 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Filip\.gradle\caches\artifacts-26\filestore\net.java.jinput\jinput-platform\2.0.5\jar\385ee093e01f587f30ee1c8a2ee7d408fd732e16\jinput-platform-2.0.5-natives-windows.jar, examining for mod candidates
+2014-09-07 16:50:42 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Filip\.gradle\caches\artifacts-26\filestore\org.scala-lang\scala-reflect\2.10.2\jar\444ff8e89a81697997ed8a98a4642ba283130249\scala-reflect-2.10.2.jar, examining for mod candidates
+2014-09-07 16:50:42 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Filip\.gradle\caches\minecraft\net\minecraftforge\forge\1.6.4-9.11.1.964\forge-1.6.4-9.11.1.964-mcp.jar, examining for mod candidates
+2014-09-07 16:50:42 [FINER] [ForgeModLoader] Skipping known library file C:\Users\Filip\Desktop\forge\eclipse\mods\CodeChickenCore-1.6.4-0.9.0.9-dev.jar
+2014-09-07 16:50:42 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Filip\Desktop\forge\eclipse\.\mods\1.6.4\CodeChickenLib-dev-1.6.4-1.0.0.62.jar, examining for mod candidates
+2014-09-07 16:50:42 [FINER] [ForgeModLoader] Skipping known library file C:\Users\Filip\Desktop\forge\eclipse\mods\NotEnoughItems-1.6.4-1.6.1.9-universal.jar
+2014-09-07 16:50:42 [FINE] [ForgeModLoader] Minecraft jar mods loaded successfully
+2014-09-07 16:50:42 [INFO] [ForgeModLoader] Searching C:\Users\Filip\Desktop\forge\eclipse\mods for mods
+2014-09-07 16:50:42 [FINE] [ForgeModLoader] Found a candidate mod directory 1.6.4
+2014-09-07 16:50:42 [FINER] [ForgeModLoader] Skipping already parsed coremod or tweaker CodeChickenCore-1.6.4-0.9.0.9-dev.jar
+2014-09-07 16:50:42 [FINE] [ForgeModLoader] Found a candidate zip or jar file neiaddons-mc164-1.10.4.64.jar
+2014-09-07 16:50:42 [FINE] [ForgeModLoader] Found a candidate zip or jar file neiplugins-1.1.0.6.jar
+2014-09-07 16:50:42 [FINER] [ForgeModLoader] Skipping already parsed coremod or tweaker NotEnoughItems-1.6.4-1.6.1.9-universal.jar
+2014-09-07 16:50:42 [INFO] [ForgeModLoader] Also searching C:\Users\Filip\Desktop\forge\eclipse\mods\1.6.4 for mods
+2014-09-07 16:50:42 [FINE] [ForgeModLoader] Found a candidate zip or jar file CodeChickenLib-dev-1.6.4-1.0.0.62.jar
+2014-09-07 16:50:42 [FINE] [ForgeModLoader] Examining directory bin for potential mods
+2014-09-07 16:50:42 [FINE] [ForgeModLoader] Found an mcmod.info file in directory bin
+2014-09-07 16:50:42 [FINEST] [ForgeModLoader] Recursing into package assets
+2014-09-07 16:50:42 [FINEST] [ForgeModLoader] Recursing into package assets.texpansion
+2014-09-07 16:50:42 [FINEST] [ForgeModLoader] Recursing into package assets.texpansion.textures
+2014-09-07 16:50:42 [FINEST] [ForgeModLoader] Recursing into package assets.texpansion.textures.blocks
+2014-09-07 16:50:42 [FINEST] [ForgeModLoader] Recursing into package me
+2014-09-07 16:50:42 [FINEST] [ForgeModLoader] Recursing into package me.fil
+2014-09-07 16:50:42 [FINEST] [ForgeModLoader] Recursing into package me.fil.texpansion
+2014-09-07 16:50:42 [FINEST] [ForgeModLoader] Recursing into package me.fil.texpansion.block
+2014-09-07 16:50:42 [FINEST] [ForgeModLoader] Recursing into package me.fil.texpansion.client
+2014-09-07 16:50:42 [FINEST] [ForgeModLoader] Recursing into package me.fil.texpansion.entity
+2014-09-07 16:50:42 [FINE] [ForgeModLoader] Identified an FMLMod type mod me.fil.texpansion.TExpansion
+2014-09-07 16:50:42 [FINEST] [TExpansion] Parsed dependency info : [] [] []
+2014-09-07 16:50:42 [INFO] [TExpansion] Mod TExpansion is missing the required element 'name'. Substituting TExpansion
+2014-09-07 16:50:42 [FINE] [ForgeModLoader] Examining file launchwrapper-1.8.jar for potential mods
+2014-09-07 16:50:42 [FINE] [ForgeModLoader] The mod container launchwrapper-1.8.jar appears to be missing an mcmod.info file
+2014-09-07 16:50:42 [FINE] [ForgeModLoader] Examining file asm-debug-all-4.1.jar for potential mods
+2014-09-07 16:50:42 [FINE] [ForgeModLoader] The mod container asm-debug-all-4.1.jar appears to be missing an mcmod.info file
+2014-09-07 16:50:43 [FINE] [ForgeModLoader] Examining file scala-library-2.10.2.jar for potential mods
+2014-09-07 16:50:43 [FINE] [ForgeModLoader] The mod container scala-library-2.10.2.jar appears to be missing an mcmod.info file
+2014-09-07 16:50:43 [FINE] [ForgeModLoader] Examining file scala-compiler-2.10.2.jar for potential mods
+2014-09-07 16:50:43 [FINE] [ForgeModLoader] The mod container scala-compiler-2.10.2.jar appears to be missing an mcmod.info file
+2014-09-07 16:50:43 [FINE] [ForgeModLoader] Examining file jopt-simple-4.5.jar for potential mods
+2014-09-07 16:50:43 [FINE] [ForgeModLoader] The mod container jopt-simple-4.5.jar appears to be missing an mcmod.info file
+2014-09-07 16:50:43 [FINE] [ForgeModLoader] Examining file lzma-0.0.1.jar for potential mods
+2014-09-07 16:50:43 [FINE] [ForgeModLoader] The mod container lzma-0.0.1.jar appears to be missing an mcmod.info file
+2014-09-07 16:50:43 [FINE] [ForgeModLoader] Examining file codecjorbis-20101023.jar for potential mods
+2014-09-07 16:50:43 [FINE] [ForgeModLoader] The mod container codecjorbis-20101023.jar appears to be missing an mcmod.info file
+2014-09-07 16:50:43 [FINE] [ForgeModLoader] Examining file codecwav-20101023.jar for potential mods
+2014-09-07 16:50:43 [FINE] [ForgeModLoader] The mod container codecwav-20101023.jar appears to be missing an mcmod.info file
+2014-09-07 16:50:43 [FINE] [ForgeModLoader] Examining file libraryjavasound-20101123.jar for potential mods
+2014-09-07 16:50:43 [FINE] [ForgeModLoader] The mod container libraryjavasound-20101123.jar appears to be missing an mcmod.info file
+2014-09-07 16:50:43 [FINE] [ForgeModLoader] Examining file librarylwjglopenal-20100824.jar for potential mods
+2014-09-07 16:50:43 [FINE] [ForgeModLoader] The mod container librarylwjglopenal-20100824.jar appears to be missing an mcmod.info file
+2014-09-07 16:50:43 [FINE] [ForgeModLoader] Examining file soundsystem-20120107.jar for potential mods
+2014-09-07 16:50:43 [FINE] [ForgeModLoader] The mod container soundsystem-20120107.jar appears to be missing an mcmod.info file
+2014-09-07 16:50:43 [FINE] [ForgeModLoader] Examining file lwjgl-2.9.0.jar for potential mods
+2014-09-07 16:50:43 [FINE] [ForgeModLoader] The mod container lwjgl-2.9.0.jar appears to be missing an mcmod.info file
+2014-09-07 16:50:43 [FINE] [ForgeModLoader] Examining file lwjgl_util-2.9.0.jar for potential mods
+2014-09-07 16:50:43 [FINE] [ForgeModLoader] The mod container lwjgl_util-2.9.0.jar appears to be missing an mcmod.info file
+2014-09-07 16:50:43 [FINE] [ForgeModLoader] Examining file argo-2.25_fixed.jar for potential mods
+2014-09-07 16:50:43 [FINE] [ForgeModLoader] The mod container argo-2.25_fixed.jar appears to be missing an mcmod.info file
+2014-09-07 16:50:43 [FINE] [ForgeModLoader] Examining file argo-2.25.jar for potential mods
+2014-09-07 16:50:43 [FINE] [ForgeModLoader] The mod container argo-2.25.jar appears to be missing an mcmod.info file
+2014-09-07 16:50:43 [FINE] [ForgeModLoader] Examining file bcprov-jdk15on-1.47.jar for potential mods
+2014-09-07 16:50:43 [FINE] [ForgeModLoader] The mod container bcprov-jdk15on-1.47.jar appears to be missing an mcmod.info file
+2014-09-07 16:50:44 [FINE] [ForgeModLoader] Examining file guava-14.0.jar for potential mods
+2014-09-07 16:50:44 [FINE] [ForgeModLoader] The mod container guava-14.0.jar appears to be missing an mcmod.info file
+2014-09-07 16:50:44 [FINE] [ForgeModLoader] Examining file commons-lang3-3.1.jar for potential mods
+2014-09-07 16:50:44 [FINE] [ForgeModLoader] The mod container commons-lang3-3.1.jar appears to be missing an mcmod.info file
+2014-09-07 16:50:44 [FINE] [ForgeModLoader] Examining file commons-io-2.4.jar for potential mods
+2014-09-07 16:50:44 [FINE] [ForgeModLoader] The mod container commons-io-2.4.jar appears to be missing an mcmod.info file
+2014-09-07 16:50:44 [FINE] [ForgeModLoader] Examining file jinput-2.0.5.jar for potential mods
+2014-09-07 16:50:44 [FINE] [ForgeModLoader] The mod container jinput-2.0.5.jar appears to be missing an mcmod.info file
+2014-09-07 16:50:44 [FINE] [ForgeModLoader] Examining file jutils-1.0.0.jar for potential mods
+2014-09-07 16:50:44 [FINE] [ForgeModLoader] The mod container jutils-1.0.0.jar appears to be missing an mcmod.info file
+2014-09-07 16:50:44 [FINE] [ForgeModLoader] Examining file gson-2.2.2.jar for potential mods
+2014-09-07 16:50:44 [FINE] [ForgeModLoader] The mod container gson-2.2.2.jar appears to be missing an mcmod.info file
+2014-09-07 16:50:44 [FINE] [ForgeModLoader] Examining file lwjgl-platform-2.9.0-natives-linux.jar for potential mods
+2014-09-07 16:50:44 [FINE] [ForgeModLoader] The mod container lwjgl-platform-2.9.0-natives-linux.jar appears to be missing an mcmod.info file
+2014-09-07 16:50:44 [FINE] [ForgeModLoader] Examining file lwjgl-platform-2.9.0-natives-osx.jar for potential mods
+2014-09-07 16:50:44 [FINE] [ForgeModLoader] The mod container lwjgl-platform-2.9.0-natives-osx.jar appears to be missing an mcmod.info file
+2014-09-07 16:50:44 [FINE] [ForgeModLoader] Examining file lwjgl-platform-2.9.0-natives-windows.jar for potential mods
+2014-09-07 16:50:44 [FINE] [ForgeModLoader] The mod container lwjgl-platform-2.9.0-natives-windows.jar appears to be missing an mcmod.info file
+2014-09-07 16:50:44 [FINE] [ForgeModLoader] Examining file jinput-platform-2.0.5-natives-linux.jar for potential mods
+2014-09-07 16:50:44 [FINE] [ForgeModLoader] The mod container jinput-platform-2.0.5-natives-linux.jar appears to be missing an mcmod.info file
+2014-09-07 16:50:44 [FINE] [ForgeModLoader] Examining file jinput-platform-2.0.5-natives-osx.jar for potential mods
+2014-09-07 16:50:44 [FINE] [ForgeModLoader] The mod container jinput-platform-2.0.5-natives-osx.jar appears to be missing an mcmod.info file
+2014-09-07 16:50:44 [FINE] [ForgeModLoader] Examining file jinput-platform-2.0.5-natives-windows.jar for potential mods
+2014-09-07 16:50:44 [FINE] [ForgeModLoader] The mod container jinput-platform-2.0.5-natives-windows.jar appears to be missing an mcmod.info file
+2014-09-07 16:50:44 [FINE] [ForgeModLoader] Examining file scala-reflect-2.10.2.jar for potential mods
+2014-09-07 16:50:44 [FINE] [ForgeModLoader] The mod container scala-reflect-2.10.2.jar appears to be missing an mcmod.info file
+2014-09-07 16:50:44 [FINE] [ForgeModLoader] Examining file forge-1.6.4-9.11.1.964-mcp.jar for potential mods
+2014-09-07 16:50:44 [FINE] [ForgeModLoader] The mod container forge-1.6.4-9.11.1.964-mcp.jar appears to be missing an mcmod.info file
+2014-09-07 16:50:44 [SEVERE] [ForgeModLoader] FML has detected a mod that is using a package name based on 'net.minecraft.src' : net.minecraft.src.Start. This is generally a severe programming error.  There should be no mod code in the minecraft namespace. MOVE YOUR MOD! If you're in eclipse, select your source code and 'refactor' it into a new package. Go on. DO IT NOW!
+2014-09-07 16:50:44 [SEVERE] [ForgeModLoader] FML has detected a mod that is using a package name based on 'net.minecraft.src' : net.minecraft.src.FMLRenderAccessLibrary. This is generally a severe programming error.  There should be no mod code in the minecraft namespace. MOVE YOUR MOD! If you're in eclipse, select your source code and 'refactor' it into a new package. Go on. DO IT NOW!
+2014-09-07 16:50:44 [FINE] [ForgeModLoader] Examining file CodeChickenLib-dev-1.6.4-1.0.0.62.jar for potential mods
+2014-09-07 16:50:44 [FINE] [ForgeModLoader] The mod container CodeChickenLib-dev-1.6.4-1.0.0.62.jar appears to be missing an mcmod.info file
+2014-09-07 16:50:44 [FINE] [ForgeModLoader] Examining directory 1.6.4 for potential mods
+2014-09-07 16:50:44 [FINE] [ForgeModLoader] No mcmod.info file found in directory 1.6.4
+2014-09-07 16:50:44 [FINE] [ForgeModLoader] Examining file neiaddons-mc164-1.10.4.64.jar for potential mods
+2014-09-07 16:50:44 [FINER] [ForgeModLoader] Located mcmod.info file in file neiaddons-mc164-1.10.4.64.jar
+2014-09-07 16:50:44 [FINE] [ForgeModLoader] Identified an FMLMod type mod net.bdew.neiaddons.NEIAddons
+2014-09-07 16:50:44 [FINEST] [NEIAddons] Parsed dependency info : [] [NotEnoughItems] []
+2014-09-07 16:50:44 [FINE] [ForgeModLoader] Identified an FMLMod type mod net.bdew.neiaddons.appeng.AddonAE
+2014-09-07 16:50:44 [FINEST] [NEIAddons|AE] Parsed dependency info : [] [NEIAddons, AppliedEnergistics] []
+2014-09-07 16:50:44 [FINE] [ForgeModLoader] Identified an FMLMod type mod net.bdew.neiaddons.miscperipherals.AddonMiscPeripherals
+2014-09-07 16:50:44 [FINEST] [NEIAddons|MiscPeripherals] Parsed dependency info : [] [NEIAddons, MiscPeripherals] []
+2014-09-07 16:50:44 [FINE] [ForgeModLoader] Identified an FMLMod type mod net.bdew.neiaddons.extrabees.AddonExtraBees
+2014-09-07 16:50:44 [FINEST] [NEIAddons|ExtraBees] Parsed dependency info : [] [NEIAddons, ExtraBees, Forestry] []
+2014-09-07 16:50:44 [FINE] [ForgeModLoader] Identified an FMLMod type mod net.bdew.neiaddons.forestry.AddonForestry
+2014-09-07 16:50:44 [FINEST] [NEIAddons|Forestry] Parsed dependency info : [] [NEIAddons, Forestry] []
+2014-09-07 16:50:44 [FINE] [ForgeModLoader] Identified an FMLMod type mod net.bdew.neiaddons.crafting.AddonCraftingTables
+2014-09-07 16:50:44 [FINEST] [NEIAddons|CraftingTables] Parsed dependency info : [] [NEIAddons] []
+2014-09-07 16:50:44 [FINE] [ForgeModLoader] Examining file neiplugins-1.1.0.6.jar for potential mods
+2014-09-07 16:50:44 [FINER] [ForgeModLoader] Located mcmod.info file in file neiplugins-1.1.0.6.jar
+2014-09-07 16:50:44 [FINE] [ForgeModLoader] Identified an FMLMod type mod mods.neiplugins.NEIPlugins
+2014-09-07 16:50:44 [FINEST] [NEIPlugins] Parsed dependency info : [NotEnoughItems@[1.6.1.4,)] [NotEnoughItems@[1.6.1.4,)] []
+2014-09-07 16:50:44 [FINE] [ForgeModLoader] Examining file CodeChickenLib-dev-1.6.4-1.0.0.62.jar for potential mods
+2014-09-07 16:50:44 [FINE] [ForgeModLoader] The mod container CodeChickenLib-dev-1.6.4-1.0.0.62.jar appears to be missing an mcmod.info file
+2014-09-07 16:50:44 [INFO] [ForgeModLoader] Forge Mod Loader has identified 13 mods to load
+2014-09-07 16:50:44 [FINER] [ForgeModLoader] Received a system property request ''
+2014-09-07 16:50:44 [FINER] [ForgeModLoader] System property request managing the state of 0 mods
+2014-09-07 16:50:44 [FINE] [ForgeModLoader] After merging, found state information for 0 mods
+2014-09-07 16:50:44 [FINE] [ForgeModLoader] Reloading logging properties from C:\Users\Filip\Desktop\forge\eclipse\config\logging.properties
+2014-09-07 16:50:44 [FINE] [ForgeModLoader] Reloaded logging properties
+2014-09-07 16:50:44 [FINE] [mcp] Mod Logging channel mcp configured at default level.
+2014-09-07 16:50:44 [INFO] [mcp] Activating mod mcp
+2014-09-07 16:50:44 [FINE] [FML] Mod Logging channel FML configured at default level.
+2014-09-07 16:50:44 [INFO] [FML] Activating mod FML
+2014-09-07 16:50:44 [FINE] [Forge] Mod Logging channel Forge configured at default level.
+2014-09-07 16:50:44 [INFO] [Forge] Activating mod Forge
+2014-09-07 16:50:44 [FINE] [CodeChickenCore] Mod Logging channel CodeChickenCore configured at default level.
+2014-09-07 16:50:44 [INFO] [CodeChickenCore] Activating mod CodeChickenCore
+2014-09-07 16:50:44 [FINE] [NotEnoughItems] Mod Logging channel NotEnoughItems configured at default level.
+2014-09-07 16:50:44 [INFO] [NotEnoughItems] Activating mod NotEnoughItems
+2014-09-07 16:50:44 [FINE] [TExpansion] Enabling mod TExpansion
+2014-09-07 16:50:44 [FINE] [TExpansion] Mod Logging channel TExpansion configured at default level.
+2014-09-07 16:50:44 [INFO] [TExpansion] Activating mod TExpansion
+2014-09-07 16:50:44 [FINE] [NEIAddons] Enabling mod NEIAddons
+2014-09-07 16:50:44 [FINE] [NEIAddons] Mod Logging channel NEIAddons configured at default level.
+2014-09-07 16:50:44 [INFO] [NEIAddons] Activating mod NEIAddons
+2014-09-07 16:50:44 [FINE] [NEIAddons|AE] Enabling mod NEIAddons|AE
+2014-09-07 16:50:44 [FINE] [NEIAddons|AE] Mod Logging channel NEIAddons|AE configured at default level.
+2014-09-07 16:50:44 [INFO] [NEIAddons|AE] Activating mod NEIAddons|AE
+2014-09-07 16:50:44 [FINE] [NEIAddons|MiscPeripherals] Enabling mod NEIAddons|MiscPeripherals
+2014-09-07 16:50:44 [FINE] [NEIAddons|MiscPeripherals] Mod Logging channel NEIAddons|MiscPeripherals configured at default level.
+2014-09-07 16:50:44 [INFO] [NEIAddons|MiscPeripherals] Activating mod NEIAddons|MiscPeripherals
+2014-09-07 16:50:44 [FINE] [NEIAddons|ExtraBees] Enabling mod NEIAddons|ExtraBees
+2014-09-07 16:50:44 [FINE] [NEIAddons|ExtraBees] Mod Logging channel NEIAddons|ExtraBees configured at default level.
+2014-09-07 16:50:44 [INFO] [NEIAddons|ExtraBees] Activating mod NEIAddons|ExtraBees
+2014-09-07 16:50:44 [FINE] [NEIAddons|Forestry] Enabling mod NEIAddons|Forestry
+2014-09-07 16:50:44 [FINE] [NEIAddons|Forestry] Mod Logging channel NEIAddons|Forestry configured at default level.
+2014-09-07 16:50:44 [INFO] [NEIAddons|Forestry] Activating mod NEIAddons|Forestry
+2014-09-07 16:50:44 [FINE] [NEIAddons|CraftingTables] Enabling mod NEIAddons|CraftingTables
+2014-09-07 16:50:44 [FINE] [NEIAddons|CraftingTables] Mod Logging channel NEIAddons|CraftingTables configured at default level.
+2014-09-07 16:50:44 [INFO] [NEIAddons|CraftingTables] Activating mod NEIAddons|CraftingTables
+2014-09-07 16:50:44 [FINE] [NEIPlugins] Enabling mod NEIPlugins
+2014-09-07 16:50:44 [FINE] [NEIPlugins] Mod Logging channel NEIPlugins configured at default level.
+2014-09-07 16:50:44 [INFO] [NEIPlugins] Activating mod NEIPlugins
+2014-09-07 16:50:45 [WARNING] [Not Enough Items] Mod Not Enough Items is missing a pack.mcmeta file, things may not work well
+2014-09-07 16:50:45 [WARNING] [TExpansion] Mod TExpansion is missing a pack.mcmeta file, things may not work well
+2014-09-07 16:50:45 [WARNING] [NEI Addons] Mod NEI Addons is missing a pack.mcmeta file, things may not work well
+2014-09-07 16:50:45 [WARNING] [NEI Addons: Applied Energistics] Mod NEI Addons: Applied Energistics is missing a pack.mcmeta file, things may not work well
+2014-09-07 16:50:45 [WARNING] [NEI Addons: Misc Peripherals] Mod NEI Addons: Misc Peripherals is missing a pack.mcmeta file, things may not work well
+2014-09-07 16:50:45 [WARNING] [NEI Addons: Extra Bees] Mod NEI Addons: Extra Bees is missing a pack.mcmeta file, things may not work well
+2014-09-07 16:50:45 [WARNING] [NEI Addons: Forestry] Mod NEI Addons: Forestry is missing a pack.mcmeta file, things may not work well
+2014-09-07 16:50:45 [WARNING] [NEI Addons: Crafting Tables] Mod NEI Addons: Crafting Tables is missing a pack.mcmeta file, things may not work well
+2014-09-07 16:50:45 [WARNING] [NEI Plugins] Mod NEI Plugins is missing a pack.mcmeta file, things may not work well
+2014-09-07 16:50:45 [INFO] [Minecraft-Client] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:TExpansion, FMLFileResourcePack:NEI Addons, FMLFileResourcePack:NEI Addons: Applied Energistics, FMLFileResourcePack:NEI Addons: Misc Peripherals, FMLFileResourcePack:NEI Addons: Extra Bees, FMLFileResourcePack:NEI Addons: Forestry, FMLFileResourcePack:NEI Addons: Crafting Tables, FMLFileResourcePack:NEI Plugins
+2014-09-07 16:50:45 [FINER] [ForgeModLoader] Verifying mod requirements are satisfied
+2014-09-07 16:50:45 [FINER] [ForgeModLoader] All mod requirements are satisfied
+2014-09-07 16:50:45 [FINER] [ForgeModLoader] Sorting mods into an ordered list
+2014-09-07 16:50:45 [FINER] [ForgeModLoader] Mod sorting completed successfully
+2014-09-07 16:50:45 [FINE] [ForgeModLoader] Mod sorting data
+2014-09-07 16:50:45 [FINE] [ForgeModLoader] 	TExpansion(TExpansion:1.037): bin ()
+2014-09-07 16:50:45 [FINE] [ForgeModLoader] 	NEIAddons(NEI Addons:1.10.4.64): neiaddons-mc164-1.10.4.64.jar (after:NotEnoughItems)
+2014-09-07 16:50:45 [FINE] [ForgeModLoader] 	NEIAddons|AE(NEI Addons: Applied Energistics:1.10.4.64): neiaddons-mc164-1.10.4.64.jar (after:NEIAddons;after:AppliedEnergistics)
+2014-09-07 16:50:45 [FINE] [ForgeModLoader] 	NEIAddons|MiscPeripherals(NEI Addons: Misc Peripherals:1.10.4.64): neiaddons-mc164-1.10.4.64.jar (after:NEIAddons;after:MiscPeripherals)
+2014-09-07 16:50:45 [FINE] [ForgeModLoader] 	NEIAddons|ExtraBees(NEI Addons: Extra Bees:1.10.4.64): neiaddons-mc164-1.10.4.64.jar (after:NEIAddons;after:ExtraBees;after:Forestry)
+2014-09-07 16:50:45 [FINE] [ForgeModLoader] 	NEIAddons|Forestry(NEI Addons: Forestry:1.10.4.64): neiaddons-mc164-1.10.4.64.jar (after:NEIAddons;after:Forestry)
+2014-09-07 16:50:45 [FINE] [ForgeModLoader] 	NEIAddons|CraftingTables(NEI Addons: Crafting Tables:1.10.4.64): neiaddons-mc164-1.10.4.64.jar (after:NEIAddons)
+2014-09-07 16:50:45 [FINE] [ForgeModLoader] 	NEIPlugins(NEI Plugins:1.1.0.6): neiplugins-1.1.0.6.jar (required-after:NotEnoughItems@[1.6.1.4,))
+2014-09-07 16:50:45 [INFO] [ForgeModLoader] FML has found a non-mod file CodeChickenLib-dev-1.6.4-1.0.0.62.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+2014-09-07 16:50:45 [FINEST] [mcp] Sending event FMLConstructionEvent to mod mcp
+2014-09-07 16:50:45 [FINEST] [mcp] Sent event FMLConstructionEvent to mod mcp
+2014-09-07 16:50:45 [FINEST] [FML] Sending event FMLConstructionEvent to mod FML
+2014-09-07 16:50:45 [FINEST] [FML] Sent event FMLConstructionEvent to mod FML
+2014-09-07 16:50:45 [FINEST] [Forge] Sending event FMLConstructionEvent to mod Forge
+2014-09-07 16:50:45 [INFO] [ForgeModLoader] Registering Forge Packet Handler
+2014-09-07 16:50:45 [FINEST] [ForgeModLoader] Testing mod Forge to verify it accepts its own version in a remote connection
+2014-09-07 16:50:45 [FINEST] [ForgeModLoader] The mod Forge accepts its own version (9.11.1.964)
+2014-09-07 16:50:45 [INFO] [ForgeModLoader] Succeeded registering Forge Packet Handler
+2014-09-07 16:50:45 [FINEST] [Forge] Sent event FMLConstructionEvent to mod Forge
+2014-09-07 16:50:45 [FINEST] [CodeChickenCore] Sending event FMLConstructionEvent to mod CodeChickenCore
+2014-09-07 16:50:45 [FINEST] [CodeChickenCore] Sent event FMLConstructionEvent to mod CodeChickenCore
+2014-09-07 16:50:45 [FINEST] [NotEnoughItems] Sending event FMLConstructionEvent to mod NotEnoughItems
+2014-09-07 16:50:45 [FINEST] [NotEnoughItems] Sent event FMLConstructionEvent to mod NotEnoughItems
+2014-09-07 16:50:45 [FINEST] [TExpansion] Sending event FMLConstructionEvent to mod TExpansion
+2014-09-07 16:50:45 [FINE] [ForgeModLoader] Attempting to inject @SidedProxy classes into TExpansion
+2014-09-07 16:50:45 [FINEST] [TExpansion] Sent event FMLConstructionEvent to mod TExpansion
+2014-09-07 16:50:45 [FINEST] [NEIAddons] Sending event FMLConstructionEvent to mod NEIAddons
+2014-09-07 16:50:45 [FINEST] [ForgeModLoader] Testing mod NEIAddons to verify it accepts its own version in a remote connection
+2014-09-07 16:50:45 [FINEST] [ForgeModLoader] The mod NEIAddons accepts its own version (1.10.4.64)
+2014-09-07 16:50:45 [FINE] [ForgeModLoader] Attempting to inject @SidedProxy classes into NEIAddons
+2014-09-07 16:50:45 [FINEST] [NEIAddons] Sent event FMLConstructionEvent to mod NEIAddons
+2014-09-07 16:50:45 [FINEST] [NEIAddons|AE] Sending event FMLConstructionEvent to mod NEIAddons|AE
+2014-09-07 16:50:45 [FINE] [ForgeModLoader] Attempting to inject @SidedProxy classes into NEIAddons|AE
+2014-09-07 16:50:45 [FINEST] [NEIAddons|AE] Sent event FMLConstructionEvent to mod NEIAddons|AE
+2014-09-07 16:50:45 [FINEST] [NEIAddons|MiscPeripherals] Sending event FMLConstructionEvent to mod NEIAddons|MiscPeripherals
+2014-09-07 16:50:45 [FINEST] [ForgeModLoader] Testing mod NEIAddons|MiscPeripherals to verify it accepts its own version in a remote connection
+2014-09-07 16:50:45 [FINEST] [ForgeModLoader] The mod NEIAddons|MiscPeripherals accepts its own version (1.10.4.64)
+2014-09-07 16:50:45 [FINE] [ForgeModLoader] Attempting to inject @SidedProxy classes into NEIAddons|MiscPeripherals
+2014-09-07 16:50:45 [FINEST] [NEIAddons|MiscPeripherals] Sent event FMLConstructionEvent to mod NEIAddons|MiscPeripherals
+2014-09-07 16:50:45 [FINEST] [NEIAddons|ExtraBees] Sending event FMLConstructionEvent to mod NEIAddons|ExtraBees
+2014-09-07 16:50:45 [FINE] [ForgeModLoader] Attempting to inject @SidedProxy classes into NEIAddons|ExtraBees
+2014-09-07 16:50:45 [FINEST] [NEIAddons|ExtraBees] Sent event FMLConstructionEvent to mod NEIAddons|ExtraBees
+2014-09-07 16:50:45 [FINEST] [NEIAddons|Forestry] Sending event FMLConstructionEvent to mod NEIAddons|Forestry
+2014-09-07 16:50:45 [FINE] [ForgeModLoader] Attempting to inject @SidedProxy classes into NEIAddons|Forestry
+2014-09-07 16:50:45 [FINEST] [NEIAddons|Forestry] Sent event FMLConstructionEvent to mod NEIAddons|Forestry
+2014-09-07 16:50:45 [FINEST] [NEIAddons|CraftingTables] Sending event FMLConstructionEvent to mod NEIAddons|CraftingTables
+2014-09-07 16:50:45 [FINE] [ForgeModLoader] Attempting to inject @SidedProxy classes into NEIAddons|CraftingTables
+2014-09-07 16:50:45 [FINEST] [NEIAddons|CraftingTables] Sent event FMLConstructionEvent to mod NEIAddons|CraftingTables
+2014-09-07 16:50:45 [FINEST] [NEIPlugins] Sending event FMLConstructionEvent to mod NEIPlugins
+2014-09-07 16:50:45 [FINE] [ForgeModLoader] Attempting to inject @SidedProxy classes into NEIPlugins
+2014-09-07 16:50:45 [FINEST] [NEIPlugins] Sent event FMLConstructionEvent to mod NEIPlugins
+2014-09-07 16:50:45 [FINE] [ForgeModLoader] Mod signature data
+2014-09-07 16:50:45 [FINE] [ForgeModLoader] 	mcp(Minecraft Coder Pack:8.09): minecraft.jar (NO VALID CERTIFICATE FOUND)
+2014-09-07 16:50:45 [FINE] [ForgeModLoader] 	FML(Forge Mod Loader:6.99.19.964): forge-1.6.4-9.11.1.964-mcp.jar (NO VALID CERTIFICATE FOUND)
+2014-09-07 16:50:45 [FINE] [ForgeModLoader] 	Forge(Minecraft Forge:9.11.1.964): forge-1.6.4-9.11.1.964-mcp.jar (NO VALID CERTIFICATE FOUND)
+2014-09-07 16:50:45 [FINE] [ForgeModLoader] 	CodeChickenCore(CodeChicken Core:0.9.0.9): minecraft.jar (NO VALID CERTIFICATE FOUND)
+2014-09-07 16:50:45 [FINE] [ForgeModLoader] 	NotEnoughItems(Not Enough Items:1.6.1.9): NotEnoughItems-1.6.4-1.6.1.9-universal.jar (NO VALID CERTIFICATE FOUND)
+2014-09-07 16:50:45 [FINE] [ForgeModLoader] 	TExpansion(TExpansion:1.037): bin (NO VALID CERTIFICATE FOUND)
+2014-09-07 16:50:45 [FINE] [ForgeModLoader] 	NEIAddons(NEI Addons:1.10.4.64): neiaddons-mc164-1.10.4.64.jar (NO VALID CERTIFICATE FOUND)
+2014-09-07 16:50:45 [FINE] [ForgeModLoader] 	NEIAddons|AE(NEI Addons: Applied Energistics:1.10.4.64): neiaddons-mc164-1.10.4.64.jar (NO VALID CERTIFICATE FOUND)
+2014-09-07 16:50:45 [FINE] [ForgeModLoader] 	NEIAddons|MiscPeripherals(NEI Addons: Misc Peripherals:1.10.4.64): neiaddons-mc164-1.10.4.64.jar (NO VALID CERTIFICATE FOUND)
+2014-09-07 16:50:45 [FINE] [ForgeModLoader] 	NEIAddons|ExtraBees(NEI Addons: Extra Bees:1.10.4.64): neiaddons-mc164-1.10.4.64.jar (NO VALID CERTIFICATE FOUND)
+2014-09-07 16:50:45 [FINE] [ForgeModLoader] 	NEIAddons|Forestry(NEI Addons: Forestry:1.10.4.64): neiaddons-mc164-1.10.4.64.jar (NO VALID CERTIFICATE FOUND)
+2014-09-07 16:50:45 [FINE] [ForgeModLoader] 	NEIAddons|CraftingTables(NEI Addons: Crafting Tables:1.10.4.64): neiaddons-mc164-1.10.4.64.jar (NO VALID CERTIFICATE FOUND)
+2014-09-07 16:50:45 [FINE] [ForgeModLoader] 	NEIPlugins(NEI Plugins:1.1.0.6): neiplugins-1.1.0.6.jar (NO VALID CERTIFICATE FOUND)
+2014-09-07 16:50:45 [FINEST] [mcp] Sending event FMLPreInitializationEvent to mod mcp
+2014-09-07 16:50:45 [FINEST] [mcp] Sent event FMLPreInitializationEvent to mod mcp
+2014-09-07 16:50:45 [FINEST] [FML] Sending event FMLPreInitializationEvent to mod FML
+2014-09-07 16:50:45 [FINEST] [FML] Sent event FMLPreInitializationEvent to mod FML
+2014-09-07 16:50:45 [FINEST] [Forge] Sending event FMLPreInitializationEvent to mod Forge
+2014-09-07 16:50:45 [INFO] [ForgeModLoader] Configured a dormant chunk cache size of 0
+2014-09-07 16:50:45 [FINEST] [Forge] Sent event FMLPreInitializationEvent to mod Forge
+2014-09-07 16:50:45 [FINEST] [CodeChickenCore] Sending event FMLPreInitializationEvent to mod CodeChickenCore
+2014-09-07 16:50:45 [FINEST] [CodeChickenCore] Sent event FMLPreInitializationEvent to mod CodeChickenCore
+2014-09-07 16:50:45 [FINEST] [NotEnoughItems] Sending event FMLPreInitializationEvent to mod NotEnoughItems
+2014-09-07 16:50:45 [FINEST] [NotEnoughItems] Sent event FMLPreInitializationEvent to mod NotEnoughItems
+2014-09-07 16:50:45 [FINEST] [TExpansion] Sending event FMLPreInitializationEvent to mod TExpansion
+2014-09-07 16:50:45 [FINEST] [TExpansion] Sent event FMLPreInitializationEvent to mod TExpansion
+2014-09-07 16:50:45 [FINEST] [NEIAddons] Sending event FMLPreInitializationEvent to mod NEIAddons
+2014-09-07 16:50:45 [FINEST] [NEIAddons] Sent event FMLPreInitializationEvent to mod NEIAddons
+2014-09-07 16:50:45 [FINEST] [NEIAddons|AE] Sending event FMLPreInitializationEvent to mod NEIAddons|AE
+2014-09-07 16:50:45 [INFO] [NEIAddons|AE] Required mod AppliedEnergistics is not installed, dependent features will be unavailable
+2014-09-07 16:50:45 [WARNING] [NEIAddons|AE] Requirements unmet, Applied Energistics Addon not loading
+2014-09-07 16:50:45 [FINEST] [NEIAddons|AE] Sent event FMLPreInitializationEvent to mod NEIAddons|AE
+2014-09-07 16:50:45 [FINEST] [NEIAddons|MiscPeripherals] Sending event FMLPreInitializationEvent to mod NEIAddons|MiscPeripherals
+2014-09-07 16:50:45 [INFO] [NEIAddons|MiscPeripherals] Required mod MiscPeripherals is not installed, dependent features will be unavailable
+2014-09-07 16:50:45 [WARNING] [NEIAddons|MiscPeripherals] Requirements unmet, Misc Peripherals Addon not loading
+2014-09-07 16:50:45 [FINEST] [NEIAddons|MiscPeripherals] Sent event FMLPreInitializationEvent to mod NEIAddons|MiscPeripherals
+2014-09-07 16:50:45 [FINEST] [NEIAddons|ExtraBees] Sending event FMLPreInitializationEvent to mod NEIAddons|ExtraBees
+2014-09-07 16:50:45 [INFO] [NEIAddons|ExtraBees] Required mod ExtraBees is not installed, dependent features will be unavailable
+2014-09-07 16:50:45 [WARNING] [NEIAddons|ExtraBees] Requirements unmet, Extra Bees Addon not loading
+2014-09-07 16:50:45 [FINEST] [NEIAddons|ExtraBees] Sent event FMLPreInitializationEvent to mod NEIAddons|ExtraBees
+2014-09-07 16:50:45 [FINEST] [NEIAddons|Forestry] Sending event FMLPreInitializationEvent to mod NEIAddons|Forestry
+2014-09-07 16:50:45 [INFO] [NEIAddons|Forestry] Required mod Forestry is not installed, dependent features will be unavailable
+2014-09-07 16:50:45 [WARNING] [NEIAddons|Forestry] Requirements unmet, Forestry Addon not loading
+2014-09-07 16:50:45 [FINEST] [NEIAddons|Forestry] Sent event FMLPreInitializationEvent to mod NEIAddons|Forestry
+2014-09-07 16:50:45 [FINEST] [NEIAddons|CraftingTables] Sending event FMLPreInitializationEvent to mod NEIAddons|CraftingTables
+2014-09-07 16:50:45 [FINEST] [NEIAddons|CraftingTables] Sent event FMLPreInitializationEvent to mod NEIAddons|CraftingTables
+2014-09-07 16:50:45 [FINEST] [NEIPlugins] Sending event FMLPreInitializationEvent to mod NEIPlugins
+2014-09-07 16:50:45 [FINEST] [NEIPlugins] Sent event FMLPreInitializationEvent to mod NEIPlugins
+2014-09-07 16:50:46 [FINEST] [mcp] Sending event FMLInitializationEvent to mod mcp
+2014-09-07 16:50:46 [FINEST] [mcp] Sent event FMLInitializationEvent to mod mcp
+2014-09-07 16:50:46 [FINEST] [FML] Sending event FMLInitializationEvent to mod FML
+2014-09-07 16:50:46 [FINEST] [FML] Sent event FMLInitializationEvent to mod FML
+2014-09-07 16:50:46 [FINEST] [Forge] Sending event FMLInitializationEvent to mod Forge
+2014-09-07 16:50:46 [FINEST] [Forge] Sent event FMLInitializationEvent to mod Forge
+2014-09-07 16:50:46 [FINEST] [CodeChickenCore] Sending event FMLInitializationEvent to mod CodeChickenCore
+2014-09-07 16:50:46 [FINEST] [CodeChickenCore] Sent event FMLInitializationEvent to mod CodeChickenCore
+2014-09-07 16:50:46 [FINEST] [NotEnoughItems] Sending event FMLInitializationEvent to mod NotEnoughItems
+2014-09-07 16:50:46 [INFO] [STDOUT] Removing TMI Uninstaller
+2014-09-07 16:50:46 [INFO] [STDOUT] Deleting Dir: C:\Users\Filip\.gradle\caches\minecraft\net\minecraftforge\forge\1.6.4-9.11.1.964\TMIUninstaller
+2014-09-07 16:50:46 [FINEST] [NotEnoughItems] Sent event FMLInitializationEvent to mod NotEnoughItems
+2014-09-07 16:50:46 [FINEST] [TExpansion] Sending event FMLInitializationEvent to mod TExpansion
+2014-09-07 16:50:46 [FINE] [fml.ItemTracker] Adding item net.minecraft.item.ItemFood(31944) owned by TExpansion
+2014-09-07 16:50:46 [FINE] [fml.ItemTracker] Adding item net.minecraft.item.ItemBlock(800) owned by TExpansion
+2014-09-07 16:50:46 [FINE] [fml.ItemTracker] Adding item net.minecraft.item.ItemBlock(801) owned by TExpansion
+2014-09-07 16:50:46 [FINE] [fml.ItemTracker] Adding item net.minecraft.item.ItemBlock(898) owned by TExpansion
+2014-09-07 16:50:46 [FINE] [fml.ItemTracker] Adding item net.minecraft.item.ItemBlock(972) owned by TExpansion
+2014-09-07 16:50:46 [FINE] [fml.ItemTracker] Adding item net.minecraft.item.ItemBlock(900) owned by TExpansion
+2014-09-07 16:50:46 [FINEST] [TExpansion] Sent event FMLInitializationEvent to mod TExpansion
+2014-09-07 16:50:46 [FINEST] [NEIAddons] Sending event FMLInitializationEvent to mod NEIAddons
+2014-09-07 16:50:46 [INFO] [NEIAddons] Loading NEI Addons
+2014-09-07 16:50:46 [INFO] [NEIAddons] Loading Crafting Tables Addon...
+2014-09-07 16:50:46 [INFO] [NEIAddons|CraftingTables] Required mod EE3 is not installed, dependent features will be unavailable
+2014-09-07 16:50:46 [INFO] [NEIAddons|CraftingTables] Not registering EE3 Minium Stone
+2014-09-07 16:50:46 [INFO] [NEIAddons|CraftingTables] Required mod BuildCraft|Factory is not installed, dependent features will be unavailable
+2014-09-07 16:50:46 [INFO] [NEIAddons|CraftingTables] Not registering BC Autorcrafting Table
+2014-09-07 16:50:46 [INFO] [NEIAddons|CraftingTables] Required mod powersuitaddons is not installed, dependent features will be unavailable
+2014-09-07 16:50:46 [INFO] [NEIAddons|CraftingTables] Not registering MPSA In-Place Assembler
+2014-09-07 16:50:46 [INFO] [NEIAddons|CraftingTables] Required mod TConstruct is not installed, dependent features will be unavailable
+2014-09-07 16:50:46 [INFO] [NEIAddons|CraftingTables] Not registering TC Crafting Station
+2014-09-07 16:50:46 [FINEST] [NEIAddons] Sent event FMLInitializationEvent to mod NEIAddons
+2014-09-07 16:50:46 [FINEST] [NEIAddons|AE] Sending event FMLInitializationEvent to mod NEIAddons|AE
+2014-09-07 16:50:46 [FINEST] [NEIAddons|AE] Sent event FMLInitializationEvent to mod NEIAddons|AE
+2014-09-07 16:50:46 [FINEST] [NEIAddons|MiscPeripherals] Sending event FMLInitializationEvent to mod NEIAddons|MiscPeripherals
+2014-09-07 16:50:46 [FINEST] [NEIAddons|MiscPeripherals] Sent event FMLInitializationEvent to mod NEIAddons|MiscPeripherals
+2014-09-07 16:50:46 [FINEST] [NEIAddons|ExtraBees] Sending event FMLInitializationEvent to mod NEIAddons|ExtraBees
+2014-09-07 16:50:46 [FINEST] [NEIAddons|ExtraBees] Sent event FMLInitializationEvent to mod NEIAddons|ExtraBees
+2014-09-07 16:50:46 [FINEST] [NEIAddons|Forestry] Sending event FMLInitializationEvent to mod NEIAddons|Forestry
+2014-09-07 16:50:46 [FINEST] [NEIAddons|Forestry] Sent event FMLInitializationEvent to mod NEIAddons|Forestry
+2014-09-07 16:50:46 [FINEST] [NEIAddons|CraftingTables] Sending event FMLInitializationEvent to mod NEIAddons|CraftingTables
+2014-09-07 16:50:46 [FINEST] [NEIAddons|CraftingTables] Sent event FMLInitializationEvent to mod NEIAddons|CraftingTables
+2014-09-07 16:50:46 [FINEST] [NEIPlugins] Sending event FMLInitializationEvent to mod NEIPlugins
+2014-09-07 16:50:46 [FINEST] [NEIPlugins] Sent event FMLInitializationEvent to mod NEIPlugins
+2014-09-07 16:50:46 [FINEST] [ForgeModLoader] Attempting to deliver 0 IMC messages to mod mcp
+2014-09-07 16:50:46 [FINEST] [mcp] Sending event IMCEvent to mod mcp
+2014-09-07 16:50:46 [FINEST] [mcp] Sent event IMCEvent to mod mcp
+2014-09-07 16:50:46 [FINEST] [ForgeModLoader] Attempting to deliver 0 IMC messages to mod FML
+2014-09-07 16:50:46 [FINEST] [FML] Sending event IMCEvent to mod FML
+2014-09-07 16:50:46 [FINEST] [FML] Sent event IMCEvent to mod FML
+2014-09-07 16:50:46 [FINEST] [ForgeModLoader] Attempting to deliver 0 IMC messages to mod Forge
+2014-09-07 16:50:46 [FINEST] [Forge] Sending event IMCEvent to mod Forge
+2014-09-07 16:50:46 [FINEST] [Forge] Sent event IMCEvent to mod Forge
+2014-09-07 16:50:46 [FINEST] [ForgeModLoader] Attempting to deliver 0 IMC messages to mod CodeChickenCore
+2014-09-07 16:50:46 [FINEST] [CodeChickenCore] Sending event IMCEvent to mod CodeChickenCore
+2014-09-07 16:50:46 [FINEST] [CodeChickenCore] Sent event IMCEvent to mod CodeChickenCore
+2014-09-07 16:50:46 [FINEST] [ForgeModLoader] Attempting to deliver 0 IMC messages to mod NotEnoughItems
+2014-09-07 16:50:46 [FINEST] [NotEnoughItems] Sending event IMCEvent to mod NotEnoughItems
+2014-09-07 16:50:46 [FINEST] [NotEnoughItems] Sent event IMCEvent to mod NotEnoughItems
+2014-09-07 16:50:46 [FINEST] [ForgeModLoader] Attempting to deliver 0 IMC messages to mod TExpansion
+2014-09-07 16:50:46 [FINEST] [TExpansion] Sending event IMCEvent to mod TExpansion
+2014-09-07 16:50:46 [FINEST] [TExpansion] Sent event IMCEvent to mod TExpansion
+2014-09-07 16:50:46 [FINEST] [ForgeModLoader] Attempting to deliver 0 IMC messages to mod NEIAddons
+2014-09-07 16:50:46 [FINEST] [NEIAddons] Sending event IMCEvent to mod NEIAddons
+2014-09-07 16:50:46 [FINEST] [NEIAddons] Sent event IMCEvent to mod NEIAddons
+2014-09-07 16:50:46 [FINEST] [ForgeModLoader] Attempting to deliver 0 IMC messages to mod NEIAddons|AE
+2014-09-07 16:50:46 [FINEST] [NEIAddons|AE] Sending event IMCEvent to mod NEIAddons|AE
+2014-09-07 16:50:46 [FINEST] [NEIAddons|AE] Sent event IMCEvent to mod NEIAddons|AE
+2014-09-07 16:50:46 [FINEST] [ForgeModLoader] Attempting to deliver 0 IMC messages to mod NEIAddons|MiscPeripherals
+2014-09-07 16:50:46 [FINEST] [NEIAddons|MiscPeripherals] Sending event IMCEvent to mod NEIAddons|MiscPeripherals
+2014-09-07 16:50:46 [FINEST] [NEIAddons|MiscPeripherals] Sent event IMCEvent to mod NEIAddons|MiscPeripherals
+2014-09-07 16:50:46 [FINEST] [ForgeModLoader] Attempting to deliver 0 IMC messages to mod NEIAddons|ExtraBees
+2014-09-07 16:50:46 [FINEST] [NEIAddons|ExtraBees] Sending event IMCEvent to mod NEIAddons|ExtraBees
+2014-09-07 16:50:46 [FINEST] [NEIAddons|ExtraBees] Sent event IMCEvent to mod NEIAddons|ExtraBees
+2014-09-07 16:50:46 [FINEST] [ForgeModLoader] Attempting to deliver 0 IMC messages to mod NEIAddons|Forestry
+2014-09-07 16:50:46 [FINEST] [NEIAddons|Forestry] Sending event IMCEvent to mod NEIAddons|Forestry
+2014-09-07 16:50:46 [FINEST] [NEIAddons|Forestry] Sent event IMCEvent to mod NEIAddons|Forestry
+2014-09-07 16:50:46 [FINEST] [ForgeModLoader] Attempting to deliver 0 IMC messages to mod NEIAddons|CraftingTables
+2014-09-07 16:50:46 [FINEST] [NEIAddons|CraftingTables] Sending event IMCEvent to mod NEIAddons|CraftingTables
+2014-09-07 16:50:46 [FINEST] [NEIAddons|CraftingTables] Sent event IMCEvent to mod NEIAddons|CraftingTables
+2014-09-07 16:50:46 [FINEST] [ForgeModLoader] Attempting to deliver 0 IMC messages to mod NEIPlugins
+2014-09-07 16:50:46 [FINEST] [NEIPlugins] Sending event IMCEvent to mod NEIPlugins
+2014-09-07 16:50:46 [FINEST] [NEIPlugins] Sent event IMCEvent to mod NEIPlugins
+2014-09-07 16:50:46 [FINEST] [mcp] Sending event FMLPostInitializationEvent to mod mcp
+2014-09-07 16:50:46 [FINEST] [mcp] Sent event FMLPostInitializationEvent to mod mcp
+2014-09-07 16:50:46 [FINEST] [FML] Sending event FMLPostInitializationEvent to mod FML
+2014-09-07 16:50:46 [FINEST] [FML] Sent event FMLPostInitializationEvent to mod FML
+2014-09-07 16:50:46 [FINEST] [Forge] Sending event FMLPostInitializationEvent to mod Forge
+2014-09-07 16:50:46 [FINEST] [Forge] Sent event FMLPostInitializationEvent to mod Forge
+2014-09-07 16:50:46 [FINEST] [CodeChickenCore] Sending event FMLPostInitializationEvent to mod CodeChickenCore
+2014-09-07 16:50:46 [FINEST] [CodeChickenCore] Sent event FMLPostInitializationEvent to mod CodeChickenCore
+2014-09-07 16:50:46 [FINEST] [NotEnoughItems] Sending event FMLPostInitializationEvent to mod NotEnoughItems
+2014-09-07 16:50:46 [FINEST] [NotEnoughItems] Sent event FMLPostInitializationEvent to mod NotEnoughItems
+2014-09-07 16:50:46 [FINEST] [TExpansion] Sending event FMLPostInitializationEvent to mod TExpansion
+2014-09-07 16:50:46 [FINEST] [TExpansion] Sent event FMLPostInitializationEvent to mod TExpansion
+2014-09-07 16:50:46 [FINEST] [NEIAddons] Sending event FMLPostInitializationEvent to mod NEIAddons
+2014-09-07 16:50:46 [FINEST] [NEIAddons] Sent event FMLPostInitializationEvent to mod NEIAddons
+2014-09-07 16:50:46 [FINEST] [NEIAddons|AE] Sending event FMLPostInitializationEvent to mod NEIAddons|AE
+2014-09-07 16:50:46 [FINEST] [NEIAddons|AE] Sent event FMLPostInitializationEvent to mod NEIAddons|AE
+2014-09-07 16:50:46 [FINEST] [NEIAddons|MiscPeripherals] Sending event FMLPostInitializationEvent to mod NEIAddons|MiscPeripherals
+2014-09-07 16:50:46 [FINEST] [NEIAddons|MiscPeripherals] Sent event FMLPostInitializationEvent to mod NEIAddons|MiscPeripherals
+2014-09-07 16:50:46 [FINEST] [NEIAddons|ExtraBees] Sending event FMLPostInitializationEvent to mod NEIAddons|ExtraBees
+2014-09-07 16:50:46 [FINEST] [NEIAddons|ExtraBees] Sent event FMLPostInitializationEvent to mod NEIAddons|ExtraBees
+2014-09-07 16:50:46 [FINEST] [NEIAddons|Forestry] Sending event FMLPostInitializationEvent to mod NEIAddons|Forestry
+2014-09-07 16:50:46 [FINEST] [NEIAddons|Forestry] Sent event FMLPostInitializationEvent to mod NEIAddons|Forestry
+2014-09-07 16:50:46 [FINEST] [NEIAddons|CraftingTables] Sending event FMLPostInitializationEvent to mod NEIAddons|CraftingTables
+2014-09-07 16:50:46 [FINEST] [NEIAddons|CraftingTables] Sent event FMLPostInitializationEvent to mod NEIAddons|CraftingTables
+2014-09-07 16:50:46 [FINEST] [NEIPlugins] Sending event FMLPostInitializationEvent to mod NEIPlugins
+2014-09-07 16:50:46 [FINE] [NEIPlugins] Found NEIPlugins plugin Ars Magica 2 (1.0.0)
+2014-09-07 16:50:46 [FINE] [NEIPlugins] Found NEIPlugins plugin BuildCraft (1.5.1)
+2014-09-07 16:50:46 [FINE] [NEIPlugins] Found NEIPlugins plugin Factorization (1.0.0)
+2014-09-07 16:50:46 [FINE] [NEIPlugins] Found NEIPlugins plugin Forestry (1.4.5)
+2014-09-07 16:50:46 [FINE] [NEIPlugins] Found NEIPlugins plugin ForestryShowSecrets (1.0.1)
+2014-09-07 16:50:46 [FINE] [NEIPlugins] Found NEIPlugins plugin Forge (1.4.1)
+2014-09-07 16:50:46 [FINE] [NEIPlugins] Found NEIPlugins plugin FuelListFix (1.0.1)
+2014-09-07 16:50:46 [FINE] [NEIPlugins] Found NEIPlugins plugin Fuel Tooltip (1.0.2)
+2014-09-07 16:50:46 [FINE] [NEIPlugins] Found NEIPlugins plugin GregTech (1.1.1)
+2014-09-07 16:50:46 [FINE] [NEIPlugins] Found NEIPlugins plugin IC2_exp (1.2.0)
+2014-09-07 16:50:46 [FINE] [NEIPlugins] Found NEIPlugins plugin IC2 (1.1.0)
+2014-09-07 16:50:46 [FINE] [NEIPlugins] Found NEIPlugins plugin NEIPlugins_ItemListFix (1.0.0)
+2014-09-07 16:50:46 [FINE] [NEIPlugins] Found NEIPlugins plugin Lists (1.0.2)
+2014-09-07 16:50:46 [FINE] [NEIPlugins] Found NEIPlugins plugin Minecraft (1.0.0)
+2014-09-07 16:50:46 [FINE] [NEIPlugins] Found NEIPlugins plugin Railcraft (1.6.5)
+2014-09-07 16:50:46 [FINE] [NEIPlugins] Found NEIPlugins plugin RailcraftFuels (1.1.0)
+2014-09-07 16:50:46 [FINE] [NEIPlugins] Found NEIPlugins plugin Stat (1.0.0)
+2014-09-07 16:50:46 [FINE] [NEIPlugins] Found NEIPlugins plugin ThermalExpansion (1.1.0)
+2014-09-07 16:50:46 [FINE] [NEIPlugins] Found NEIPlugins plugin TConstruct (1.1.0)
+2014-09-07 16:50:46 [FINE] [NEIPlugins] Plugin ThermalExpansion (1.1.0) not active
+2014-09-07 16:50:46 [FINE] [NEIPlugins] Plugin RailcraftFuels (1.1.0) not active
+2014-09-07 16:50:46 [FINE] [NEIPlugins] IItemListLoaded.onItemListLoaded(): Furnace Fuel fix (FurnaceRecipeHandler)
+2014-09-07 16:50:46 [FINE] [NEIPlugins] Plugin GregTech (1.1.1) not active
+2014-09-07 16:50:46 [FINE] [NEIPlugins] Plugin Railcraft (1.6.5) not active
+2014-09-07 16:50:46 [FINE] [NEIPlugins] Plugin IC2_exp (1.2.0) not active
+2014-09-07 16:50:46 [INFO] [ForgeModLoader] [Modstats] Config loaded. allowUpdates: true,  betaNotification: false, strict: false
+2014-09-07 16:50:46 [FINE] [NEIPlugins] Plugin BuildCraft (1.5.1) not active
+2014-09-07 16:50:46 [FINE] [NEIPlugins] Plugin ForestryShowSecrets (1.0.1) not active
+2014-09-07 16:50:46 [FINE] [NEIPlugins] Plugin Ars Magica 2 (1.0.0) not active
+2014-09-07 16:50:46 [FINE] [NEIPlugins] Plugin IC2 (1.1.0) not active
+2014-09-07 16:50:46 [FINE] [NEIPlugins] Plugin Factorization (1.0.0) not active
+2014-09-07 16:50:46 [FINE] [NEIPlugins] Plugin TConstruct (1.1.0) not active
+2014-09-07 16:50:46 [FINE] [NEIPlugins] Plugin Forestry (1.4.5) not active
+2014-09-07 16:50:46 [FINEST] [NEIPlugins] Sent event FMLPostInitializationEvent to mod NEIPlugins
+2014-09-07 16:50:46 [FINEST] [mcp] Sending event FMLLoadCompleteEvent to mod mcp
+2014-09-07 16:50:46 [FINEST] [mcp] Sent event FMLLoadCompleteEvent to mod mcp
+2014-09-07 16:50:46 [FINEST] [FML] Sending event FMLLoadCompleteEvent to mod FML
+2014-09-07 16:50:46 [FINEST] [FML] Sent event FMLLoadCompleteEvent to mod FML
+2014-09-07 16:50:46 [FINEST] [Forge] Sending event FMLLoadCompleteEvent to mod Forge
+2014-09-07 16:50:46 [FINEST] [Forge] Sent event FMLLoadCompleteEvent to mod Forge
+2014-09-07 16:50:46 [FINEST] [CodeChickenCore] Sending event FMLLoadCompleteEvent to mod CodeChickenCore
+2014-09-07 16:50:46 [FINEST] [CodeChickenCore] Sent event FMLLoadCompleteEvent to mod CodeChickenCore
+2014-09-07 16:50:46 [FINEST] [NotEnoughItems] Sending event FMLLoadCompleteEvent to mod NotEnoughItems
+2014-09-07 16:50:46 [FINEST] [NotEnoughItems] Sent event FMLLoadCompleteEvent to mod NotEnoughItems
+2014-09-07 16:50:46 [FINEST] [TExpansion] Sending event FMLLoadCompleteEvent to mod TExpansion
+2014-09-07 16:50:46 [FINEST] [TExpansion] Sent event FMLLoadCompleteEvent to mod TExpansion
+2014-09-07 16:50:46 [FINEST] [NEIAddons] Sending event FMLLoadCompleteEvent to mod NEIAddons
+2014-09-07 16:50:46 [FINEST] [NEIAddons] Sent event FMLLoadCompleteEvent to mod NEIAddons
+2014-09-07 16:50:46 [FINEST] [NEIAddons|AE] Sending event FMLLoadCompleteEvent to mod NEIAddons|AE
+2014-09-07 16:50:46 [FINEST] [NEIAddons|AE] Sent event FMLLoadCompleteEvent to mod NEIAddons|AE
+2014-09-07 16:50:46 [FINEST] [NEIAddons|MiscPeripherals] Sending event FMLLoadCompleteEvent to mod NEIAddons|MiscPeripherals
+2014-09-07 16:50:46 [FINEST] [NEIAddons|MiscPeripherals] Sent event FMLLoadCompleteEvent to mod NEIAddons|MiscPeripherals
+2014-09-07 16:50:46 [FINEST] [NEIAddons|ExtraBees] Sending event FMLLoadCompleteEvent to mod NEIAddons|ExtraBees
+2014-09-07 16:50:46 [FINEST] [NEIAddons|ExtraBees] Sent event FMLLoadCompleteEvent to mod NEIAddons|ExtraBees
+2014-09-07 16:50:46 [FINEST] [NEIAddons|Forestry] Sending event FMLLoadCompleteEvent to mod NEIAddons|Forestry
+2014-09-07 16:50:46 [FINEST] [NEIAddons|Forestry] Sent event FMLLoadCompleteEvent to mod NEIAddons|Forestry
+2014-09-07 16:50:46 [FINEST] [NEIAddons|CraftingTables] Sending event FMLLoadCompleteEvent to mod NEIAddons|CraftingTables
+2014-09-07 16:50:46 [FINEST] [NEIAddons|CraftingTables] Sent event FMLLoadCompleteEvent to mod NEIAddons|CraftingTables
+2014-09-07 16:50:46 [FINEST] [NEIPlugins] Sending event FMLLoadCompleteEvent to mod NEIPlugins
+2014-09-07 16:50:46 [FINEST] [NEIPlugins] Sent event FMLLoadCompleteEvent to mod NEIPlugins
+2014-09-07 16:50:46 [INFO] [ForgeModLoader] Forge Mod Loader has successfully loaded 13 mods
+2014-09-07 16:50:46 [WARNING] [Not Enough Items] Mod Not Enough Items is missing a pack.mcmeta file, things may not work well
+2014-09-07 16:50:46 [WARNING] [Thermomic Expansion] Mod Thermomic Expansion is missing a pack.mcmeta file, things may not work well
+2014-09-07 16:50:46 [WARNING] [NEI Addons] Mod NEI Addons is missing a pack.mcmeta file, things may not work well
+2014-09-07 16:50:46 [WARNING] [NEI Addons: Applied Energistics] Mod NEI Addons: Applied Energistics is missing a pack.mcmeta file, things may not work well
+2014-09-07 16:50:46 [WARNING] [NEI Addons: Misc Peripherals] Mod NEI Addons: Misc Peripherals is missing a pack.mcmeta file, things may not work well
+2014-09-07 16:50:46 [WARNING] [NEI Addons: Extra Bees] Mod NEI Addons: Extra Bees is missing a pack.mcmeta file, things may not work well
+2014-09-07 16:50:46 [WARNING] [NEI Addons: Forestry] Mod NEI Addons: Forestry is missing a pack.mcmeta file, things may not work well
+2014-09-07 16:50:46 [WARNING] [NEI Addons: Crafting Tables] Mod NEI Addons: Crafting Tables is missing a pack.mcmeta file, things may not work well
+2014-09-07 16:50:46 [WARNING] [NEI Plugins] Mod NEI Plugins is missing a pack.mcmeta file, things may not work well
+2014-09-07 16:50:46 [INFO] [Minecraft-Client] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:Thermomic Expansion, FMLFileResourcePack:NEI Addons, FMLFileResourcePack:NEI Addons: Applied Energistics, FMLFileResourcePack:NEI Addons: Misc Peripherals, FMLFileResourcePack:NEI Addons: Extra Bees, FMLFileResourcePack:NEI Addons: Forestry, FMLFileResourcePack:NEI Addons: Crafting Tables, FMLFileResourcePack:NEI Plugins
+2014-09-07 16:50:46 [SEVERE] [Minecraft-Client] Using missing texture, unable to load: texpansion:textures/items/raddishHorse.png
+2014-09-07 16:50:46 [SEVERE] [Minecraft-Client] Using missing texture, unable to load: texpansion:textures/blocks/quartzInfected.png
+2014-09-07 16:50:46 [SEVERE] [Minecraft-Client] Using missing texture, unable to load: texpansion:textures/blocks/tntDeathly_bottom.png
+2014-09-07 16:50:46 [SEVERE] [Minecraft-Client] Using missing texture, unable to load: texpansion:textures/blocks/tntDeathly_top.png
+2014-09-07 16:50:46 [SEVERE] [Minecraft-Client] Using missing texture, unable to load: hcexpansion:textures/blocks/log_fermented_top.png
+2014-09-07 16:50:46 [SEVERE] [Minecraft-Client] Using missing texture, unable to load: hcexpansion:textures/blocks/log_fermented.png
+2014-09-07 16:50:46 [SEVERE] [Minecraft-Client] Using missing texture, unable to load: texpansion:textures/blocks/tntDeathly_side.png
+2014-09-07 16:50:46 [INFO] [STDOUT] 
+2014-09-07 16:50:46 [INFO] [STDOUT] Starting up SoundSystem...
+2014-09-07 16:50:46 [INFO] [STDOUT] Initializing LWJGL OpenAL
+2014-09-07 16:50:46 [INFO] [STDOUT]     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+2014-09-07 16:50:47 [INFO] [STDOUT] OpenAL initialized.
+2014-09-07 16:50:47 [INFO] [STDOUT] 
+2014-09-07 16:50:48 [SEVERE] [Minecraft-Client] Realms: Server not available!
+2014-09-07 16:50:49 [INFO] [Minecraft-Server] Starting integrated minecraft server version 1.6.4
+2014-09-07 16:50:49 [INFO] [Minecraft-Server] Generating keypair
+2014-09-07 16:50:49 [FINEST] [mcp] Sending event FMLServerAboutToStartEvent to mod mcp
+2014-09-07 16:50:49 [FINEST] [mcp] Sent event FMLServerAboutToStartEvent to mod mcp
+2014-09-07 16:50:49 [FINEST] [FML] Sending event FMLServerAboutToStartEvent to mod FML
+2014-09-07 16:50:49 [FINEST] [FML] Sent event FMLServerAboutToStartEvent to mod FML
+2014-09-07 16:50:49 [FINEST] [Forge] Sending event FMLServerAboutToStartEvent to mod Forge
+2014-09-07 16:50:49 [FINEST] [Forge] Sent event FMLServerAboutToStartEvent to mod Forge
+2014-09-07 16:50:49 [FINEST] [CodeChickenCore] Sending event FMLServerAboutToStartEvent to mod CodeChickenCore
+2014-09-07 16:50:49 [FINEST] [CodeChickenCore] Sent event FMLServerAboutToStartEvent to mod CodeChickenCore
+2014-09-07 16:50:49 [FINEST] [NotEnoughItems] Sending event FMLServerAboutToStartEvent to mod NotEnoughItems
+2014-09-07 16:50:49 [FINEST] [NotEnoughItems] Sent event FMLServerAboutToStartEvent to mod NotEnoughItems
+2014-09-07 16:50:49 [FINEST] [TExpansion] Sending event FMLServerAboutToStartEvent to mod TExpansion
+2014-09-07 16:50:49 [FINEST] [TExpansion] Sent event FMLServerAboutToStartEvent to mod TExpansion
+2014-09-07 16:50:49 [FINEST] [NEIAddons] Sending event FMLServerAboutToStartEvent to mod NEIAddons
+2014-09-07 16:50:49 [FINEST] [NEIAddons] Sent event FMLServerAboutToStartEvent to mod NEIAddons
+2014-09-07 16:50:49 [FINEST] [NEIAddons|AE] Sending event FMLServerAboutToStartEvent to mod NEIAddons|AE
+2014-09-07 16:50:49 [FINEST] [NEIAddons|AE] Sent event FMLServerAboutToStartEvent to mod NEIAddons|AE
+2014-09-07 16:50:49 [FINEST] [NEIAddons|MiscPeripherals] Sending event FMLServerAboutToStartEvent to mod NEIAddons|MiscPeripherals
+2014-09-07 16:50:49 [FINEST] [NEIAddons|MiscPeripherals] Sent event FMLServerAboutToStartEvent to mod NEIAddons|MiscPeripherals
+2014-09-07 16:50:49 [FINEST] [NEIAddons|ExtraBees] Sending event FMLServerAboutToStartEvent to mod NEIAddons|ExtraBees
+2014-09-07 16:50:49 [FINEST] [NEIAddons|ExtraBees] Sent event FMLServerAboutToStartEvent to mod NEIAddons|ExtraBees
+2014-09-07 16:50:49 [FINEST] [NEIAddons|Forestry] Sending event FMLServerAboutToStartEvent to mod NEIAddons|Forestry
+2014-09-07 16:50:49 [FINEST] [NEIAddons|Forestry] Sent event FMLServerAboutToStartEvent to mod NEIAddons|Forestry
+2014-09-07 16:50:49 [FINEST] [NEIAddons|CraftingTables] Sending event FMLServerAboutToStartEvent to mod NEIAddons|CraftingTables
+2014-09-07 16:50:49 [FINEST] [NEIAddons|CraftingTables] Sent event FMLServerAboutToStartEvent to mod NEIAddons|CraftingTables
+2014-09-07 16:50:49 [FINEST] [NEIPlugins] Sending event FMLServerAboutToStartEvent to mod NEIPlugins
+2014-09-07 16:50:49 [FINEST] [NEIPlugins] Sent event FMLServerAboutToStartEvent to mod NEIPlugins
+2014-09-07 16:50:49 [FINE] [fml.ItemTracker] The difference set is not equal: only on right={31944=Item 31944, Type net.minecraft.item.ItemFood, owned by TExpansion, ordinal 0, name item.raddishHorse, claimedModId null}
+2014-09-07 16:50:50 [INFO] [ForgeModLoader] Loading dimension 0 (HC MODE) (net.minecraft.server.integrated.IntegratedServer@2ded238e)
+2014-09-07 16:50:50 [INFO] [ForgeModLoader] Loading dimension 1 (HC MODE) (net.minecraft.server.integrated.IntegratedServer@2ded238e)
+2014-09-07 16:50:50 [INFO] [ForgeModLoader] Loading dimension -1 (HC MODE) (net.minecraft.server.integrated.IntegratedServer@2ded238e)
+2014-09-07 16:50:50 [INFO] [Minecraft-Server] Preparing start region for level 0
+2014-09-07 16:50:50 [FINEST] [mcp] Sending event FMLServerStartingEvent to mod mcp
+2014-09-07 16:50:50 [FINEST] [mcp] Sent event FMLServerStartingEvent to mod mcp
+2014-09-07 16:50:50 [FINEST] [FML] Sending event FMLServerStartingEvent to mod FML
+2014-09-07 16:50:50 [FINEST] [FML] Sent event FMLServerStartingEvent to mod FML
+2014-09-07 16:50:50 [FINEST] [Forge] Sending event FMLServerStartingEvent to mod Forge
+2014-09-07 16:50:50 [FINEST] [Forge] Sent event FMLServerStartingEvent to mod Forge
+2014-09-07 16:50:50 [FINEST] [CodeChickenCore] Sending event FMLServerStartingEvent to mod CodeChickenCore
+2014-09-07 16:50:50 [FINEST] [CodeChickenCore] Sent event FMLServerStartingEvent to mod CodeChickenCore
+2014-09-07 16:50:50 [FINEST] [NotEnoughItems] Sending event FMLServerStartingEvent to mod NotEnoughItems
+2014-09-07 16:50:50 [FINEST] [NotEnoughItems] Sent event FMLServerStartingEvent to mod NotEnoughItems
+2014-09-07 16:50:50 [FINEST] [TExpansion] Sending event FMLServerStartingEvent to mod TExpansion
+2014-09-07 16:50:50 [FINEST] [TExpansion] Sent event FMLServerStartingEvent to mod TExpansion
+2014-09-07 16:50:50 [FINEST] [NEIAddons] Sending event FMLServerStartingEvent to mod NEIAddons
+2014-09-07 16:50:50 [FINEST] [NEIAddons] Sent event FMLServerStartingEvent to mod NEIAddons
+2014-09-07 16:50:50 [FINEST] [NEIAddons|AE] Sending event FMLServerStartingEvent to mod NEIAddons|AE
+2014-09-07 16:50:50 [FINEST] [NEIAddons|AE] Sent event FMLServerStartingEvent to mod NEIAddons|AE
+2014-09-07 16:50:50 [FINEST] [NEIAddons|MiscPeripherals] Sending event FMLServerStartingEvent to mod NEIAddons|MiscPeripherals
+2014-09-07 16:50:50 [FINEST] [NEIAddons|MiscPeripherals] Sent event FMLServerStartingEvent to mod NEIAddons|MiscPeripherals
+2014-09-07 16:50:50 [FINEST] [NEIAddons|ExtraBees] Sending event FMLServerStartingEvent to mod NEIAddons|ExtraBees
+2014-09-07 16:50:50 [FINEST] [NEIAddons|ExtraBees] Sent event FMLServerStartingEvent to mod NEIAddons|ExtraBees
+2014-09-07 16:50:50 [FINEST] [NEIAddons|Forestry] Sending event FMLServerStartingEvent to mod NEIAddons|Forestry
+2014-09-07 16:50:50 [FINEST] [NEIAddons|Forestry] Sent event FMLServerStartingEvent to mod NEIAddons|Forestry
+2014-09-07 16:50:50 [FINEST] [NEIAddons|CraftingTables] Sending event FMLServerStartingEvent to mod NEIAddons|CraftingTables
+2014-09-07 16:50:50 [FINEST] [NEIAddons|CraftingTables] Sent event FMLServerStartingEvent to mod NEIAddons|CraftingTables
+2014-09-07 16:50:50 [FINEST] [NEIPlugins] Sending event FMLServerStartingEvent to mod NEIPlugins
+2014-09-07 16:50:50 [FINEST] [NEIPlugins] Sent event FMLServerStartingEvent to mod NEIPlugins
+2014-09-07 16:50:50 [FINEST] [mcp] Sending event FMLServerStartedEvent to mod mcp
+2014-09-07 16:50:50 [FINEST] [mcp] Sent event FMLServerStartedEvent to mod mcp
+2014-09-07 16:50:50 [FINEST] [FML] Sending event FMLServerStartedEvent to mod FML
+2014-09-07 16:50:50 [FINEST] [FML] Sent event FMLServerStartedEvent to mod FML
+2014-09-07 16:50:50 [FINEST] [Forge] Sending event FMLServerStartedEvent to mod Forge
+2014-09-07 16:50:50 [FINEST] [Forge] Sent event FMLServerStartedEvent to mod Forge
+2014-09-07 16:50:50 [FINEST] [CodeChickenCore] Sending event FMLServerStartedEvent to mod CodeChickenCore
+2014-09-07 16:50:50 [FINEST] [CodeChickenCore] Sent event FMLServerStartedEvent to mod CodeChickenCore
+2014-09-07 16:50:50 [FINEST] [NotEnoughItems] Sending event FMLServerStartedEvent to mod NotEnoughItems
+2014-09-07 16:50:50 [FINEST] [NotEnoughItems] Sent event FMLServerStartedEvent to mod NotEnoughItems
+2014-09-07 16:50:50 [FINEST] [TExpansion] Sending event FMLServerStartedEvent to mod TExpansion
+2014-09-07 16:50:50 [FINEST] [TExpansion] Sent event FMLServerStartedEvent to mod TExpansion
+2014-09-07 16:50:50 [FINEST] [NEIAddons] Sending event FMLServerStartedEvent to mod NEIAddons
+2014-09-07 16:50:50 [FINEST] [NEIAddons] Sent event FMLServerStartedEvent to mod NEIAddons
+2014-09-07 16:50:50 [FINEST] [NEIAddons|AE] Sending event FMLServerStartedEvent to mod NEIAddons|AE
+2014-09-07 16:50:50 [FINEST] [NEIAddons|AE] Sent event FMLServerStartedEvent to mod NEIAddons|AE
+2014-09-07 16:50:50 [FINEST] [NEIAddons|MiscPeripherals] Sending event FMLServerStartedEvent to mod NEIAddons|MiscPeripherals
+2014-09-07 16:50:50 [FINEST] [NEIAddons|MiscPeripherals] Sent event FMLServerStartedEvent to mod NEIAddons|MiscPeripherals
+2014-09-07 16:50:50 [FINEST] [NEIAddons|ExtraBees] Sending event FMLServerStartedEvent to mod NEIAddons|ExtraBees
+2014-09-07 16:50:50 [FINEST] [NEIAddons|ExtraBees] Sent event FMLServerStartedEvent to mod NEIAddons|ExtraBees
+2014-09-07 16:50:50 [FINEST] [NEIAddons|Forestry] Sending event FMLServerStartedEvent to mod NEIAddons|Forestry
+2014-09-07 16:50:50 [FINEST] [NEIAddons|Forestry] Sent event FMLServerStartedEvent to mod NEIAddons|Forestry
+2014-09-07 16:50:50 [FINEST] [NEIAddons|CraftingTables] Sending event FMLServerStartedEvent to mod NEIAddons|CraftingTables
+2014-09-07 16:50:50 [FINEST] [NEIAddons|CraftingTables] Sent event FMLServerStartedEvent to mod NEIAddons|CraftingTables
+2014-09-07 16:50:50 [FINEST] [NEIPlugins] Sending event FMLServerStartedEvent to mod NEIPlugins
+2014-09-07 16:50:50 [FINEST] [NEIPlugins] Sent event FMLServerStartedEvent to mod NEIPlugins
+2014-09-07 16:50:50 [INFO] [STDOUT] Loading NEI
+2014-09-07 16:50:51 [INFO] [STDOUT] loading single player
+2014-09-07 16:50:51 [INFO] [Minecraft-Server] Miner_Fil[/127.0.0.1:0] logged in with entity id 371 at (232.69999998807916, 72.0, 87.26284211355282)
+2014-09-07 16:50:51 [INFO] [Minecraft-Server] Miner_Fil joined the game
+2014-09-07 16:50:51 [INFO] [STDOUT] Loading Player: Miner_Fil
+2014-09-07 16:50:51 [INFO] [STDOUT] Sending serverside check to: Miner_Fil
+2014-09-07 16:50:51 [INFO] [STDOUT] Setting up custom skins
+2014-09-07 16:50:51 [INFO] [STDOUT] Loading World: local/HC MODE
+2014-09-07 16:50:51 [FINE] [ForgeModLoader] Found a minecraft related directory at C:\Users\Filip\Desktop\forge\bin, examining for codechicken classes
+2014-09-07 16:50:51 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Filip\.gradle\caches\artifacts-26\filestore\net.minecraft\launchwrapper\1.8\jar\d4c0895977dd7f0b3f56281cee53a64d4c0c0322\launchwrapper-1.8.jar, examining for codechicken classes
+2014-09-07 16:50:51 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Filip\.gradle\caches\artifacts-26\filestore\org.ow2.asm\asm-debug-all\4.1\jar\dd6ba5c392d4102458494e29f54f70ac534ec2a2\asm-debug-all-4.1.jar, examining for codechicken classes
+2014-09-07 16:50:51 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Filip\.gradle\caches\artifacts-26\filestore\org.scala-lang\scala-library\2.10.2\jar\6ba65d12cd09d441083262d6f73d2257fec7c663\scala-library-2.10.2.jar, examining for codechicken classes
+2014-09-07 16:50:52 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Filip\.gradle\caches\artifacts-26\filestore\org.scala-lang\scala-compiler\2.10.2\jar\64c8b1380cc53d6850823d6e4e7ae984aa44ef9c\scala-compiler-2.10.2.jar, examining for codechicken classes
+2014-09-07 16:50:52 [FINE] [NEIPlugins] FirstTickHandler - server side finish
+2014-09-07 16:50:52 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Filip\.gradle\caches\artifacts-26\filestore\net.sf.jopt-simple\jopt-simple\4.5\jar\6065cc95c661255349c1d0756657be17c29a4fd3\jopt-simple-4.5.jar, examining for codechicken classes
+2014-09-07 16:50:52 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Filip\.gradle\caches\artifacts-26\filestore\lzma\lzma\0.0.1\jar\521616dc7487b42bef0e803bd2fa3faf668101d7\lzma-0.0.1.jar, examining for codechicken classes
+2014-09-07 16:50:52 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Filip\.gradle\caches\artifacts-26\filestore\com.paulscode\codecjorbis\20101023\jar\c73b5636faf089d9f00e8732a829577de25237ee\codecjorbis-20101023.jar, examining for codechicken classes
+2014-09-07 16:50:52 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Filip\.gradle\caches\artifacts-26\filestore\com.paulscode\codecwav\20101023\jar\12f031cfe88fef5c1dd36c563c0a3a69bd7261da\codecwav-20101023.jar, examining for codechicken classes
+2014-09-07 16:50:52 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Filip\.gradle\caches\artifacts-26\filestore\com.paulscode\libraryjavasound\20101123\jar\5c5e304366f75f9eaa2e8cca546a1fb6109348b3\libraryjavasound-20101123.jar, examining for codechicken classes
+2014-09-07 16:50:52 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Filip\.gradle\caches\artifacts-26\filestore\com.paulscode\librarylwjglopenal\20100824\jar\73e80d0794c39665aec3f62eee88ca91676674ef\librarylwjglopenal-20100824.jar, examining for codechicken classes
+2014-09-07 16:50:52 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Filip\.gradle\caches\artifacts-26\filestore\com.paulscode\soundsystem\20120107\jar\419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6\soundsystem-20120107.jar, examining for codechicken classes
+2014-09-07 16:50:52 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Filip\.gradle\caches\artifacts-26\filestore\org.lwjgl.lwjgl\lwjgl\2.9.0\jar\5654d06e61a1bba7ae1e7f5233e1106be64c91cd\lwjgl-2.9.0.jar, examining for codechicken classes
+2014-09-07 16:50:52 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Filip\.gradle\caches\artifacts-26\filestore\org.lwjgl.lwjgl\lwjgl_util\2.9.0\jar\a778846b64008fc7f48ead2377f034e547991699\lwjgl_util-2.9.0.jar, examining for codechicken classes
+2014-09-07 16:50:52 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Filip\.gradle\caches\artifacts-26\filestore\argo\argo\2.25_fixed\jar\751761ce15a3e3aaf3fc75b9f013ff8f7b88a585\argo-2.25_fixed.jar, examining for codechicken classes
+2014-09-07 16:50:52 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Filip\.gradle\caches\artifacts-26\filestore\net.sourceforge.argo\argo\2.25\jar\751761ce15a3e3aaf3fc75b9f013ff8f7b88a585\argo-2.25.jar, examining for codechicken classes
+2014-09-07 16:50:52 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Filip\.gradle\caches\artifacts-26\filestore\org.bouncycastle\bcprov-jdk15on\1.47\jar\b6f5d9926b0afbde9f4dbe3db88c5247be7794bb\bcprov-jdk15on-1.47.jar, examining for codechicken classes
+2014-09-07 16:50:52 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Filip\.gradle\caches\artifacts-26\filestore\com.google.guava\guava\14.0\bundle\67b7be4ee7ba48e4828a42d6d5069761186d4a53\guava-14.0.jar, examining for codechicken classes
+2014-09-07 16:50:52 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Filip\.gradle\caches\artifacts-26\filestore\org.apache.commons\commons-lang3\3.1\jar\905075e6c80f206bbe6cf1e809d2caa69f420c76\commons-lang3-3.1.jar, examining for codechicken classes
+2014-09-07 16:50:52 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Filip\.gradle\caches\artifacts-26\filestore\commons-io\commons-io\2.4\jar\b1b6ea3b7e4aa4f492509a4952029cd8e48019ad\commons-io-2.4.jar, examining for codechicken classes
+2014-09-07 16:50:52 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Filip\.gradle\caches\artifacts-26\filestore\net.java.jinput\jinput\2.0.5\jar\39c7796b469a600f72380316f6b1f11db6c2c7c4\jinput-2.0.5.jar, examining for codechicken classes
+2014-09-07 16:50:52 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Filip\.gradle\caches\artifacts-26\filestore\net.java.jutils\jutils\1.0.0\jar\e12fe1fda814bd348c1579329c86943d2cd3c6a6\jutils-1.0.0.jar, examining for codechicken classes
+2014-09-07 16:50:52 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Filip\.gradle\caches\artifacts-26\filestore\com.google.code.gson\gson\2.2.2\jar\1f96456ca233dec780aa224bff076d8e8bca3908\gson-2.2.2.jar, examining for codechicken classes
+2014-09-07 16:50:52 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Filip\.gradle\caches\artifacts-26\filestore\org.lwjgl.lwjgl\lwjgl-platform\2.9.0\jar\2ba5dcb11048147f1a74eff2deb192c001321f77\lwjgl-platform-2.9.0-natives-linux.jar, examining for codechicken classes
+2014-09-07 16:50:52 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Filip\.gradle\caches\artifacts-26\filestore\org.lwjgl.lwjgl\lwjgl-platform\2.9.0\jar\6621b382cb14cc409b041d8d72829156a87c31aa\lwjgl-platform-2.9.0-natives-osx.jar, examining for codechicken classes
+2014-09-07 16:50:52 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Filip\.gradle\caches\artifacts-26\filestore\org.lwjgl.lwjgl\lwjgl-platform\2.9.0\jar\3f11873dc8e84c854ec7c5a8fd2e869f8aaef764\lwjgl-platform-2.9.0-natives-windows.jar, examining for codechicken classes
+2014-09-07 16:50:52 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Filip\.gradle\caches\artifacts-26\filestore\net.java.jinput\jinput-platform\2.0.5\jar\7ff832a6eb9ab6a767f1ade2b548092d0fa64795\jinput-platform-2.0.5-natives-linux.jar, examining for codechicken classes
+2014-09-07 16:50:52 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Filip\.gradle\caches\artifacts-26\filestore\net.java.jinput\jinput-platform\2.0.5\jar\53f9c919f34d2ca9de8c51fc4e1e8282029a9232\jinput-platform-2.0.5-natives-osx.jar, examining for codechicken classes
+2014-09-07 16:50:52 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Filip\.gradle\caches\artifacts-26\filestore\net.java.jinput\jinput-platform\2.0.5\jar\385ee093e01f587f30ee1c8a2ee7d408fd732e16\jinput-platform-2.0.5-natives-windows.jar, examining for codechicken classes
+2014-09-07 16:50:52 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Filip\.gradle\caches\artifacts-26\filestore\org.scala-lang\scala-reflect\2.10.2\jar\444ff8e89a81697997ed8a98a4642ba283130249\scala-reflect-2.10.2.jar, examining for codechicken classes
+2014-09-07 16:50:53 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Filip\.gradle\caches\minecraft\net\minecraftforge\forge\1.6.4-9.11.1.964\forge-1.6.4-9.11.1.964-mcp.jar, examining for codechicken classes
+2014-09-07 16:50:53 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Filip\Desktop\forge\eclipse\.\mods\1.6.4\CodeChickenLib-dev-1.6.4-1.0.0.62.jar, examining for codechicken classes
+2014-09-07 16:50:53 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Filip\Desktop\forge\eclipse\mods\1.6.4\CodeChickenLib-dev-1.6.4-1.0.0.62.jar, examining for codechicken classes
+2014-09-07 16:50:53 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Filip\Desktop\forge\eclipse\mods\neiaddons-mc164-1.10.4.64.jar, examining for codechicken classes
+2014-09-07 16:50:53 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Filip\Desktop\forge\eclipse\mods\neiplugins-1.1.0.6.jar, examining for codechicken classes
+2014-09-07 16:50:53 [INFO] [STDOUT] Loaded net.bdew.neiaddons.NEIAddonsConfig
+2014-09-07 16:50:53 [FINE] [NEIPlugins] OreDictionaryTooltipHandler.resetCache() start
+2014-09-07 16:50:53 [FINE] [NEIPlugins] OreDictionaryTooltipHandler.resetCache() end
+2014-09-07 16:50:53 [FINE] [NEIPlugins] IItemListLoaded.onLoadConfig(): Furnace Fuel fix (FurnaceRecipeHandler)
+2014-09-07 16:50:53 [INFO] [STDOUT] Loaded mods.neiplugins.NEIPluginsConfig
+2014-09-07 16:50:53 [INFO] [NEIAddons] World changed, resetting
+2014-09-07 16:50:53 [INFO] [NEIAddons] Available server commands: 
+2014-09-07 16:50:56 [INFO] [STDOUT] Inserted super call into net.minecraft.client.gui.inventory.GuiContainerCreative.updateScreen
+2014-09-07 16:50:58 [FINE] [NEIPlugins] IItemListLoaded.onItemListLoaded(): Furnace Fuel fix (FurnaceRecipeHandler)
+2014-09-07 16:50:58 [FINE] [NEIPlugins] FirstTickHandler - client side finish
+2014-09-07 16:52:17 [INFO] [Minecraft-Server] Saving and pausing game...
+2014-09-07 16:52:17 [INFO] [Minecraft-Server] Saving chunks for level 'HC MODE'/Overworld
+2014-09-07 16:52:17 [INFO] [Minecraft-Server] Saving chunks for level 'HC MODE'/Nether
+2014-09-07 16:52:17 [INFO] [Minecraft-Server] Saving chunks for level 'HC MODE'/The End
+2014-09-07 16:52:17 [FINEST] [mcp] Sending event FMLServerStoppingEvent to mod mcp
+2014-09-07 16:52:17 [FINEST] [mcp] Sent event FMLServerStoppingEvent to mod mcp
+2014-09-07 16:52:17 [FINEST] [FML] Sending event FMLServerStoppingEvent to mod FML
+2014-09-07 16:52:17 [FINEST] [FML] Sent event FMLServerStoppingEvent to mod FML
+2014-09-07 16:52:17 [FINEST] [Forge] Sending event FMLServerStoppingEvent to mod Forge
+2014-09-07 16:52:17 [FINEST] [Forge] Sent event FMLServerStoppingEvent to mod Forge
+2014-09-07 16:52:17 [FINEST] [CodeChickenCore] Sending event FMLServerStoppingEvent to mod CodeChickenCore
+2014-09-07 16:52:17 [FINEST] [CodeChickenCore] Sent event FMLServerStoppingEvent to mod CodeChickenCore
+2014-09-07 16:52:17 [FINEST] [NotEnoughItems] Sending event FMLServerStoppingEvent to mod NotEnoughItems
+2014-09-07 16:52:17 [FINEST] [NotEnoughItems] Sent event FMLServerStoppingEvent to mod NotEnoughItems
+2014-09-07 16:52:17 [FINEST] [TExpansion] Sending event FMLServerStoppingEvent to mod TExpansion
+2014-09-07 16:52:17 [FINEST] [TExpansion] Sent event FMLServerStoppingEvent to mod TExpansion
+2014-09-07 16:52:17 [FINEST] [NEIAddons] Sending event FMLServerStoppingEvent to mod NEIAddons
+2014-09-07 16:52:17 [FINEST] [NEIAddons] Sent event FMLServerStoppingEvent to mod NEIAddons
+2014-09-07 16:52:17 [FINEST] [NEIAddons|AE] Sending event FMLServerStoppingEvent to mod NEIAddons|AE
+2014-09-07 16:52:17 [FINEST] [NEIAddons|AE] Sent event FMLServerStoppingEvent to mod NEIAddons|AE
+2014-09-07 16:52:17 [FINEST] [NEIAddons|MiscPeripherals] Sending event FMLServerStoppingEvent to mod NEIAddons|MiscPeripherals
+2014-09-07 16:52:17 [FINEST] [NEIAddons|MiscPeripherals] Sent event FMLServerStoppingEvent to mod NEIAddons|MiscPeripherals
+2014-09-07 16:52:17 [FINEST] [NEIAddons|ExtraBees] Sending event FMLServerStoppingEvent to mod NEIAddons|ExtraBees
+2014-09-07 16:52:17 [FINEST] [NEIAddons|ExtraBees] Sent event FMLServerStoppingEvent to mod NEIAddons|ExtraBees
+2014-09-07 16:52:17 [FINEST] [NEIAddons|Forestry] Sending event FMLServerStoppingEvent to mod NEIAddons|Forestry
+2014-09-07 16:52:17 [FINEST] [NEIAddons|Forestry] Sent event FMLServerStoppingEvent to mod NEIAddons|Forestry
+2014-09-07 16:52:17 [FINEST] [NEIAddons|CraftingTables] Sending event FMLServerStoppingEvent to mod NEIAddons|CraftingTables
+2014-09-07 16:52:17 [FINEST] [NEIAddons|CraftingTables] Sent event FMLServerStoppingEvent to mod NEIAddons|CraftingTables
+2014-09-07 16:52:17 [FINEST] [NEIPlugins] Sending event FMLServerStoppingEvent to mod NEIPlugins
+2014-09-07 16:52:17 [FINEST] [NEIPlugins] Sent event FMLServerStoppingEvent to mod NEIPlugins
+2014-09-07 16:52:17 [INFO] [Minecraft-Server] Stopping server
+2014-09-07 16:52:17 [INFO] [Minecraft-Server] Saving players
+2014-09-07 16:52:17 [INFO] [Minecraft-Server] Miner_Fil left the game
+2014-09-07 16:52:17 [INFO] [STDOUT] Unloading Player: Miner_Fil
+2014-09-07 16:52:17 [INFO] [Minecraft-Server] Saving worlds
+2014-09-07 16:52:17 [INFO] [Minecraft-Server] Saving chunks for level 'HC MODE'/Overworld
+2014-09-07 16:52:17 [INFO] [Minecraft-Server] Saving chunks for level 'HC MODE'/Nether
+2014-09-07 16:52:17 [INFO] [Minecraft-Server] Saving chunks for level 'HC MODE'/The End
+2014-09-07 16:52:18 [INFO] [ForgeModLoader] Unloading dimension 0
+2014-09-07 16:52:18 [INFO] [ForgeModLoader] Unloading dimension -1
+2014-09-07 16:52:18 [INFO] [ForgeModLoader] Unloading dimension 1
+2014-09-07 16:52:18 [FINEST] [mcp] Sending event FMLServerStoppedEvent to mod mcp
+2014-09-07 16:52:18 [FINEST] [mcp] Sent event FMLServerStoppedEvent to mod mcp
+2014-09-07 16:52:18 [FINEST] [FML] Sending event FMLServerStoppedEvent to mod FML
+2014-09-07 16:52:18 [FINEST] [FML] Sent event FMLServerStoppedEvent to mod FML
+2014-09-07 16:52:18 [FINEST] [Forge] Sending event FMLServerStoppedEvent to mod Forge
+2014-09-07 16:52:18 [FINEST] [Forge] Sent event FMLServerStoppedEvent to mod Forge
+2014-09-07 16:52:18 [FINEST] [CodeChickenCore] Sending event FMLServerStoppedEvent to mod CodeChickenCore
+2014-09-07 16:52:18 [FINEST] [CodeChickenCore] Sent event FMLServerStoppedEvent to mod CodeChickenCore
+2014-09-07 16:52:18 [FINEST] [NotEnoughItems] Sending event FMLServerStoppedEvent to mod NotEnoughItems
+2014-09-07 16:52:18 [FINEST] [NotEnoughItems] Sent event FMLServerStoppedEvent to mod NotEnoughItems
+2014-09-07 16:52:18 [FINEST] [TExpansion] Sending event FMLServerStoppedEvent to mod TExpansion
+2014-09-07 16:52:18 [FINEST] [TExpansion] Sent event FMLServerStoppedEvent to mod TExpansion
+2014-09-07 16:52:18 [FINEST] [NEIAddons] Sending event FMLServerStoppedEvent to mod NEIAddons
+2014-09-07 16:52:18 [FINEST] [NEIAddons] Sent event FMLServerStoppedEvent to mod NEIAddons
+2014-09-07 16:52:18 [FINEST] [NEIAddons|AE] Sending event FMLServerStoppedEvent to mod NEIAddons|AE
+2014-09-07 16:52:18 [FINEST] [NEIAddons|AE] Sent event FMLServerStoppedEvent to mod NEIAddons|AE
+2014-09-07 16:52:18 [FINEST] [NEIAddons|MiscPeripherals] Sending event FMLServerStoppedEvent to mod NEIAddons|MiscPeripherals
+2014-09-07 16:52:18 [FINEST] [NEIAddons|MiscPeripherals] Sent event FMLServerStoppedEvent to mod NEIAddons|MiscPeripherals
+2014-09-07 16:52:18 [FINEST] [NEIAddons|ExtraBees] Sending event FMLServerStoppedEvent to mod NEIAddons|ExtraBees
+2014-09-07 16:52:18 [FINEST] [NEIAddons|ExtraBees] Sent event FMLServerStoppedEvent to mod NEIAddons|ExtraBees
+2014-09-07 16:52:18 [FINEST] [NEIAddons|Forestry] Sending event FMLServerStoppedEvent to mod NEIAddons|Forestry
+2014-09-07 16:52:18 [FINEST] [NEIAddons|Forestry] Sent event FMLServerStoppedEvent to mod NEIAddons|Forestry
+2014-09-07 16:52:18 [FINEST] [NEIAddons|CraftingTables] Sending event FMLServerStoppedEvent to mod NEIAddons|CraftingTables
+2014-09-07 16:52:18 [FINEST] [NEIAddons|CraftingTables] Sent event FMLServerStoppedEvent to mod NEIAddons|CraftingTables
+2014-09-07 16:52:18 [FINEST] [NEIPlugins] Sending event FMLServerStoppedEvent to mod NEIPlugins
+2014-09-07 16:52:18 [FINEST] [NEIPlugins] Sent event FMLServerStoppedEvent to mod NEIPlugins
+2014-09-07 16:52:19 [INFO] [Minecraft-Client] Stopping!
+2014-09-07 16:52:19 [INFO] [STDOUT] 
+2014-09-07 16:52:19 [INFO] [STDOUT] SoundSystem shutting down...
+2014-09-07 16:52:19 [INFO] [STDOUT]     Author: Paul Lamb, www.paulscode.com
+2014-09-07 16:52:19 [INFO] [STDOUT] 

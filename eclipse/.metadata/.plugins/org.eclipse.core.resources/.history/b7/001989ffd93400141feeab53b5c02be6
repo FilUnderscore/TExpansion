@@ -1,0 +1,24 @@
+package me.fil.craftedmc.log;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
+
+public class LogEntry 
+{
+	private String message = "";
+	public LogLevel level = LogLevel.UNKNOWN;
+	public LogSource source = LogSource.LAUNCHER;
+	private Throwable cause;
+	private String location;
+	private final String dateString = "";
+	private final Map<LogType, String> messageCache = new HashMap();
+	private static final String dateFormatString = "HH:mm:ss";
+	
+	public LogEntry()
+	{
+		Date date = new Date();
+		this.dateString = new SimpleDateFormat(dateFormatString).format(date);
+	}
+}

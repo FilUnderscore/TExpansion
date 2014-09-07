@@ -1,0 +1,23 @@
+package me.fil.craftedmc;
+
+import javax.swing.text.html.HTMLEditorKit;
+
+public class CraftedMC 
+{
+	private static Console console;
+	
+	public CraftedMC()
+	{
+		console = new Console();
+	}
+	
+	public static void openConsole()
+	{
+		console.view();
+	}
+	
+	protected void refreshConsole()
+	{
+		
+	}
+}

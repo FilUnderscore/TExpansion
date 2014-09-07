@@ -1,0 +1,5 @@
+package me.fil.craftedmc.modpack;
+
+public enum Protocol {
+
+}

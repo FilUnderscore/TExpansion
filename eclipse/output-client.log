@@ -1,0 +1,514 @@
+2014-09-04 21:29:12 [CLIENT] [INFO] Setting user: Player967
+2014-09-04 21:29:12 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2014-09-04 21:29:13 [CLIENT] [INFO] Reloading ResourceManager: Default
+2014-09-04 21:29:16 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:hcexpansion
+2014-09-04 21:29:16 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:hcexpansion
+2014-09-04 21:29:18 [CLIENT] [SEVERE] Realms: Server not available!
+2014-09-04 21:29:24 [CLIENT] [INFO] Stopping!
+2014-09-04 21:37:45 [CLIENT] [INFO] Setting user: Player408
+2014-09-04 21:37:46 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2014-09-04 21:37:46 [CLIENT] [INFO] Reloading ResourceManager: Default
+2014-09-04 21:37:49 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:hcexpansion
+2014-09-04 21:37:50 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:hcexpansion
+2014-09-04 21:37:50 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/woodFermented.png
+2014-09-04 21:37:52 [CLIENT] [SEVERE] Realms: Server not available!
+2014-09-04 21:38:16 [CLIENT] [WARNING] Memory connection overburdened; after processing 2500 packets, we still have 310 to go!
+2014-09-04 21:38:17 [CLIENT] [WARNING] Memory connection overburdened; after processing 2500 packets, we still have 587 to go!
+2014-09-04 21:38:52 [CLIENT] [INFO] Stopping!
+2014-09-04 21:46:55 [CLIENT] [INFO] Setting user: Player893
+2014-09-04 21:46:55 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2014-09-04 21:46:56 [CLIENT] [INFO] Reloading ResourceManager: Default
+2014-09-04 21:46:59 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:hcexpansion, FMLFileResourcePack:MFR Compat Forestry Trees, FMLFileResourcePack:MFR Compat Extra Trees, FMLFileResourcePack:MineFactory Reloaded, FMLFileResourcePack:MFR Compat: Applied Energistics, FMLFileResourcePack:MFR Compat: Atum, FMLFileResourcePack:MFR Compat: BackTools, FMLFileResourcePack:MFR Compat: BuildCraft, FMLFileResourcePack:MFR Compat: Chococraft, FMLFileResourcePack:MFR Compat: ExtraBiomes, FMLFileResourcePack:MFR Compat: Forestry, FMLFileResourcePack:MFR Compat: Forestry (part 2), FMLFileResourcePack:MFR Compat: ForgeMicroblock, FMLFileResourcePack:MFR Compat: IC2, FMLFileResourcePack:MFR Compat: Mystcraft, FMLFileResourcePack:MFR Compat: Pam's Mods, FMLFileResourcePack:MFR Compat ProjectRed, FMLFileResourcePack:MFR Compat: Railcraft, FMLFileResourcePack:MFR Compat: RP2, FMLFileResourcePack:MFR Compat: Sufficient Biomes, FMLFileResourcePack:MFR Compat: Thaumcraft, FMLFileResourcePack:MFR Compat: Thermal Expansion, FMLFileResourcePack:MFR Compat: TwilightForest, FMLFileResourcePack:MFR Compat: Vanilla, FMLFileResourcePack:MFR Compat: XyCraft, FMLFileResourcePack:Tinkers' Construct
+2014-09-04 21:47:01 [CLIENT] [SEVERE] Realms: Server not available!
+2014-09-04 21:47:14 [CLIENT] [INFO] Stopping!
+2014-09-04 21:47:35 [CLIENT] [INFO] Setting user: Player463
+2014-09-04 21:47:36 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2014-09-04 21:47:36 [CLIENT] [INFO] Reloading ResourceManager: Default
+2014-09-04 21:47:39 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:hcexpansion
+2014-09-04 21:47:40 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:hcexpansion
+2014-09-04 21:47:40 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/woodFermented.png
+2014-09-04 21:47:41 [CLIENT] [SEVERE] Realms: Server not available!
+2014-09-04 21:48:16 [CLIENT] [INFO] Stopping!
+2014-09-04 21:48:23 [CLIENT] [INFO] Setting user: Player695
+2014-09-04 21:48:24 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2014-09-04 21:48:25 [CLIENT] [INFO] Reloading ResourceManager: Default
+2014-09-04 21:48:27 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:hcexpansion
+2014-09-04 21:48:28 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:hcexpansion
+2014-09-04 21:48:28 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/woodFermented.png
+2014-09-04 21:48:30 [CLIENT] [SEVERE] Realms: Server not available!
+2014-09-04 21:48:53 [CLIENT] [INFO] Stopping!
+2014-09-04 21:49:20 [CLIENT] [INFO] Setting user: Player974
+2014-09-04 21:49:20 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2014-09-04 21:49:21 [CLIENT] [INFO] Reloading ResourceManager: Default
+2014-09-04 21:49:24 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:hcexpansion
+2014-09-04 21:49:24 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:hcexpansion
+2014-09-04 21:49:25 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/woodFermented.png
+2014-09-04 21:49:27 [CLIENT] [SEVERE] Realms: Server not available!
+2014-09-04 21:50:43 [CLIENT] [INFO] Stopping!
+2014-09-04 21:51:25 [CLIENT] [INFO] Setting user: Player958
+2014-09-04 21:51:25 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2014-09-04 21:51:26 [CLIENT] [INFO] Reloading ResourceManager: Default
+2014-09-04 21:51:28 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:hcexpansion
+2014-09-04 21:51:29 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:hcexpansion
+2014-09-04 21:51:29 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/woodFermented.png
+2014-09-04 21:51:32 [CLIENT] [SEVERE] Realms: Server not available!
+2014-09-04 21:59:00 [CLIENT] [INFO] Stopping!
+2014-09-04 22:00:07 [CLIENT] [INFO] Setting user: Player798
+2014-09-04 22:00:08 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2014-09-04 22:00:09 [CLIENT] [INFO] Reloading ResourceManager: Default
+2014-09-04 22:00:11 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:hcexpansion
+2014-09-04 22:00:12 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:hcexpansion
+2014-09-04 22:00:14 [CLIENT] [SEVERE] Realms: Server not available!
+2014-09-04 22:01:00 [CLIENT] [INFO] Stopping!
+2014-09-04 22:13:21 [CLIENT] [INFO] Setting user: Player15
+2014-09-04 22:13:21 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2014-09-04 22:13:22 [CLIENT] [INFO] Reloading ResourceManager: Default
+2014-09-04 22:13:25 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:hcexpansion
+2014-09-04 22:13:44 [CLIENT] [INFO] Setting user: Player670
+2014-09-04 22:13:45 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2014-09-04 22:13:46 [CLIENT] [INFO] Reloading ResourceManager: Default
+2014-09-04 22:13:48 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:hcexpansion
+2014-09-04 22:13:49 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:hcexpansion
+2014-09-04 22:13:51 [CLIENT] [SEVERE] Realms: Server not available!
+2014-09-04 22:14:13 [CLIENT] [INFO] Stopping!
+2014-09-04 22:14:40 [CLIENT] [INFO] Setting user: Player565
+2014-09-04 22:14:41 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2014-09-04 22:14:42 [CLIENT] [INFO] Reloading ResourceManager: Default
+2014-09-04 22:14:44 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:hcexpansion
+2014-09-04 22:14:45 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:hcexpansion
+2014-09-04 22:14:47 [CLIENT] [SEVERE] Realms: Server not available!
+2014-09-04 22:15:00 [CLIENT] [INFO] [CHAT] <Player565> .
+2014-09-04 22:15:38 [CLIENT] [INFO] [CHAT] <Player565> .
+2014-09-04 22:15:41 [CLIENT] [INFO] Stopping!
+2014-09-04 22:16:00 [CLIENT] [INFO] Setting user: Miner_Fil
+2014-09-04 22:16:00 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2014-09-04 22:16:01 [CLIENT] [INFO] Reloading ResourceManager: Default
+2014-09-04 22:16:04 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:hcexpansion
+2014-09-04 22:16:04 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:hcexpansion
+2014-09-04 22:16:07 [CLIENT] [SEVERE] Realms: Server not available!
+2014-09-04 22:16:32 [CLIENT] [INFO] [CHAT] Your game mode has been updated
+2014-09-04 22:17:51 [CLIENT] [INFO] Stopping!
+2014-09-04 22:24:17 [CLIENT] [INFO] Setting user: Miner_Fil
+2014-09-04 22:24:18 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2014-09-04 22:24:19 [CLIENT] [INFO] Reloading ResourceManager: Default
+2014-09-04 22:24:22 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:hcexpansion
+2014-09-04 22:24:23 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:hcexpansion
+2014-09-04 22:24:23 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/quartzInfected.png
+2014-09-04 22:24:24 [CLIENT] [SEVERE] Realms: Server not available!
+2014-09-04 22:24:30 [CLIENT] [INFO] [CHAT] Your game mode has been updated
+2014-09-04 22:24:36 [CLIENT] [INFO] [CHAT] Your game mode has been updated
+2014-09-04 22:24:50 [CLIENT] [INFO] Stopping!
+2014-09-04 22:25:37 [CLIENT] [INFO] Setting user: Miner_Fil
+2014-09-04 22:25:38 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2014-09-04 22:25:38 [CLIENT] [INFO] Reloading ResourceManager: Default
+2014-09-04 22:25:41 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:hcexpansion
+2014-09-04 22:25:42 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:hcexpansion
+2014-09-04 22:25:42 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/quartzInfected.png
+2014-09-04 22:25:44 [CLIENT] [SEVERE] Realms: Server not available!
+2014-09-04 22:26:00 [CLIENT] [INFO] [CHAT] Given TNT (ID 46) * 64 to Miner_Fil
+2014-09-04 22:26:01 [CLIENT] [INFO] [CHAT] Your game mode has been updated
+2014-09-04 22:26:08 [CLIENT] [INFO] [CHAT] Your game mode has been updated
+2014-09-05 16:07:08 [CLIENT] [INFO] Setting user: Miner_Fil
+2014-09-05 16:07:08 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2014-09-05 16:07:09 [CLIENT] [INFO] Reloading ResourceManager: Default
+2014-09-05 16:07:12 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:hcexpansion
+2014-09-05 16:07:13 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:hcexpansion
+2014-09-05 16:07:13 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/tntDeathly_bottom.png
+2014-09-05 16:07:13 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/tntDeathly_top.png
+2014-09-05 16:07:13 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/tntDeathly_side.png
+2014-09-05 16:07:13 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/quartzInfected.png
+2014-09-05 16:07:15 [CLIENT] [SEVERE] Realms: Server not available!
+2014-09-05 16:07:22 [CLIENT] [INFO] [CHAT] '`1' is not a valid number
+2014-09-05 16:07:23 [CLIENT] [INFO] [CHAT] Your game mode has been updated
+2014-09-05 16:08:01 [CLIENT] [INFO] Stopping!
+2014-09-05 16:09:15 [CLIENT] [INFO] Setting user: Miner_Fil
+2014-09-05 16:09:16 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2014-09-05 16:09:17 [CLIENT] [INFO] Reloading ResourceManager: Default
+2014-09-05 16:09:20 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:hcexpansion
+2014-09-05 16:09:21 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:hcexpansion
+2014-09-05 16:09:21 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/tntDeathly_bottom.png
+2014-09-05 16:09:21 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/tntDeathly_top.png
+2014-09-05 16:09:21 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/tntDeathly_side.png
+2014-09-05 16:09:21 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/quartzInfected.png
+2014-09-05 16:09:22 [CLIENT] [SEVERE] Realms: Server not available!
+2014-09-05 16:09:47 [CLIENT] [INFO] Stopping!
+2014-09-05 16:22:32 [CLIENT] [INFO] Setting user: Miner_Fil
+2014-09-05 16:22:33 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2014-09-05 16:22:33 [CLIENT] [INFO] Reloading ResourceManager: Default
+2014-09-05 16:22:36 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:hcexpansion
+2014-09-05 16:22:37 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:hcexpansion
+2014-09-05 16:22:37 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/tntDeathly_bottom.png
+2014-09-05 16:22:37 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/tntDeathly_top.png
+2014-09-05 16:22:37 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/tntDeathly_side.png
+2014-09-05 16:22:37 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/quartzInfected.png
+2014-09-05 16:22:39 [CLIENT] [SEVERE] Realms: Server not available!
+2014-09-05 16:23:12 [CLIENT] [INFO] Stopping!
+2014-09-05 16:24:05 [CLIENT] [INFO] Setting user: Miner_Fil
+2014-09-05 16:24:06 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2014-09-05 16:24:06 [CLIENT] [INFO] Reloading ResourceManager: Default
+2014-09-05 16:24:10 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:hcexpansion
+2014-09-05 16:24:10 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:hcexpansion
+2014-09-05 16:24:11 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/tntDeathly_bottom.png
+2014-09-05 16:24:11 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/tntDeathly_top.png
+2014-09-05 16:24:11 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/tntDeathly_side.png
+2014-09-05 16:24:11 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/quartzInfected.png
+2014-09-05 16:24:12 [CLIENT] [SEVERE] Realms: Server not available!
+2014-09-05 16:27:05 [CLIENT] [INFO] Stopping!
+2014-09-05 16:27:09 [CLIENT] [INFO] Setting user: Miner_Fil
+2014-09-05 16:27:09 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2014-09-05 16:27:10 [CLIENT] [INFO] Reloading ResourceManager: Default
+2014-09-05 16:27:13 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:hcexpansion
+2014-09-05 16:27:14 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:hcexpansion
+2014-09-05 16:27:14 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/tntDeathly_bottom.png
+2014-09-05 16:27:14 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/tntDeathly_top.png
+2014-09-05 16:27:14 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/tntDeathly_side.png
+2014-09-05 16:27:14 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/quartzInfected.png
+2014-09-05 16:27:16 [CLIENT] [SEVERE] Realms: Server not available!
+2014-09-05 16:27:26 [CLIENT] [INFO] [CHAT] Set the time to 0
+2014-09-05 16:29:31 [CLIENT] [INFO] Setting user: Miner_Fil
+2014-09-05 16:29:32 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2014-09-05 16:29:32 [CLIENT] [INFO] Reloading ResourceManager: Default
+2014-09-05 16:29:35 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:hcexpansion
+2014-09-05 16:29:36 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:hcexpansion
+2014-09-05 16:29:36 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/tntDeathly_bottom.png
+2014-09-05 16:29:36 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/tntDeathly_top.png
+2014-09-05 16:29:36 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/tntDeathly_side.png
+2014-09-05 16:29:36 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/quartzInfected.png
+2014-09-05 16:29:38 [CLIENT] [SEVERE] Realms: Server not available!
+2014-09-05 16:31:05 [CLIENT] [INFO] Setting user: Miner_Fil
+2014-09-05 16:31:06 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2014-09-05 16:31:07 [CLIENT] [INFO] Reloading ResourceManager: Default
+2014-09-05 16:31:10 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:hcexpansion
+2014-09-05 16:31:10 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:hcexpansion
+2014-09-05 16:31:10 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/tntDeathly_bottom.png
+2014-09-05 16:31:10 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/tntDeathly_top.png
+2014-09-05 16:31:10 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/tntDeathly_side.png
+2014-09-05 16:31:10 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/quartzInfected.png
+2014-09-05 16:31:12 [CLIENT] [SEVERE] Realms: Server not available!
+2014-09-05 16:31:51 [CLIENT] [INFO] [CHAT] Unknown command. Try /help for a list of commands
+2014-09-05 16:34:07 [CLIENT] [INFO] Setting user: Miner_Fil
+2014-09-05 16:34:07 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2014-09-05 16:34:08 [CLIENT] [INFO] Reloading ResourceManager: Default
+2014-09-05 16:34:11 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:hcexpansion
+2014-09-05 16:34:12 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:hcexpansion
+2014-09-05 16:34:12 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/tntDeathly_bottom.png
+2014-09-05 16:34:12 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/tntDeathly_top.png
+2014-09-05 16:34:12 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/tntDeathly_side.png
+2014-09-05 16:34:12 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/quartzInfected.png
+2014-09-05 16:34:14 [CLIENT] [SEVERE] Realms: Server not available!
+2014-09-05 16:34:40 [CLIENT] [INFO] [CHAT] <Miner_Fil> .
+2014-09-05 16:34:40 [CLIENT] [WARNING] Memory connection overburdened; after processing 2500 packets, we still have 9803 to go!
+2014-09-05 16:34:40 [CLIENT] [WARNING] Memory connection overburdened; after processing 2500 packets, we still have 7660 to go!
+2014-09-05 16:34:40 [CLIENT] [WARNING] Memory connection overburdened; after processing 2500 packets, we still have 5281 to go!
+2014-09-05 16:34:40 [CLIENT] [WARNING] Memory connection overburdened; after processing 2500 packets, we still have 2934 to go!
+2014-09-05 16:34:40 [CLIENT] [WARNING] Memory connection overburdened; after processing 2500 packets, we still have 637 to go!
+2014-09-05 16:34:41 [CLIENT] [WARNING] Memory connection overburdened; after processing 2500 packets, we still have 80 to go!
+2014-09-05 16:36:46 [CLIENT] [INFO] Stopping!
+2014-09-05 17:37:47 [CLIENT] [INFO] Setting user: Miner_Fil
+2014-09-06 21:07:11 [CLIENT] [INFO] Setting user: Miner_Fil
+2014-09-06 21:07:12 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2014-09-06 21:07:13 [CLIENT] [INFO] Reloading ResourceManager: Default
+2014-09-06 21:07:16 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:hcexpansion
+2014-09-06 21:07:19 [CLIENT] [SEVERE] Realms: Server not available!
+2014-09-06 21:07:23 [CLIENT] [INFO] Stopping!
+2014-09-06 21:07:36 [CLIENT] [INFO] Setting user: Miner_Fil
+2014-09-06 21:07:36 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2014-09-06 21:07:37 [CLIENT] [INFO] Reloading ResourceManager: Default
+2014-09-06 21:07:41 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:hcexpansion
+2014-09-06 21:07:42 [CLIENT] [SEVERE] Realms: Server not available!
+2014-09-06 21:07:52 [CLIENT] [INFO] Stopping!
+2014-09-06 21:08:38 [CLIENT] [INFO] Setting user: Miner_Fil
+2014-09-06 21:08:38 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2014-09-06 21:08:39 [CLIENT] [INFO] Reloading ResourceManager: Default
+2014-09-06 21:08:42 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:hcexpansion
+2014-09-06 21:08:46 [CLIENT] [INFO] Stopping!
+2014-09-06 21:08:57 [CLIENT] [INFO] Setting user: Miner_Fil
+2014-09-06 21:08:57 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2014-09-06 21:08:58 [CLIENT] [INFO] Reloading ResourceManager: Default
+2014-09-06 21:09:01 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:hcexpansion
+2014-09-06 21:09:03 [CLIENT] [SEVERE] Realms: Server not available!
+2014-09-06 21:09:12 [CLIENT] [INFO] Stopping!
+2014-09-06 21:09:18 [CLIENT] [INFO] Setting user: Miner_Fil
+2014-09-06 21:09:19 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2014-09-06 21:09:20 [CLIENT] [INFO] Reloading ResourceManager: Default
+2014-09-06 21:09:23 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:hcexpansion
+2014-09-06 21:09:25 [CLIENT] [SEVERE] Realms: Server not available!
+2014-09-06 21:09:28 [CLIENT] [INFO] Stopping!
+2014-09-06 21:09:42 [CLIENT] [INFO] Setting user: Miner_Fil
+2014-09-06 21:09:42 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2014-09-06 21:09:43 [CLIENT] [INFO] Reloading ResourceManager: Default
+2014-09-06 21:09:46 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:hcexpansion
+2014-09-06 21:10:07 [CLIENT] [INFO] Setting user: Miner_Fil
+2014-09-06 21:10:07 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2014-09-06 21:10:08 [CLIENT] [INFO] Reloading ResourceManager: Default
+2014-09-06 21:10:11 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge
+2014-09-06 21:10:12 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge
+2014-09-06 21:10:14 [CLIENT] [SEVERE] Realms: Server not available!
+2014-09-06 21:10:15 [CLIENT] [INFO] Stopping!
+2014-09-06 21:10:27 [CLIENT] [INFO] Setting user: Miner_Fil
+2014-09-06 21:10:28 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2014-09-06 21:10:28 [CLIENT] [INFO] Reloading ResourceManager: Default
+2014-09-06 21:10:31 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:hcexpansion
+2014-09-06 21:10:34 [CLIENT] [SEVERE] Realms: Server not available!
+2014-09-06 21:10:34 [CLIENT] [INFO] Stopping!
+2014-09-06 21:10:40 [CLIENT] [INFO] Setting user: Miner_Fil
+2014-09-06 21:10:41 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2014-09-06 21:10:42 [CLIENT] [INFO] Reloading ResourceManager: Default
+2014-09-06 21:10:45 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:hcexpansion
+2014-09-06 21:10:47 [CLIENT] [SEVERE] Realms: Server not available!
+2014-09-06 21:10:47 [CLIENT] [INFO] Stopping!
+2014-09-06 21:29:20 [CLIENT] [INFO] Setting user: Miner_Fil
+2014-09-06 21:29:21 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2014-09-06 21:29:21 [CLIENT] [INFO] Reloading ResourceManager: Default
+2014-09-06 21:29:24 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:FilsCore, FMLFileResourcePack:hcexpansion
+2014-09-06 21:29:25 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:FilsCore, FMLFileResourcePack:Hardcore Expansion
+2014-09-06 21:29:25 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/tntDeathly_bottom.png
+2014-09-06 21:29:25 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/tntDeathly_top.png
+2014-09-06 21:29:25 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/tntDeathly_side.png
+2014-09-06 21:29:25 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/quartzInfected.png
+2014-09-06 21:29:26 [CLIENT] [SEVERE] Realms: Server not available!
+2014-09-06 21:30:43 [CLIENT] [INFO] [CHAT] <Miner_Fil> t.
+2014-09-06 21:30:43 [CLIENT] [INFO] [CHAT] <Miner_Fil> .
+2014-09-06 21:30:43 [CLIENT] [INFO] [CHAT] <Miner_Fil> ....
+2014-09-06 21:31:07 [CLIENT] [INFO] [CHAT] Unknown command. Try /help for a list of commands
+2014-09-07 14:03:13 [CLIENT] [INFO] Setting user: Miner_Fil
+2014-09-07 14:03:14 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2014-09-07 14:03:14 [CLIENT] [INFO] Reloading ResourceManager: Default
+2014-09-07 14:03:17 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:FilsCore, FMLFileResourcePack:hcexpansion
+2014-09-07 14:03:18 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Fil's Core, FMLFileResourcePack:Hardcore Expansion
+2014-09-07 14:03:18 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/tntDeathly_bottom.png
+2014-09-07 14:03:18 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/tntDeathly_top.png
+2014-09-07 14:03:18 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/tntDeathly_side.png
+2014-09-07 14:03:18 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/dustBlock.png
+2014-09-07 14:03:18 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/quartzInfected.png
+2014-09-07 14:03:20 [CLIENT] [SEVERE] Realms: Server not available!
+2014-09-07 14:03:26 [CLIENT] [INFO] Stopping!
+2014-09-07 14:04:25 [CLIENT] [INFO] Setting user: Miner_Fil
+2014-09-07 14:04:26 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2014-09-07 14:04:26 [CLIENT] [INFO] Reloading ResourceManager: Default
+2014-09-07 14:04:30 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:hcexpansion
+2014-09-07 14:04:31 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Hardcore Expansion
+2014-09-07 14:04:31 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/tntDeathly_bottom.png
+2014-09-07 14:04:31 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/tntDeathly_top.png
+2014-09-07 14:04:31 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/tntDeathly_side.png
+2014-09-07 14:04:31 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/dustBlock.png
+2014-09-07 14:04:31 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/quartzInfected.png
+2014-09-07 15:28:20 [CLIENT] [INFO] Setting user: Miner_Fil
+2014-09-07 15:28:21 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2014-09-07 15:28:21 [CLIENT] [INFO] Reloading ResourceManager: Default
+2014-09-07 15:28:24 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:hcexpansion
+2014-09-07 15:28:25 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Hardcore Expansion
+2014-09-07 15:28:25 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/tntDeathly_bottom.png
+2014-09-07 15:28:25 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/tntDeathly_top.png
+2014-09-07 15:28:25 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/tntDeathly_side.png
+2014-09-07 15:28:25 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/dustBlock.png
+2014-09-07 15:28:25 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/quartzInfected.png
+2014-09-07 15:28:27 [CLIENT] [SEVERE] Realms: Server not available!
+2014-09-07 15:28:50 [CLIENT] [INFO] Stopping!
+2014-09-07 15:30:51 [CLIENT] [INFO] Setting user: Miner_Fil
+2014-09-07 15:30:52 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2014-09-07 15:30:53 [CLIENT] [INFO] Reloading ResourceManager: Default
+2014-09-07 15:30:56 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:tmexpansion
+2014-09-07 15:30:57 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Thermomic Expansion
+2014-09-07 15:30:57 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/tntDeathly_bottom.png
+2014-09-07 15:30:57 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/tntDeathly_top.png
+2014-09-07 15:30:57 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/tntDeathly_side.png
+2014-09-07 15:30:57 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/dustBlock.png
+2014-09-07 15:30:57 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/quartzInfected.png
+2014-09-07 15:30:58 [CLIENT] [SEVERE] Realms: Server not available!
+2014-09-07 15:31:01 [CLIENT] [INFO] Stopping!
+2014-09-07 15:49:04 [CLIENT] [INFO] Setting user: Miner_Fil
+2014-09-07 15:49:05 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2014-09-07 15:49:06 [CLIENT] [INFO] Reloading ResourceManager: Default
+2014-09-07 15:49:09 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:TExpansion
+2014-09-07 15:49:09 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Thermomic Expansion
+2014-09-07 15:49:09 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/tntDeathly_bottom.png
+2014-09-07 15:49:09 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/tntDeathly_top.png
+2014-09-07 15:49:09 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/tntDeathly_side.png
+2014-09-07 15:49:09 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/dustBlock.png
+2014-09-07 15:49:09 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/quartzInfected.png
+2014-09-07 15:49:11 [CLIENT] [SEVERE] Realms: Server not available!
+2014-09-07 15:49:16 [CLIENT] [INFO] Stopping!
+2014-09-07 15:54:35 [CLIENT] [INFO] Setting user: Miner_Fil
+2014-09-07 15:54:36 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2014-09-07 15:54:36 [CLIENT] [INFO] Reloading ResourceManager: Default
+2014-09-07 15:58:29 [CLIENT] [INFO] Setting user: Miner_Fil
+2014-09-07 15:58:30 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2014-09-07 15:58:31 [CLIENT] [INFO] Reloading ResourceManager: Default
+2014-09-07 15:58:34 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:TExpansion
+2014-09-07 15:58:35 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:Thermomic Expansion
+2014-09-07 15:58:35 [CLIENT] [SEVERE] Using missing texture, unable to load: texpansion:textures/blocks/quartzInfected.png
+2014-09-07 15:58:35 [CLIENT] [SEVERE] Using missing texture, unable to load: texpansion:textures/blocks/tntDeathly_bottom.png
+2014-09-07 15:58:35 [CLIENT] [SEVERE] Using missing texture, unable to load: texpansion:textures/blocks/tntDeathly_top.png
+2014-09-07 15:58:35 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/log_fermented_top.png
+2014-09-07 15:58:35 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/log_fermented.png
+2014-09-07 15:58:35 [CLIENT] [SEVERE] Using missing texture, unable to load: texpansion:textures/blocks/tntDeathly_side.png
+2014-09-07 15:58:37 [CLIENT] [SEVERE] Realms: Server not available!
+2014-09-07 15:59:57 [CLIENT] [INFO] Stopping!
+2014-09-07 16:01:13 [CLIENT] [INFO] Setting user: Miner_Fil
+2014-09-07 16:01:14 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2014-09-07 16:01:15 [CLIENT] [INFO] Reloading ResourceManager: Default
+2014-09-07 16:01:18 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:TExpansion, FMLFileResourcePack:NEI Addons, FMLFileResourcePack:NEI Addons: Applied Energistics, FMLFileResourcePack:NEI Addons: Misc Peripherals, FMLFileResourcePack:NEI Addons: Extra Bees, FMLFileResourcePack:NEI Addons: Forestry, FMLFileResourcePack:NEI Addons: Crafting Tables, FMLFileResourcePack:NEI Plugins
+2014-09-07 16:01:19 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:Thermomic Expansion, FMLFileResourcePack:NEI Addons, FMLFileResourcePack:NEI Addons: Applied Energistics, FMLFileResourcePack:NEI Addons: Misc Peripherals, FMLFileResourcePack:NEI Addons: Extra Bees, FMLFileResourcePack:NEI Addons: Forestry, FMLFileResourcePack:NEI Addons: Crafting Tables, FMLFileResourcePack:NEI Plugins
+2014-09-07 16:01:20 [CLIENT] [SEVERE] Using missing texture, unable to load: texpansion:textures/blocks/quartzInfected.png
+2014-09-07 16:01:20 [CLIENT] [SEVERE] Using missing texture, unable to load: texpansion:textures/blocks/tntDeathly_bottom.png
+2014-09-07 16:01:20 [CLIENT] [SEVERE] Using missing texture, unable to load: texpansion:textures/blocks/tntDeathly_top.png
+2014-09-07 16:01:20 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/log_fermented_top.png
+2014-09-07 16:01:20 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/log_fermented.png
+2014-09-07 16:01:20 [CLIENT] [SEVERE] Using missing texture, unable to load: texpansion:textures/blocks/tntDeathly_side.png
+2014-09-07 16:01:21 [CLIENT] [SEVERE] Realms: Server not available!
+2014-09-07 16:02:11 [CLIENT] [INFO] Stopping!
+2014-09-07 16:03:03 [CLIENT] [INFO] Setting user: Miner_Fil
+2014-09-07 16:03:04 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2014-09-07 16:03:05 [CLIENT] [INFO] Reloading ResourceManager: Default
+2014-09-07 16:03:08 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:TExpansion, FMLFileResourcePack:NEI Addons, FMLFileResourcePack:NEI Addons: Applied Energistics, FMLFileResourcePack:NEI Addons: Misc Peripherals, FMLFileResourcePack:NEI Addons: Extra Bees, FMLFileResourcePack:NEI Addons: Forestry, FMLFileResourcePack:NEI Addons: Crafting Tables, FMLFileResourcePack:NEI Plugins
+2014-09-07 16:03:10 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:Thermomic Expansion, FMLFileResourcePack:NEI Addons, FMLFileResourcePack:NEI Addons: Applied Energistics, FMLFileResourcePack:NEI Addons: Misc Peripherals, FMLFileResourcePack:NEI Addons: Extra Bees, FMLFileResourcePack:NEI Addons: Forestry, FMLFileResourcePack:NEI Addons: Crafting Tables, FMLFileResourcePack:NEI Plugins
+2014-09-07 16:03:10 [CLIENT] [SEVERE] Using missing texture, unable to load: texpansion:textures/blocks/quartzInfected.png
+2014-09-07 16:03:10 [CLIENT] [SEVERE] Using missing texture, unable to load: texpansion:textures/blocks/tntDeathly_bottom.png
+2014-09-07 16:03:10 [CLIENT] [SEVERE] Using missing texture, unable to load: texpansion:textures/blocks/tntDeathly_top.png
+2014-09-07 16:03:10 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/log_fermented_top.png
+2014-09-07 16:03:10 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/log_fermented.png
+2014-09-07 16:03:10 [CLIENT] [SEVERE] Using missing texture, unable to load: texpansion:textures/blocks/tntDeathly_side.png
+2014-09-07 16:03:11 [CLIENT] [SEVERE] Realms: Server not available!
+2014-09-07 16:03:28 [CLIENT] [INFO] Stopping!
+2014-09-07 16:03:47 [CLIENT] [INFO] Setting user: Miner_Fil
+2014-09-07 16:03:48 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2014-09-07 16:03:49 [CLIENT] [INFO] Reloading ResourceManager: Default
+2014-09-07 16:03:52 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:TExpansion, FMLFileResourcePack:NEI Addons, FMLFileResourcePack:NEI Addons: Applied Energistics, FMLFileResourcePack:NEI Addons: Misc Peripherals, FMLFileResourcePack:NEI Addons: Extra Bees, FMLFileResourcePack:NEI Addons: Forestry, FMLFileResourcePack:NEI Addons: Crafting Tables, FMLFileResourcePack:NEI Plugins
+2014-09-07 16:04:28 [CLIENT] [INFO] Setting user: Miner_Fil
+2014-09-07 16:04:29 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2014-09-07 16:04:30 [CLIENT] [INFO] Reloading ResourceManager: Default
+2014-09-07 16:04:33 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:TExpansion, FMLFileResourcePack:NEI Addons, FMLFileResourcePack:NEI Addons: Applied Energistics, FMLFileResourcePack:NEI Addons: Misc Peripherals, FMLFileResourcePack:NEI Addons: Extra Bees, FMLFileResourcePack:NEI Addons: Forestry, FMLFileResourcePack:NEI Addons: Crafting Tables, FMLFileResourcePack:NEI Plugins
+2014-09-07 16:05:05 [CLIENT] [INFO] Setting user: Miner_Fil
+2014-09-07 16:05:06 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2014-09-07 16:05:07 [CLIENT] [INFO] Reloading ResourceManager: Default
+2014-09-07 16:05:10 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:TExpansion, FMLFileResourcePack:NEI Addons, FMLFileResourcePack:NEI Addons: Applied Energistics, FMLFileResourcePack:NEI Addons: Misc Peripherals, FMLFileResourcePack:NEI Addons: Extra Bees, FMLFileResourcePack:NEI Addons: Forestry, FMLFileResourcePack:NEI Addons: Crafting Tables, FMLFileResourcePack:NEI Plugins
+2014-09-07 16:07:12 [CLIENT] [INFO] Setting user: Miner_Fil
+2014-09-07 16:07:13 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2014-09-07 16:07:14 [CLIENT] [INFO] Reloading ResourceManager: Default
+2014-09-07 16:07:17 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:TExpansion, FMLFileResourcePack:NEI Addons, FMLFileResourcePack:NEI Addons: Applied Energistics, FMLFileResourcePack:NEI Addons: Misc Peripherals, FMLFileResourcePack:NEI Addons: Extra Bees, FMLFileResourcePack:NEI Addons: Forestry, FMLFileResourcePack:NEI Addons: Crafting Tables, FMLFileResourcePack:NEI Plugins
+2014-09-07 16:09:14 [CLIENT] [INFO] Setting user: Miner_Fil
+2014-09-07 16:09:15 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2014-09-07 16:09:16 [CLIENT] [INFO] Reloading ResourceManager: Default
+2014-09-07 16:09:19 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:TExpansion, FMLFileResourcePack:NEI Addons, FMLFileResourcePack:NEI Addons: Applied Energistics, FMLFileResourcePack:NEI Addons: Misc Peripherals, FMLFileResourcePack:NEI Addons: Extra Bees, FMLFileResourcePack:NEI Addons: Forestry, FMLFileResourcePack:NEI Addons: Crafting Tables, FMLFileResourcePack:NEI Plugins
+2014-09-07 16:09:27 [CLIENT] [INFO] Setting user: Miner_Fil
+2014-09-07 16:09:28 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2014-09-07 16:09:29 [CLIENT] [INFO] Reloading ResourceManager: Default
+2014-09-07 16:09:32 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:TExpansion, FMLFileResourcePack:NEI Addons, FMLFileResourcePack:NEI Addons: Applied Energistics, FMLFileResourcePack:NEI Addons: Misc Peripherals, FMLFileResourcePack:NEI Addons: Extra Bees, FMLFileResourcePack:NEI Addons: Forestry, FMLFileResourcePack:NEI Addons: Crafting Tables, FMLFileResourcePack:NEI Plugins
+2014-09-07 16:11:26 [CLIENT] [INFO] Setting user: Miner_Fil
+2014-09-07 16:11:27 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2014-09-07 16:11:27 [CLIENT] [INFO] Reloading ResourceManager: Default
+2014-09-07 16:11:30 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:TExpansion, FMLFileResourcePack:NEI Addons, FMLFileResourcePack:NEI Addons: Applied Energistics, FMLFileResourcePack:NEI Addons: Misc Peripherals, FMLFileResourcePack:NEI Addons: Extra Bees, FMLFileResourcePack:NEI Addons: Forestry, FMLFileResourcePack:NEI Addons: Crafting Tables, FMLFileResourcePack:NEI Plugins
+2014-09-07 16:12:07 [CLIENT] [INFO] Setting user: Miner_Fil
+2014-09-07 16:12:08 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2014-09-07 16:12:09 [CLIENT] [INFO] Reloading ResourceManager: Default
+2014-09-07 16:12:12 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:TExpansion, FMLFileResourcePack:NEI Addons, FMLFileResourcePack:NEI Addons: Applied Energistics, FMLFileResourcePack:NEI Addons: Misc Peripherals, FMLFileResourcePack:NEI Addons: Extra Bees, FMLFileResourcePack:NEI Addons: Forestry, FMLFileResourcePack:NEI Addons: Crafting Tables, FMLFileResourcePack:NEI Plugins
+2014-09-07 16:12:23 [CLIENT] [INFO] Setting user: Miner_Fil
+2014-09-07 16:12:24 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2014-09-07 16:12:25 [CLIENT] [INFO] Reloading ResourceManager: Default
+2014-09-07 16:12:28 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:TExpansion, FMLFileResourcePack:NEI Addons, FMLFileResourcePack:NEI Addons: Applied Energistics, FMLFileResourcePack:NEI Addons: Misc Peripherals, FMLFileResourcePack:NEI Addons: Extra Bees, FMLFileResourcePack:NEI Addons: Forestry, FMLFileResourcePack:NEI Addons: Crafting Tables, FMLFileResourcePack:NEI Plugins
+2014-09-07 16:12:30 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:Thermomic Expansion, FMLFileResourcePack:NEI Addons, FMLFileResourcePack:NEI Addons: Applied Energistics, FMLFileResourcePack:NEI Addons: Misc Peripherals, FMLFileResourcePack:NEI Addons: Extra Bees, FMLFileResourcePack:NEI Addons: Forestry, FMLFileResourcePack:NEI Addons: Crafting Tables, FMLFileResourcePack:NEI Plugins
+2014-09-07 16:12:30 [CLIENT] [SEVERE] Using missing texture, unable to load: texpansion:textures/blocks/quartzInfected.png
+2014-09-07 16:12:30 [CLIENT] [SEVERE] Using missing texture, unable to load: texpansion:textures/blocks/tntDeathly_bottom.png
+2014-09-07 16:12:30 [CLIENT] [SEVERE] Using missing texture, unable to load: texpansion:textures/blocks/tntDeathly_top.png
+2014-09-07 16:12:30 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/log_fermented_top.png
+2014-09-07 16:12:30 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/log_fermented.png
+2014-09-07 16:12:30 [CLIENT] [SEVERE] Using missing texture, unable to load: texpansion:textures/blocks/tntDeathly_side.png
+2014-09-07 16:12:31 [CLIENT] [SEVERE] Realms: Server not available!
+2014-09-07 16:26:51 [CLIENT] [INFO] Stopping!
+2014-09-07 16:28:05 [CLIENT] [INFO] Setting user: Miner_Fil
+2014-09-07 16:28:06 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2014-09-07 16:28:07 [CLIENT] [INFO] Reloading ResourceManager: Default
+2014-09-07 16:28:10 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:TExpansion, FMLFileResourcePack:NEI Addons, FMLFileResourcePack:NEI Addons: Applied Energistics, FMLFileResourcePack:NEI Addons: Misc Peripherals, FMLFileResourcePack:NEI Addons: Extra Bees, FMLFileResourcePack:NEI Addons: Forestry, FMLFileResourcePack:NEI Addons: Crafting Tables, FMLFileResourcePack:NEI Plugins
+2014-09-07 16:28:11 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:Thermomic Expansion, FMLFileResourcePack:NEI Addons, FMLFileResourcePack:NEI Addons: Applied Energistics, FMLFileResourcePack:NEI Addons: Misc Peripherals, FMLFileResourcePack:NEI Addons: Extra Bees, FMLFileResourcePack:NEI Addons: Forestry, FMLFileResourcePack:NEI Addons: Crafting Tables, FMLFileResourcePack:NEI Plugins
+2014-09-07 16:28:12 [CLIENT] [SEVERE] Using missing texture, unable to load: texpansion:textures/blocks/quartzInfected.png
+2014-09-07 16:28:12 [CLIENT] [SEVERE] Using missing texture, unable to load: texpansion:textures/blocks/tntDeathly_bottom.png
+2014-09-07 16:28:12 [CLIENT] [SEVERE] Using missing texture, unable to load: texpansion:textures/blocks/tntDeathly_top.png
+2014-09-07 16:28:12 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/log_fermented_top.png
+2014-09-07 16:28:12 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/log_fermented.png
+2014-09-07 16:28:12 [CLIENT] [SEVERE] Using missing texture, unable to load: texpansion:textures/blocks/tntDeathly_side.png
+2014-09-07 16:28:13 [CLIENT] [SEVERE] Realms: Server not available!
+2014-09-07 16:30:10 [CLIENT] [INFO] Stopping!
+2014-09-07 16:30:43 [CLIENT] [INFO] Setting user: Miner_Fil
+2014-09-07 16:30:44 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2014-09-07 16:30:45 [CLIENT] [INFO] Reloading ResourceManager: Default
+2014-09-07 16:30:48 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:TExpansion, FMLFileResourcePack:NEI Addons, FMLFileResourcePack:NEI Addons: Applied Energistics, FMLFileResourcePack:NEI Addons: Misc Peripherals, FMLFileResourcePack:NEI Addons: Extra Bees, FMLFileResourcePack:NEI Addons: Forestry, FMLFileResourcePack:NEI Addons: Crafting Tables, FMLFileResourcePack:NEI Plugins
+2014-09-07 16:30:49 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:Thermomic Expansion, FMLFileResourcePack:NEI Addons, FMLFileResourcePack:NEI Addons: Applied Energistics, FMLFileResourcePack:NEI Addons: Misc Peripherals, FMLFileResourcePack:NEI Addons: Extra Bees, FMLFileResourcePack:NEI Addons: Forestry, FMLFileResourcePack:NEI Addons: Crafting Tables, FMLFileResourcePack:NEI Plugins
+2014-09-07 16:30:50 [CLIENT] [SEVERE] Using missing texture, unable to load: texpansion:textures/blocks/quartzInfected.png
+2014-09-07 16:30:50 [CLIENT] [SEVERE] Using missing texture, unable to load: texpansion:textures/blocks/tntDeathly_bottom.png
+2014-09-07 16:30:50 [CLIENT] [SEVERE] Using missing texture, unable to load: texpansion:textures/blocks/tntDeathly_top.png
+2014-09-07 16:30:50 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/log_fermented_top.png
+2014-09-07 16:30:50 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/log_fermented.png
+2014-09-07 16:30:50 [CLIENT] [SEVERE] Using missing texture, unable to load: texpansion:textures/blocks/tntDeathly_side.png
+2014-09-07 16:30:51 [CLIENT] [SEVERE] Realms: Server not available!
+2014-09-07 16:31:13 [CLIENT] [INFO] [CHAT] Your game mode has been updated
+2014-09-07 16:31:36 [CLIENT] [INFO] [CHAT] Giving Miner_Fil 64 of Dust
+2014-09-07 16:45:39 [CLIENT] [INFO] Stopping!
+2014-09-07 16:45:44 [CLIENT] [INFO] Setting user: Miner_Fil
+2014-09-07 16:45:46 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2014-09-07 16:45:46 [CLIENT] [INFO] Reloading ResourceManager: Default
+2014-09-07 16:45:49 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:TExpansion, FMLFileResourcePack:NEI Addons, FMLFileResourcePack:NEI Addons: Applied Energistics, FMLFileResourcePack:NEI Addons: Misc Peripherals, FMLFileResourcePack:NEI Addons: Extra Bees, FMLFileResourcePack:NEI Addons: Forestry, FMLFileResourcePack:NEI Addons: Crafting Tables, FMLFileResourcePack:NEI Plugins
+2014-09-07 16:45:50 [CLIENT] [SEVERE] Using missing texture, unable to load: texpansion:textures/items/raddishHorse.png
+2014-09-07 16:45:51 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:Thermomic Expansion, FMLFileResourcePack:NEI Addons, FMLFileResourcePack:NEI Addons: Applied Energistics, FMLFileResourcePack:NEI Addons: Misc Peripherals, FMLFileResourcePack:NEI Addons: Extra Bees, FMLFileResourcePack:NEI Addons: Forestry, FMLFileResourcePack:NEI Addons: Crafting Tables, FMLFileResourcePack:NEI Plugins
+2014-09-07 16:45:51 [CLIENT] [SEVERE] Using missing texture, unable to load: texpansion:textures/items/raddishHorse.png
+2014-09-07 16:45:51 [CLIENT] [SEVERE] Using missing texture, unable to load: texpansion:textures/blocks/quartzInfected.png
+2014-09-07 16:45:51 [CLIENT] [SEVERE] Using missing texture, unable to load: texpansion:textures/blocks/tntDeathly_bottom.png
+2014-09-07 16:45:51 [CLIENT] [SEVERE] Using missing texture, unable to load: texpansion:textures/blocks/tntDeathly_top.png
+2014-09-07 16:45:51 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/log_fermented_top.png
+2014-09-07 16:45:51 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/log_fermented.png
+2014-09-07 16:45:51 [CLIENT] [SEVERE] Using missing texture, unable to load: texpansion:textures/blocks/tntDeathly_side.png
+2014-09-07 16:45:53 [CLIENT] [SEVERE] Realms: Server not available!
+2014-09-07 16:46:05 [CLIENT] [INFO] Stopping!
+2014-09-07 16:49:25 [CLIENT] [INFO] Setting user: Miner_Fil
+2014-09-07 16:49:26 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2014-09-07 16:49:27 [CLIENT] [INFO] Reloading ResourceManager: Default
+2014-09-07 16:49:37 [CLIENT] [INFO] Setting user: Miner_Fil
+2014-09-07 16:49:38 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2014-09-07 16:49:39 [CLIENT] [INFO] Reloading ResourceManager: Default
+2014-09-07 16:49:42 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:TExpansion, FMLFileResourcePack:NEI Addons, FMLFileResourcePack:NEI Addons: Applied Energistics, FMLFileResourcePack:NEI Addons: Misc Peripherals, FMLFileResourcePack:NEI Addons: Extra Bees, FMLFileResourcePack:NEI Addons: Forestry, FMLFileResourcePack:NEI Addons: Crafting Tables, FMLFileResourcePack:NEI Plugins
+2014-09-07 16:50:03 [CLIENT] [INFO] Setting user: Miner_Fil
+2014-09-07 16:50:04 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2014-09-07 16:50:05 [CLIENT] [INFO] Reloading ResourceManager: Default
+2014-09-07 16:50:08 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:TExpansion, FMLFileResourcePack:NEI Addons, FMLFileResourcePack:NEI Addons: Applied Energistics, FMLFileResourcePack:NEI Addons: Misc Peripherals, FMLFileResourcePack:NEI Addons: Extra Bees, FMLFileResourcePack:NEI Addons: Forestry, FMLFileResourcePack:NEI Addons: Crafting Tables, FMLFileResourcePack:NEI Plugins
+2014-09-07 16:50:40 [CLIENT] [INFO] Setting user: Miner_Fil
+2014-09-07 16:50:41 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2014-09-07 16:50:41 [CLIENT] [INFO] Reloading ResourceManager: Default
+2014-09-07 16:50:45 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:TExpansion, FMLFileResourcePack:NEI Addons, FMLFileResourcePack:NEI Addons: Applied Energistics, FMLFileResourcePack:NEI Addons: Misc Peripherals, FMLFileResourcePack:NEI Addons: Extra Bees, FMLFileResourcePack:NEI Addons: Forestry, FMLFileResourcePack:NEI Addons: Crafting Tables, FMLFileResourcePack:NEI Plugins
+2014-09-07 16:50:46 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:Thermomic Expansion, FMLFileResourcePack:NEI Addons, FMLFileResourcePack:NEI Addons: Applied Energistics, FMLFileResourcePack:NEI Addons: Misc Peripherals, FMLFileResourcePack:NEI Addons: Extra Bees, FMLFileResourcePack:NEI Addons: Forestry, FMLFileResourcePack:NEI Addons: Crafting Tables, FMLFileResourcePack:NEI Plugins
+2014-09-07 16:50:46 [CLIENT] [SEVERE] Using missing texture, unable to load: texpansion:textures/items/raddishHorse.png
+2014-09-07 16:50:46 [CLIENT] [SEVERE] Using missing texture, unable to load: texpansion:textures/blocks/quartzInfected.png
+2014-09-07 16:50:46 [CLIENT] [SEVERE] Using missing texture, unable to load: texpansion:textures/blocks/tntDeathly_bottom.png
+2014-09-07 16:50:46 [CLIENT] [SEVERE] Using missing texture, unable to load: texpansion:textures/blocks/tntDeathly_top.png
+2014-09-07 16:50:46 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/log_fermented_top.png
+2014-09-07 16:50:46 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/log_fermented.png
+2014-09-07 16:50:46 [CLIENT] [SEVERE] Using missing texture, unable to load: texpansion:textures/blocks/tntDeathly_side.png
+2014-09-07 16:50:48 [CLIENT] [SEVERE] Realms: Server not available!
+2014-09-07 16:52:19 [CLIENT] [INFO] Stopping!
+2014-09-07 16:53:12 [CLIENT] [INFO] Setting user: Miner_Fil
+2014-09-07 16:53:13 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2014-09-07 16:53:13 [CLIENT] [INFO] Reloading ResourceManager: Default
+2014-09-07 16:53:17 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:TExpansion, FMLFileResourcePack:NEI Addons, FMLFileResourcePack:NEI Addons: Applied Energistics, FMLFileResourcePack:NEI Addons: Misc Peripherals, FMLFileResourcePack:NEI Addons: Extra Bees, FMLFileResourcePack:NEI Addons: Forestry, FMLFileResourcePack:NEI Addons: Crafting Tables, FMLFileResourcePack:NEI Plugins
+2014-09-07 16:53:18 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:Thermomic Expansion, FMLFileResourcePack:NEI Addons, FMLFileResourcePack:NEI Addons: Applied Energistics, FMLFileResourcePack:NEI Addons: Misc Peripherals, FMLFileResourcePack:NEI Addons: Extra Bees, FMLFileResourcePack:NEI Addons: Forestry, FMLFileResourcePack:NEI Addons: Crafting Tables, FMLFileResourcePack:NEI Plugins
+2014-09-07 16:53:18 [CLIENT] [SEVERE] Using missing texture, unable to load: texpansion:textures/items/raddishHorse.png
+2014-09-07 16:53:18 [CLIENT] [SEVERE] Using missing texture, unable to load: texpansion:textures/blocks/quartzInfected.png
+2014-09-07 16:53:18 [CLIENT] [SEVERE] Using missing texture, unable to load: texpansion:textures/blocks/tntDeathly_bottom.png
+2014-09-07 16:53:18 [CLIENT] [SEVERE] Using missing texture, unable to load: texpansion:textures/blocks/tntDeathly_top.png
+2014-09-07 16:53:18 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/log_fermented_top.png
+2014-09-07 16:53:18 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/log_fermented.png
+2014-09-07 16:53:18 [CLIENT] [SEVERE] Using missing texture, unable to load: texpansion:textures/blocks/tntDeathly_side.png
+2014-09-07 16:53:20 [CLIENT] [SEVERE] Realms: Server not available!
+2014-09-07 16:54:19 [CLIENT] [INFO] Stopping!
+2014-09-07 16:57:29 [CLIENT] [INFO] Setting user: Miner_Fil
+2014-09-07 16:57:30 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2014-09-07 16:57:31 [CLIENT] [INFO] Reloading ResourceManager: Default
+2014-09-07 16:57:34 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:TExpansion, FMLFileResourcePack:NEI Addons, FMLFileResourcePack:NEI Addons: Applied Energistics, FMLFileResourcePack:NEI Addons: Misc Peripherals, FMLFileResourcePack:NEI Addons: Extra Bees, FMLFileResourcePack:NEI Addons: Forestry, FMLFileResourcePack:NEI Addons: Crafting Tables, FMLFileResourcePack:NEI Plugins
+2014-09-07 16:57:36 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:Thermomic Expansion, FMLFileResourcePack:NEI Addons, FMLFileResourcePack:NEI Addons: Applied Energistics, FMLFileResourcePack:NEI Addons: Misc Peripherals, FMLFileResourcePack:NEI Addons: Extra Bees, FMLFileResourcePack:NEI Addons: Forestry, FMLFileResourcePack:NEI Addons: Crafting Tables, FMLFileResourcePack:NEI Plugins
+2014-09-07 16:57:36 [CLIENT] [SEVERE] Using missing texture, unable to load: texpansion:textures/items/raddishHorse.png
+2014-09-07 16:57:36 [CLIENT] [SEVERE] Using missing texture, unable to load: texpansion:textures/blocks/quartzInfected.png
+2014-09-07 16:57:36 [CLIENT] [SEVERE] Using missing texture, unable to load: texpansion:textures/blocks/tntDeathly_bottom.png
+2014-09-07 16:57:36 [CLIENT] [SEVERE] Using missing texture, unable to load: texpansion:textures/blocks/tntDeathly_top.png
+2014-09-07 16:57:36 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/log_fermented_top.png
+2014-09-07 16:57:36 [CLIENT] [SEVERE] Using missing texture, unable to load: hcexpansion:textures/blocks/log_fermented.png
+2014-09-07 16:57:36 [CLIENT] [SEVERE] Using missing texture, unable to load: texpansion:textures/blocks/tntDeathly_side.png
+2014-09-07 16:57:37 [CLIENT] [SEVERE] Realms: Server not available!
+2014-09-07 17:03:01 [CLIENT] [INFO] Stopping!

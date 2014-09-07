@@ -1,0 +1,23 @@
+package me.fil.craftedmc;
+
+import java.awt.Color;
+import java.awt.Dimension;
+
+import javax.swing.JFrame;
+
+public class Console extends JFrame
+{
+	public static final Dimension dim = new Dimension(1080, 320);
+	
+	public Console()
+	{
+		setTitle("CraftedMC Launcher : Console");
+		setSize(dim);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setVisible(true);
+		setResizable(false);
+		setPreferredSize(dim);
+		setBackground(Color.BLACK);
+		pack();
+	}
+}

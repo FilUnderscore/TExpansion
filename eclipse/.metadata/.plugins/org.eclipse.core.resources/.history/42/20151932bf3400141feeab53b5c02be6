@@ -1,0 +1,13 @@
+package me.fil.craftedmc;
+
+import java.io.Console;
+
+public class CraftedMC 
+{
+	Console console;
+	
+	public static void openConsole()
+	{
+		console = new Console();
+	}
+}

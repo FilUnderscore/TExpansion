@@ -1,0 +1,11 @@
+package me.fil.craftedmc.modpack;
+
+public class ModPackRegistry 
+{
+	private static ModPackRegistry registry;
+	
+	public ModPackRegistry()
+	{
+		registry = this;
+	}
+}

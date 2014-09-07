@@ -1,0 +1,28 @@
+package me.fil.craftedmc.utils;
+
+public class OSUtils 
+{
+	public static enum OS
+	{
+		WINDOWS, MACOSX, UNIX, OTHER;
+	}
+	
+	public String getHomeDirectory()
+	{
+		switch(getCurrentOS())
+		{
+			case WINDOWS:
+				return System.getenv("APPDATA") + "/craftedmc/";
+			case MACOSX:
+				return "/Library/Application Support/craftedmc/";
+			case UNIX:
+				return "/.craftedmc/";
+		}
+		return null;
+	}
+	
+	public OS getCurrentOS()
+	{
+		return OS.WINDOWS;
+	}
+}

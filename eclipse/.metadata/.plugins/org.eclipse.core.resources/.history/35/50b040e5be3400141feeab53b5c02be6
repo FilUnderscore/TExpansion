@@ -1,0 +1,6 @@
+package me.fil.craftedmc;
+
+public class CraftedMC 
+{
+	Console console;
+}
