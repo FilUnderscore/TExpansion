@@ -11,8 +11,8 @@ import net.minecraft.util.Icon;
 
 public class Paintbrush extends Item
 {
-	public static String[] unlocalized_names = {"brushRed", "brushLime", "brushBlue", "brushYellow"};
-	public static String[] names = {"Red Paintbrush", "Lime Paintbrush", "Blue Paintbrush", "Yellow Paintbrush"};
+	//public static String[] unlocalized_names = {"brushRed", "brushLime", "brushBlue", "brushYellow"};
+	//public static String[] names = {"Red Paintbrush", "Lime Paintbrush", "Blue Paintbrush", "Yellow Paintbrush"};
 	
 	public static Icon[] icons;
 	
@@ -24,11 +24,14 @@ public class Paintbrush extends Item
 		setHasSubtypes(true);
 		setCreativeTab(TExpansion.tab);
 		maxStackSize = 1;
+		Names.item_unlocalized_names.put(this, new String[]{"brushRed", "brushLime", "brushBlue", "brushYellow"});
+		Names.item_names.put(this, new String[]{"Red Paintbrush", "Lime Paintbrush", "Blue Paintbrush", "Yellow Paintbrush"});
 	}
 	
 	public String getUnlocalizedName(ItemStack stack)
 	{
-		return names[stack.getItemDamage()];
+		//return names[stack.getItemDamage()];
+		return Names.item_unlocalized_names.get(this)[stack.getItemDamage()];
 	}
 	
 	public Icon getIconFromDamage(int damage)
