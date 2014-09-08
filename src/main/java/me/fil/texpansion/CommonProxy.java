@@ -25,10 +25,11 @@ public class CommonProxy
 		OreDictionary.registerOre("logWood", TExpansion.logFermented);
 		OreDictionary.registerOre("plankWood", TExpansion.woodFermented);
 		OreDictionary.registerOre("raddishHorse", TExpansion.raddishHorse);
-    	for(int i = 0; i < Paintbrush.unlocalized_names.length; i++)
+    	//for(int i = 0; i < Paintbrush.unlocalized_names.length; i++)
+    	for(int i = 0; i < Names.item_unlocalized_names.get(TExpansion.brush).length; i++)
     	{
     		ItemStack stack = new ItemStack(TExpansion.brush, 1, i);
-    		OreDictionary.registerOre(Paintbrush.unlocalized_names[i], stack);
+    		OreDictionary.registerOre(Names.item_unlocalized_names.get(TExpansion.brush)[i], stack);
     	}
 	}
 	
