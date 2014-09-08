@@ -178,8 +178,9 @@ public class TExpansion
     	LanguageRegistry.addName(raddishHorse, "Horse Raddish");
     	LanguageRegistry.addName(fermentator, "Fermentator");
     	
-    	for(int i = 0; i < Paintbrush.names.length; i++)
-    		LanguageRegistry.addName(new ItemStack(brush, 1, i), Paintbrush.names[i]);
+    	//for(int i = 0; i < Paintbrush.names.length; i++)
+    	for(int i = 0; i < Names.item_unlocalized_names.get(brush).length; i++)
+    		LanguageRegistry.addName(new ItemStack(brush, 1, i), Names.item_unlocalized_names.get(brush)[i]);
     	
     	GameRegistry.addShapelessRecipe(new ItemStack(woodFermented, 3), new ItemStack(logFermented));
     	GameRegistry.addShapelessRecipe(new ItemStack(quartzInfected, 1), new ItemStack(Block.blockNetherQuartz), new ItemStack(Item.rottenFlesh), new ItemStack(Item.rottenFlesh));
