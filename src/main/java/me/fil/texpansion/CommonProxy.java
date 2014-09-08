@@ -2,6 +2,8 @@ package me.fil.texpansion;
 
 import java.util.ArrayList;
 
+import cpw.mods.fml.common.registry.LanguageRegistry;
+import me.fil.texpansion.item.Paintbrush;
 import net.minecraft.block.Block;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.crafting.CraftingManager;
@@ -23,6 +25,11 @@ public class CommonProxy
 		OreDictionary.registerOre("logWood", TExpansion.logFermented);
 		OreDictionary.registerOre("plankWood", TExpansion.woodFermented);
 		OreDictionary.registerOre("raddishHorse", TExpansion.raddishHorse);
+    	for(int i = 0; i < Paintbrush.unlocalized_names.length; i++)
+    	{
+    		ItemStack stack = new ItemStack(TExpansion.brush, 1, i);
+    		OreDictionary.registerOre(Paintbrush.unlocalized_names[i], stack);
+    	}
 	}
 	
 	public void disableRecipes()

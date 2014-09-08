@@ -2,6 +2,7 @@ package me.fil.texpansion;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.logging.Logger;
 
 import me.fil.texpansion.block.DeathlyTNT;
 import me.fil.texpansion.block.Dust;
@@ -9,13 +10,17 @@ import me.fil.texpansion.block.Fermentator;
 import me.fil.texpansion.block.FermentedLog;
 import me.fil.texpansion.block.FermentedWood;
 import me.fil.texpansion.block.InfectedQuartz;
+import me.fil.texpansion.item.Paintbrush;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemFood;
 import net.minecraft.item.ItemStack;
+import net.minecraft.world.World;
 import net.minecraftforge.common.Configuration;
+import cpw.mods.fml.common.Loader;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.Mod.Instance;
@@ -27,11 +32,13 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.registry.GameRegistry;
 import cpw.mods.fml.common.registry.LanguageRegistry;
 
-@Mod(modid = TExpansion.MODID, version = TExpansion.VERSION)
+@Mod(modid = TExpansion.MODID, name = TExpansion.MODID, version = TExpansion.VERSION, dependencies = "required-after:Forge@[9.11.1.953,);")
 public class TExpansion
 {
     public static final String MODID = "TExpansion";
     public static final String VERSION = "1.037";
+    
+    public static Logger logger = Logger.getLogger("TExpansion");
     
     @Instance(value = TExpansion.MODID)
     public static TExpansion instance;
@@ -64,6 +71,7 @@ public class TExpansion
     //Items
     public static Item waterDirty;
     public static Item raddishHorse;
+    public static Item brush;
     
     //IDS (Block)
     public static int fermentatorId;
@@ -77,6 +85,7 @@ public class TExpansion
     public static int ironRustedId;
     public static int waterDirtyId;
     public static int raddishHorseId;
+    public static int brushId;
     
     @EventHandler
     public void preInit(FMLPreInitializationEvent event)
@@ -95,6 +104,7 @@ public class TExpansion
     	ironRustedId = config.getItem("RustedIron", 31743).getInt();
     	waterDirtyId = config.getItem("DirtyWater", 31689).getInt();
     	raddishHorseId = config.getItem("HorseRaddish", 31688).getInt();
+    	brushId = config.getItem("PaintBrush", 31689).getInt();
     	
     	config.save();
     	
@@ -113,6 +123,24 @@ public class TExpansion
     @EventHandler
     public void init(FMLInitializationEvent event)
     {
+    	if(Loader.isModLoaded("TConstruct"))
+    	{
+    		Logger l = Logger.getLogger("TConstruct");
+    		logger.info("TConstruct, What shall we be doing tonight?");
+    		l.info("TExpansion, We shall take over!");
+    	}
+    	else if(Loader.isModLoaded("TConstruct") && Loader.isModLoaded("Natura"))
+    	{
+    		Logger l = Logger.getLogger("TConstruct");
+    		Logger n = Logger.getLogger("Natura");
+    		logger.info("TConstruct and Natura, What shall we be doing tonight?");
+    		l.info("TExpansion, We shall take over!");
+    		n.info("^^^^ What that guy said.");
+    	}
+    	else
+    	{
+    		logger.info("I guess tonight I might aswell take over myself!");
+    	}
     	proxy = new CommonProxy();
     	
     	proxy.removeRecipe(new ItemStack(Block.torchWood, 0));
@@ -130,6 +158,7 @@ public class TExpansion
     	fermentator = new Fermentator(fermentatorId, Material.iron).setStepSound(Block.soundMetalFootstep).setUnlocalizedName("fermentator").setTextureName("texpansion:fermentator").setCreativeTab(tab);
     	
     	raddishHorse = (new ItemFood(raddishHorseId, 20, 1.5F, false)).setUnlocalizedName("raddishHorse").setTextureName("texpansion:raddishHorse").setCreativeTab(tab);
+    	brush = new Paintbrush(brushId);
     	
     	GameRegistry.registerBlock(logFermented, logFermented.getUnlocalizedName());
     	GameRegistry.registerBlock(woodFermented, woodFermented.getUnlocalizedName());
@@ -139,6 +168,7 @@ public class TExpansion
     	GameRegistry.registerBlock(fermentator, fermentator.getUnlocalizedName());
     	
     	GameRegistry.registerItem(raddishHorse, raddishHorse.getUnlocalizedName());
+    	GameRegistry.registerItem(brush, "brush");
     	
     	LanguageRegistry.addName(logFermented, "Fermented Log");
     	LanguageRegistry.addName(woodFermented, "Fermented Wood Planks");
@@ -148,12 +178,16 @@ public class TExpansion
     	LanguageRegistry.addName(raddishHorse, "Horse Raddish");
     	LanguageRegistry.addName(fermentator, "Fermentator");
     	
+    	for(int i = 0; i < Paintbrush.names.length; i++)
+    		LanguageRegistry.addName(new ItemStack(brush, 1, i), Paintbrush.names[i]);
+    	
     	GameRegistry.addShapelessRecipe(new ItemStack(woodFermented, 3), new ItemStack(logFermented));
     	GameRegistry.addShapelessRecipe(new ItemStack(quartzInfected, 1), new ItemStack(Block.blockNetherQuartz), new ItemStack(Item.rottenFlesh), new ItemStack(Item.rottenFlesh));
     	GameRegistry.addShapelessRecipe(new ItemStack(raddishHorse, 1), new ItemStack(Item.beefRaw), new ItemStack(Item.porkRaw), new ItemStack(Item.leather));
     	GameRegistry.addShapelessRecipe(new ItemStack(raddishHorse, 1), new ItemStack(Item.beefCooked), new ItemStack(Item.porkCooked), new ItemStack(Item.leather));
     	GameRegistry.addShapelessRecipe(new ItemStack(raddishHorse, 1), new ItemStack(Item.beefRaw), new ItemStack(Item.porkCooked), new ItemStack(Item.leather));
     	GameRegistry.addShapelessRecipe(new ItemStack(raddishHorse, 1), new ItemStack(Item.beefCooked), new ItemStack(Item.porkRaw), new ItemStack(Item.leather));
+    	
     }
     
     @EventHandler
