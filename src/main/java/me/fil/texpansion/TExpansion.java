@@ -10,15 +10,14 @@ import me.fil.texpansion.block.Fermentator;
 import me.fil.texpansion.block.FermentedLog;
 import me.fil.texpansion.block.FermentedWood;
 import me.fil.texpansion.block.InfectedQuartz;
+import me.fil.texpansion.item.Fruit;
 import me.fil.texpansion.item.Paintbrush;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemFood;
 import net.minecraft.item.ItemStack;
-import net.minecraft.world.World;
 import net.minecraftforge.common.Configuration;
 import cpw.mods.fml.common.Loader;
 import cpw.mods.fml.common.Mod;
@@ -72,6 +71,7 @@ public class TExpansion
     public static Item waterDirty;
     public static Item raddishHorse;
     public static Item brush;
+    public static Item fruit;
     
     //IDS (Block)
     public static int fermentatorId;
@@ -86,6 +86,7 @@ public class TExpansion
     public static int waterDirtyId;
     public static int raddishHorseId;
     public static int brushId;
+    public static int fruitId;
     
     @EventHandler
     public void preInit(FMLPreInitializationEvent event)
@@ -105,6 +106,7 @@ public class TExpansion
     	waterDirtyId = config.getItem("DirtyWater", 31689).getInt();
     	raddishHorseId = config.getItem("HorseRaddish", 31688).getInt();
     	brushId = config.getItem("PaintBrush", 31689).getInt();
+    	fruitId = config.getItem("Fruits", 31620).getInt();
     	
     	config.save();
     	
@@ -159,6 +161,7 @@ public class TExpansion
     	
     	raddishHorse = (new ItemFood(raddishHorseId, 20, 1.5F, false)).setUnlocalizedName("raddishHorse").setTextureName("texpansion:raddishHorse").setCreativeTab(tab);
     	brush = new Paintbrush(brushId);
+    	fruit = new Fruit(fruitId);
     	
     	GameRegistry.registerBlock(logFermented, logFermented.getUnlocalizedName());
     	GameRegistry.registerBlock(woodFermented, woodFermented.getUnlocalizedName());
@@ -169,6 +172,7 @@ public class TExpansion
     	
     	GameRegistry.registerItem(raddishHorse, raddishHorse.getUnlocalizedName());
     	GameRegistry.registerItem(brush, "brush");
+    	GameRegistry.registerItem(fruit, "fruit");
     	
     	LanguageRegistry.addName(logFermented, "Fermented Log");
     	LanguageRegistry.addName(woodFermented, "Fermented Wood Planks");
@@ -178,8 +182,11 @@ public class TExpansion
     	LanguageRegistry.addName(raddishHorse, "Horse Raddish");
     	LanguageRegistry.addName(fermentator, "Fermentator");
     	
-    	for(int i = 0; i < Paintbrush.names.length; i++)
-    		LanguageRegistry.addName(new ItemStack(brush, 1, i), Paintbrush.names[i]);
+    	//for(int i = 0; i < Paintbrush.names.length; i++)
+    	for(int i = 0; i < Manager.Names.item_unlocalized_names.get(brush).length; i++)
+    		LanguageRegistry.addName(new ItemStack(brush, 1, i), Manager.Names.item_names.get(brush)[i]);
+    	for(int i = 0; i < Manager.Names.item_unlocalized_names.get(fruit).length; i++)
+    		LanguageRegistry.addName(new ItemStack(fruit, 1, i), Manager.Names.item_names.get(fruit)[i]);
     	
     	GameRegistry.addShapelessRecipe(new ItemStack(woodFermented, 3), new ItemStack(logFermented));
     	GameRegistry.addShapelessRecipe(new ItemStack(quartzInfected, 1), new ItemStack(Block.blockNetherQuartz), new ItemStack(Item.rottenFlesh), new ItemStack(Item.rottenFlesh));
