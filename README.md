@@ -3,4 +3,6 @@ TExpansion
 
 Thermomic Expansion is a Mod that adds onto the game. It makes crafting harder, customizes furnace recipes, and adds new features to the game.
 
-Copyright 2014 Miner_Fil
+Currently W.I.P
+
+Copyright 2014 TheFil

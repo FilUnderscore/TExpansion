@@ -31,7 +31,7 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.registry.GameRegistry;
 import cpw.mods.fml.common.registry.LanguageRegistry;
 
-@Mod(modid = TExpansion.MODID, name = TExpansion.MODID, version = TExpansion.VERSION, dependencies = "required-after:Forge@[9.11.1.953,);")
+@Mod(modid = TExpansion.MODID, name = TExpansion.MODID, version = TExpansion.VERSION /*dependencies = "required-after:TConstruct;required-after:IC2;"*/ /*dependencies = "required-after:Forge@[9.11.1.953,);"*/)
 public class TExpansion
 {
     public static final String MODID = "TExpansion";
@@ -66,6 +66,7 @@ public class TExpansion
     public static Block quartzInfected;
     public static Block tntDeathly;
     public static Block blockDust;
+    public static Block blender;
     
     //Items
     public static Item waterDirty;
@@ -80,6 +81,7 @@ public class TExpansion
     public static int quartzInfectedId;
     public static int tntDeathlyId;
     public static int blockDustId;
+    public static int blenderId;
     
     //IDS (Item)
     public static int ironRustedId;
@@ -87,6 +89,7 @@ public class TExpansion
     public static int raddishHorseId;
     public static int brushId;
     public static int fruitId;
+    
     
     @EventHandler
     public void preInit(FMLPreInitializationEvent event)
@@ -101,6 +104,7 @@ public class TExpansion
     	quartzInfectedId = config.getBlock("InfectedQuartz", 898).getInt();
     	tntDeathlyId = config.getBlock("DeathlyTNT", 972).getInt();
     	blockDustId = config.getBlock("DustBlock", 900).getInt();
+    	blenderId = config.getBlock("Blender", 673).getInt();
     	
     	ironRustedId = config.getItem("RustedIron", 31743).getInt();
     	waterDirtyId = config.getItem("DirtyWater", 31689).getInt();
@@ -119,7 +123,7 @@ public class TExpansion
     	authorList.add("Miner_Marx");
     	meta.authorList = authorList;
     	meta.credits = "<3 to the mod creators.";
-    	meta.url = "http://github.com/MinerFil/TExpansion/";
+    	meta.url = "http://github.com/TheFil/TExpansion/";
     }
     
     @EventHandler
