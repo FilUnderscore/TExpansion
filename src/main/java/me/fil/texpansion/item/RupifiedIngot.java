@@ -16,7 +16,7 @@ public class RupifiedIngot extends Item
 	@Override
     @SuppressWarnings({ "rawtypes", "unchecked" })
     public void addInformation(ItemStack par1ItemStack, EntityPlayer player, List par3List, boolean par4) {
-        par3List.add("§4Warning: You can make really OP things");
-        par3List.add("§with this stuff, Use it wisely.");
+        par3List.add("\u00A74Warning: You can make really OP things");
+        par3List.add("\u00A74with this stuff, Use it wisely.");
     }
 }
