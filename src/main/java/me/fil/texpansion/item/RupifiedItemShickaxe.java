@@ -19,7 +19,7 @@ public class RupifiedItemShickaxe extends MultiItemTool
 	@Override
     @SuppressWarnings({ "rawtypes", "unchecked" })
     public void addInformation(ItemStack par1ItemStack, EntityPlayer player, List par3List, boolean par4) {
-		par3List.add("§cAll-in-one Axe/Pickaxe/Shovel");
-        par3List.add("§aInfinite Uses");
+		par3List.add("\u00A7cAll-in-one Axe/Pickaxe/Shovel");
+        par3List.add("\u00A7aInfinite Uses");
     }
 }
