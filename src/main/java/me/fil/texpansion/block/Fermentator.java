@@ -8,12 +8,12 @@ import net.minecraft.world.World;
 
 public class Fermentator extends BlockContainer
 {
-	public Fermentator(int id, Material mat)
+	public Fermentator(Material mat)
 	{
-		super(id, mat);
+		super(mat);
 	}
 	
-	public TileEntity createNewTileEntity(World world)
+	public TileEntity createNewTileEntity(World world, int i)
 	{
 		return new TileEntityFermentator();
 	}

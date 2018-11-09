@@ -5,8 +5,8 @@ import net.minecraft.block.material.Material;
 
 public class InfectedQuartz extends Block
 {
-	public InfectedQuartz(int id, Material mat)
+	public InfectedQuartz(Material mat)
 	{
-		super(id, mat);
+		super(mat);
 	}
 }

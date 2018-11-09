@@ -1,26 +1,17 @@
 package me.fil.texpansion;
 
+import cpw.mods.fml.common.eventhandler.SubscribeEvent;
+import cpw.mods.fml.common.gameevent.PlayerEvent.ItemCraftedEvent;
 import net.minecraft.enchantment.Enchantment;
-import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.inventory.IInventory;
-import net.minecraft.item.ItemStack;
-import cpw.mods.fml.common.ICraftingHandler;
 
-public class CraftingManager implements ICraftingHandler
+public class CraftingManager
 {
-
-	@Override
-	public void onCrafting(EntityPlayer player, ItemStack item, IInventory craftMatrix) 
+	@SubscribeEvent
+	public void onCrafting(ItemCraftedEvent event) 
 	{
-		if(item.itemID == TExpansion.shickaxeRupified.itemID)
+		if(event.crafting.getItem() == TExpansion.shickaxeRupified)
 		{
-			item.addEnchantment(Enchantment.fortune, 10);
+			event.crafting.addEnchantment(Enchantment.fortune, 10);
 		}
 	}
-
-	@Override
-	public void onSmelting(EntityPlayer player, ItemStack item) {
-		
-	}
-	
 }

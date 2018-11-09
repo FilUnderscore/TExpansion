@@ -5,8 +5,8 @@ import net.minecraft.block.material.Material;
 
 public class FermentedWood extends Block
 {
-	public FermentedWood(int id, Material mat)
+	public FermentedWood(Material mat)
 	{
-		super(id, mat);
+		super(mat);
 	}
 }

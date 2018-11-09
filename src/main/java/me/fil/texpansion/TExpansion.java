@@ -4,6 +4,17 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Logger;
 
+import cpw.mods.fml.common.Loader;
+import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.Mod.EventHandler;
+import cpw.mods.fml.common.Mod.Instance;
+import cpw.mods.fml.common.ModMetadata;
+import cpw.mods.fml.common.SidedProxy;
+import cpw.mods.fml.common.event.FMLInitializationEvent;
+import cpw.mods.fml.common.event.FMLPostInitializationEvent;
+import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.registry.GameRegistry;
+import cpw.mods.fml.common.registry.LanguageRegistry;
 import me.fil.texpansion.ApiManager.API;
 import me.fil.texpansion.block.DeathlyTNT;
 import me.fil.texpansion.block.Dust;
@@ -21,26 +32,15 @@ import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.ThreadDownloadImageData;
-import net.minecraft.client.renderer.texture.TextureObject;
+import net.minecraft.client.renderer.texture.ITextureObject;
 import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.init.Blocks;
+import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemFood;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.ResourceLocation;
-import net.minecraftforge.common.Configuration;
-import net.minecraftforge.common.EnumHelper;
-import net.minecraftforge.common.MinecraftForge;
-import cpw.mods.fml.common.Loader;
-import cpw.mods.fml.common.Mod;
-import cpw.mods.fml.common.Mod.EventHandler;
-import cpw.mods.fml.common.Mod.Instance;
-import cpw.mods.fml.common.ModMetadata;
-import cpw.mods.fml.common.SidedProxy;
-import cpw.mods.fml.common.event.FMLInitializationEvent;
-import cpw.mods.fml.common.event.FMLPostInitializationEvent;
-import cpw.mods.fml.common.event.FMLPreInitializationEvent;
-import cpw.mods.fml.common.registry.GameRegistry;
-import cpw.mods.fml.common.registry.LanguageRegistry;
+import net.minecraftforge.common.util.EnumHelper;
 
 @Mod(modid = TExpansion.MODID, name = TExpansion.MODID, version = TExpansion.VERSION /*dependencies = "required-after:TConstruct;required-after:IC2;"*/ /*dependencies = "required-after:Forge@[9.11.1.953,);"*/)
 public class TExpansion
@@ -59,15 +59,16 @@ public class TExpansion
     //Creative Tab
     public static final CreativeTabs tab = new CreativeTabs("tExpansionTab")
     {
-    	public int getTabIconItemIndex()
-        {
-            return TExpansion.woodFermented.blockID;
-        }
-    	
     	public String getTranslatedTabLabel()
     	{
     		return "Thermomic Expansion";
     	}
+
+		@Override
+		public Item getTabIconItem() 
+		{
+			return TExpansion.shickaxeRupified;
+		}
     };
     
     //Tool Types
@@ -94,57 +95,9 @@ public class TExpansion
     public static Item ingotRupee;
     public static Item stickRupee;
     
-    //IDS (Block)
-    public static int fermentatorId;
-    public static int logFermentedId;
-    public static int woodFermentedId;
-    public static int quartzInfectedId;
-    public static int tntDeathlyId;
-    public static int blockDustId;
-    public static int blenderId;
-    public static int oreRupifiedId;
-    public static int oreRupeeId;
-    
-    //IDS (Item)
-    public static int ironRustedId;
-    public static int waterDirtyId;
-    public static int raddishHorseId;
-    public static int brushId;
-    public static int fruitId;
-    public static int shickaxeRupifiedId;
-    public static int ingotRupeeId;
-    public static int ingotRupifiedId;
-    public static int stickRupeeId;
-    
     @EventHandler
     public void preInit(FMLPreInitializationEvent event)
-    {	
-    	Configuration config = new Configuration(event.getSuggestedConfigurationFile());
-    	
-    	config.load();
-    	
-    	fermentatorId = config.getBlock("Fermentator", 672).getInt();
-    	logFermentedId = config.getBlock("FermentedLog", 800).getInt();
-    	woodFermentedId = config.getBlock("FermentedWood", 801).getInt();
-    	quartzInfectedId = config.getBlock("InfectedQuartz", 898).getInt();
-    	tntDeathlyId = config.getBlock("DeathlyTNT", 972).getInt();
-    	blockDustId = config.getBlock("DustBlock", 900).getInt();
-    	blenderId = config.getBlock("Blender", 673).getInt();
-    	oreRupeeId = config.getBlock("RupeeOre", 519).getInt();
-    	oreRupifiedId = config.getBlock("RupifiedOre", 520).getInt();
-    	
-    	//ironRustedId = config.getItem("RustedIron", 31763).getInt();
-    	waterDirtyId = config.getItem("DirtyWater", 31689).getInt();
-    	raddishHorseId = config.getItem("HorseRaddish", 31688).getInt();
-    	brushId = config.getItem("PaintBrush", 31689).getInt();
-    	fruitId = config.getItem("Fruits", 31620).getInt();
-    	shickaxeRupifiedId = config.getItem("RupifiedPickaxe", 31650).getInt();
-    	ingotRupeeId = config.getItem("RupeeIngot", 31630).getInt();
-    	ingotRupifiedId = config.getItem("RupfifiedIngot", 31631).getInt();
-    	stickRupeeId = config.getItem("RupeeStick", 31629).getInt();
-    	
-    	config.save();
-    	
+    {
     	ModMetadata meta = event.getModMetadata();
     	
     	meta.name = "Thermomic Expansion";
@@ -180,7 +133,7 @@ public class TExpansion
     	}
     	proxy = new CommonProxy();
     	
-    	proxy.removeRecipe(new ItemStack(Block.torchWood, 0));
+    	CommonProxy.removeRecipe(new ItemStack(Blocks.torch, 0));
     	
     	proxy.registerRenderers();
     	
@@ -190,20 +143,20 @@ public class TExpansion
     	
     	//OreDictionary.registerOre("blockDust", blockDust);
     	
-    	logFermented = new FermentedLog(logFermentedId, Material.wood).setStepSound(Block.soundWoodFootstep).setUnlocalizedName("logFermented").setTextureName("texpansion:log_fermented").setCreativeTab(tab);
-    	woodFermented = new FermentedWood(woodFermentedId, Material.wood).setStepSound(Block.soundWoodFootstep).setUnlocalizedName("woodFermented").setTextureName("texpansion:woodFermented").setCreativeTab(tab);
-    	quartzInfected = new InfectedQuartz(quartzInfectedId, Material.iron).setStepSound(Block.soundMetalFootstep).setUnlocalizedName("quartzInfected").setTextureName("texpansion:quartzInfected").setCreativeTab(tab).setBlockUnbreakable().setResistance(0.0F);
-    	tntDeathly = new DeathlyTNT(tntDeathlyId).setUnlocalizedName("tntDeathly").setTextureName("texpansion:tntDeathly").setCreativeTab(tab);
-    	blockDust = new Dust(blockDustId, Material.sand).setStepSound(Block.soundSandFootstep).setUnlocalizedName("blockDust").setTextureName("texpansion:dust").setCreativeTab(tab);
-    	fermentator = new Fermentator(fermentatorId, Material.iron).setStepSound(Block.soundMetalFootstep).setUnlocalizedName("fermentator").setTextureName("texpansion:fermentator").setCreativeTab(tab);
-    	oreRupified = new RupifiedOre(oreRupifiedId, Material.rock).setStepSound(Block.soundStoneFootstep).setUnlocalizedName("oreRupified").setTextureName("texpansion:oreRupified").setCreativeTab(tab);
+    	logFermented = new FermentedLog(Material.wood).setStepSound(Block.soundTypeWood).setBlockName("logFermented").setBlockTextureName("texpansion:log_fermented").setCreativeTab(tab);
+    	woodFermented = new FermentedWood(Material.wood).setStepSound(Block.soundTypeWood).setBlockName("woodFermented").setBlockTextureName("texpansion:woodFermented").setCreativeTab(tab);
+    	quartzInfected = new InfectedQuartz(Material.iron).setStepSound(Block.soundTypeMetal).setBlockName("quartzInfected").setBlockTextureName("texpansion:quartzInfected").setCreativeTab(tab).setBlockUnbreakable().setResistance(0.0F);
+    	tntDeathly = new DeathlyTNT().setBlockName("tntDeathly").setBlockTextureName("texpansion:tntDeathly").setCreativeTab(tab);
+    	blockDust = new Dust(Material.sand).setStepSound(Block.soundTypeSand).setBlockName("blockDust").setBlockTextureName("texpansion:dust").setCreativeTab(tab);
+    	fermentator = new Fermentator(Material.iron).setStepSound(Block.soundTypeMetal).setBlockName("fermentator").setBlockTextureName("texpansion:fermentator").setCreativeTab(tab);
+    	oreRupified = new RupifiedOre(Material.rock).setStepSound(Block.soundTypeStone).setBlockName("oreRupified").setBlockTextureName("texpansion:oreRupified").setCreativeTab(tab);
     	
-    	raddishHorse = (new ItemFood(raddishHorseId, 20, 1.5F, false)).setUnlocalizedName("raddishHorse").setTextureName("texpansion:raddishHorse").setCreativeTab(tab);
-    	brush = new Paintbrush(brushId);
-    	fruit = new Fruit(fruitId);
-    	shickaxeRupified = new RupifiedItemShickaxe(shickaxeRupifiedId, EnumManager.Tools.getMaterial("RUPIFIED"), EnumToolType.SHICKAXE).setUnlocalizedName("shickaxeRupified").setTextureName("texpansion:shickaxeRupified").setCreativeTab(tab);
-    	ingotRupified = new RupifiedIngot(ingotRupifiedId).setUnlocalizedName("ingotRupified").setTextureName("texpansion:ingotRupified").setCreativeTab(tab);
-    	stickRupee = new RupeeStick(stickRupeeId).setUnlocalizedName("stickRupee").setTextureName("texpansion:stickRupee").setCreativeTab(tab);
+    	raddishHorse = (new ItemFood(20, 1.5F, false)).setUnlocalizedName("raddishHorse").setTextureName("texpansion:raddishHorse").setCreativeTab(tab);
+    	brush = new Paintbrush();
+    	fruit = new Fruit();
+    	shickaxeRupified = new RupifiedItemShickaxe(EnumManager.Tools.getMaterial("RUPIFIED"), EnumToolType.SHICKAXE).setUnlocalizedName("shickaxeRupified").setTextureName("texpansion:shickaxeRupified").setCreativeTab(tab);
+    	ingotRupified = new RupifiedIngot().setUnlocalizedName("ingotRupified").setTextureName("texpansion:ingotRupified").setCreativeTab(tab);
+    	stickRupee = new RupeeStick().setUnlocalizedName("stickRupee").setTextureName("texpansion:stickRupee").setCreativeTab(tab);
     	
     	GameRegistry.registerBlock(logFermented, logFermented.getUnlocalizedName());
     	GameRegistry.registerBlock(woodFermented, woodFermented.getUnlocalizedName());
@@ -237,28 +190,26 @@ public class TExpansion
     		LanguageRegistry.addName(new ItemStack(brush, 1, i), Manager.Names.item_names.get(brush)[i]);
     	for(int i = 0; i < Manager.Names.item_unlocalized_names.get(fruit).length; i++)
     		LanguageRegistry.addName(new ItemStack(fruit, 1, i), Manager.Names.item_names.get(fruit)[i]);
+
+    	shickaxeRupified.setHarvestLevel("pickaxe", 99);
+    	shickaxeRupified.setHarvestLevel("shovel", 99);
+    	shickaxeRupified.setHarvestLevel("axe", 99);
     	
-    	MinecraftForge.setToolClass(shickaxeRupified, "pickaxe", 99);
-    	MinecraftForge.setToolClass(shickaxeRupified, "shovel", 99);
-    	MinecraftForge.setToolClass(shickaxeRupified, "axe", 99);
-    	
-    	MinecraftForge.setBlockHarvestLevel(oreRupified, "shickaxe", 99);
+    	oreRupified.setHarvestLevel("shickaxe", 99);
     	
     	GameRegistry.addShapelessRecipe(new ItemStack(woodFermented, 3), new ItemStack(logFermented));
-    	GameRegistry.addShapelessRecipe(new ItemStack(quartzInfected, 1), new ItemStack(Block.blockNetherQuartz), new ItemStack(Item.rottenFlesh), new ItemStack(Item.rottenFlesh));
-    	GameRegistry.addShapelessRecipe(new ItemStack(raddishHorse, 1), new ItemStack(Item.beefRaw), new ItemStack(Item.porkRaw), new ItemStack(Item.leather));
-    	GameRegistry.addShapelessRecipe(new ItemStack(raddishHorse, 1), new ItemStack(Item.beefCooked), new ItemStack(Item.porkCooked), new ItemStack(Item.leather));
-    	GameRegistry.addShapelessRecipe(new ItemStack(raddishHorse, 1), new ItemStack(Item.beefRaw), new ItemStack(Item.porkCooked), new ItemStack(Item.leather));
-    	GameRegistry.addShapelessRecipe(new ItemStack(raddishHorse, 1), new ItemStack(Item.beefCooked), new ItemStack(Item.porkRaw), new ItemStack(Item.leather));
+    	GameRegistry.addShapelessRecipe(new ItemStack(quartzInfected, 1), new ItemStack(Blocks.quartz_block), new ItemStack(Items.rotten_flesh), new ItemStack(Items.rotten_flesh));
+    	GameRegistry.addShapelessRecipe(new ItemStack(raddishHorse, 1), new ItemStack(Items.beef), new ItemStack(Items.porkchop), new ItemStack(Items.leather));
+    	GameRegistry.addShapelessRecipe(new ItemStack(raddishHorse, 1), new ItemStack(Items.cooked_beef), new ItemStack(Items.cooked_porkchop), new ItemStack(Items.leather));
+    	GameRegistry.addShapelessRecipe(new ItemStack(raddishHorse, 1), new ItemStack(Items.beef), new ItemStack(Items.cooked_porkchop), new ItemStack(Items.leather));
+    	GameRegistry.addShapelessRecipe(new ItemStack(raddishHorse, 1), new ItemStack(Items.cooked_beef), new ItemStack(Items.porkchop), new ItemStack(Items.leather));
     	GameRegistry.addShapelessRecipe(new ItemStack(stickRupee, 2), new ItemStack(ingotRupified), new ItemStack(ingotRupified));
     	
-    	GameRegistry.addRecipe(new ItemStack(shickaxeRupified, 1), "xxx", "dyz", " ya", 'x', new ItemStack(ingotRupified), 'y', new ItemStack(stickRupee), 'd', new ItemStack(Item.pickaxeDiamond), 'z', new ItemStack(Item.axeDiamond), 'a', new ItemStack(Item.shovelDiamond));
+    	GameRegistry.addRecipe(new ItemStack(shickaxeRupified, 1), "xxx", "dyz", " ya", 'x', new ItemStack(ingotRupified), 'y', new ItemStack(stickRupee), 'd', new ItemStack(Items.diamond_pickaxe), 'z', new ItemStack(Items.diamond_axe), 'a', new ItemStack(Items.diamond_shovel));
     	
-    	GameRegistry.addSmelting(oreRupified.blockID, new ItemStack(ingotRupified, 1), 4F);
+    	GameRegistry.addSmelting(oreRupified, new ItemStack(ingotRupified, 1), 4F);
     	
-    	GameRegistry.registerWorldGenerator(new OreManager());
-    	
-    	GameRegistry.registerCraftingHandler(new CraftingManager());
+    	GameRegistry.registerWorldGenerator(new OreManager(), 0);
     	
     	addCapes();
     }
@@ -266,7 +217,7 @@ public class TExpansion
     @EventHandler
     public void postInit(FMLPostInitializationEvent event)
     {
-    	proxy.registerOreDictionary();
+    	CommonProxy.registerOreDictionary();
     }
     
 	  public static void addCapes() {
@@ -275,9 +226,9 @@ public class TExpansion
 	    	//String helperCapeURL = "http://fil.net63.net/hardcorerpghelpcape.png";
 	    	//String contribCapeURL = "http://fil.net63.net/hardcorerpgcontribcape.png";
 	    	
-	    	ThreadDownloadImageData ownerImage = new ThreadDownloadImageData(ownerCapeURL, null, null);
+	    	ThreadDownloadImageData ownerImage = new ThreadDownloadImageData(null, ownerCapeURL, null, null);
 	    	
-	    	Minecraft.getMinecraft().renderEngine.loadTexture(new ResourceLocation("cloaks/Miner_Fil"), (TextureObject)ownerImage);
-	    	Minecraft.getMinecraft().renderEngine.loadTexture(new ResourceLocation("cloaks/Miner_Marx"), (TextureObject) ownerImage);
+	    	Minecraft.getMinecraft().renderEngine.loadTexture(new ResourceLocation("cloaks/Miner_Fil"), (ITextureObject)ownerImage);
+	    	Minecraft.getMinecraft().renderEngine.loadTexture(new ResourceLocation("cloaks/Miner_Marx"), (ITextureObject) ownerImage);
 	    }
 }

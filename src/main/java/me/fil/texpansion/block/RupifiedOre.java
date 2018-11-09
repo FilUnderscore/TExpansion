@@ -10,9 +10,9 @@ import net.minecraft.world.World;
 
 public class RupifiedOre extends Block
 {
-	public RupifiedOre(int id, Material mat)
+	public RupifiedOre(Material mat)
 	{
-		super(id, mat);
+		super(mat);
 	}
 	
 	public ArrayList<ItemStack> getBlockDropped(World world, int x, int y, int z, int metadata, int fortune)

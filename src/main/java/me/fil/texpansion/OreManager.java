@@ -39,7 +39,7 @@ public class OreManager implements IWorldGenerator
 			int yPos = minY + random.nextInt(maxY - minY);
 			int zPos = posZ + random.nextInt(defaultChunkSize);
 			
-			new WorldGenMinable(block.blockID, maxVeinSize).generate(world, random, xPos, yPos, zPos);
+			new WorldGenMinable(block, maxVeinSize).generate(world, random, xPos, yPos, zPos);
 		}
 	}
 
@@ -55,7 +55,7 @@ public class OreManager implements IWorldGenerator
         	int firstBlockYCoord = rand.nextInt(64);
         	int firstBlockZCoord = chunkZ + rand.nextInt(16);
         	
-        	(new WorldGenMinable(TExpansion.oreRupified.blockID, 13)).generate(world, rand, firstBlockXCoord, firstBlockYCoord, firstBlockZCoord);
+        	(new WorldGenMinable(TExpansion.oreRupified, 13)).generate(world, rand, firstBlockXCoord, firstBlockYCoord, firstBlockZCoord);
         }
 	}
 	

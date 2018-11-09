@@ -8,11 +8,6 @@ import net.minecraft.item.ItemStack;
 
 public class RupifiedIngot extends Item
 {
-	public RupifiedIngot(int id)
-	{
-		super(id);
-	}
-	
 	@Override
     @SuppressWarnings({ "rawtypes", "unchecked" })
     public void addInformation(ItemStack par1ItemStack, EntityPlayer player, List par3List, boolean par4) {

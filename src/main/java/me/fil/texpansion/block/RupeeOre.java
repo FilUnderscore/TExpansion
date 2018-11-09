@@ -5,8 +5,8 @@ import net.minecraft.block.material.Material;
 
 public class RupeeOre extends Block
 {
-	public RupeeOre(int id, Material mat)
+	public RupeeOre(Material mat)
 	{
-		super(id, mat);
+		super(mat);
 	}
 }

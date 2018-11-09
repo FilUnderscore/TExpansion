@@ -8,18 +8,13 @@ import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.projectile.EntityArrow;
+import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.world.Explosion;
 import net.minecraft.world.World;
 
 public class DeathlyTNT extends BlockTNT
 {
-
-	public DeathlyTNT(int par1) 
-	{
-		super(par1);
-	}
-
 	public void onBlockAdded(World par1World, int par2, int par3, int par4)
     {
         super.onBlockAdded(par1World, par2, par3, par4);
@@ -83,7 +78,7 @@ public class DeathlyTNT extends BlockTNT
      */
     public boolean onBlockActivated(World par1World, int par2, int par3, int par4, EntityPlayer par5EntityPlayer, int par6, float par7, float par8, float par9)
     {
-        if (par5EntityPlayer.getCurrentEquippedItem() != null && par5EntityPlayer.getCurrentEquippedItem().itemID == Item.flintAndSteel.itemID)
+        if (par5EntityPlayer.getCurrentEquippedItem() != null && par5EntityPlayer.getCurrentEquippedItem().getItem() == Items.flint_and_steel)
         {
             this.primeTnt(par1World, par2, par3, par4, 1, par5EntityPlayer);
             par1World.setBlockToAir(par2, par3, par4);

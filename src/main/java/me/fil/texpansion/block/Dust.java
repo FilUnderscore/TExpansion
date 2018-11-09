@@ -4,19 +4,20 @@ import java.util.Random;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
+import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 
 public class Dust extends Block
 {
-	public Dust(int id, Material mat)
+	public Dust(Material mat)
 	{
-		super(id, mat);
+		super(mat);
 	}
 	
 	public Item getItemDropped(int metadata, Random random, int fortune)
 	{
 		//return HardcoreExpansion.particleDust;
 		//AKA Particle of Dust / Dust Particle
-		return Item.swordDiamond;
+		return Items.diamond_sword;
 	}
 }

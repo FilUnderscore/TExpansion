@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import cpw.mods.fml.common.registry.LanguageRegistry;
 import me.fil.texpansion.item.Paintbrush;
 import net.minecraft.block.Block;
+import net.minecraft.init.Blocks;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.crafting.CraftingManager;
 import net.minecraft.item.crafting.IRecipe;
@@ -40,7 +41,7 @@ public class CommonProxy
 	
 	public void disableRecipes()
 	{
-		removeRecipe(new ItemStack(Block.torchWood, 0));
+		removeRecipe(new ItemStack(Blocks.torch, 0));
 	}
 	
 	public void addCustomRecipes()

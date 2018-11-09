@@ -5,7 +5,6 @@ import java.util.HashMap;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.minecraft.util.Icon;
 
 public class Manager
 {
